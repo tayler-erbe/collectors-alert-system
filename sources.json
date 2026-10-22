@@ -8,10 +8,19 @@
       "url": "https://seikousa.com",
       "interval_s": 120,
       "keywords": [
+        "5 sports",
+        "collab",
+        "collaboration",
+        "disney",
+        "dragon ball",
         "limited",
-        "prospex",
+        "marvel",
+        "one piece",
+        "pokemon",
         "presage",
-        "5 sports"
+        "prospex",
+        "star wars",
+        "x "
       ],
       "group": "watches"
     },
@@ -65,10 +74,18 @@
       "url": "https://www.timex.com",
       "interval_s": 900,
       "keywords": [
-        "limited",
         "collab",
+        "collaboration",
+        "disney",
+        "dragon ball",
+        "limited",
         "marlin",
-        "q timex"
+        "marvel",
+        "one piece",
+        "pokemon",
+        "q timex",
+        "star wars",
+        "x "
       ],
       "group": "watches"
     },
@@ -449,6 +466,126 @@
         "rlc"
       ],
       "group": "toys"
+    },
+    {
+      "id": "spinnaker",
+      "name": "Spinnaker watches",
+      "kind": "shopify",
+      "url": "https://spinnaker-watches.com",
+      "interval_s": 900,
+      "keywords": [
+        "limited",
+        "collab",
+        "x ",
+        "edition",
+        "one piece",
+        "pokemon",
+        "disney",
+        "dragon ball"
+      ],
+      "group": "watches"
+    },
+    {
+      "id": "hypebeast-collabs",
+      "name": "Hypebeast (collabs)",
+      "kind": "rss",
+      "url": "https://hypebeast.com/feed",
+      "interval_s": 900,
+      "keywords": [
+        "one piece",
+        "pokemon",
+        "pokémon",
+        "disney",
+        "dragon ball",
+        "star wars",
+        "marvel",
+        "naruto",
+        "sanrio",
+        "studio ghibli",
+        "seiko",
+        "citizen",
+        "timex",
+        "spinnaker",
+        "casio",
+        "g-shock"
+      ],
+      "group": "collabs",
+      "note": "alerts when an anime/brand name or watch brand appears; Charles note #3/#4"
+    },
+    {
+      "id": "highsnobiety-collabs",
+      "name": "Highsnobiety (collabs)",
+      "kind": "rss",
+      "url": "https://www.highsnobiety.com/feed/",
+      "interval_s": 1800,
+      "keywords": [
+        "one piece",
+        "pokemon",
+        "pokémon",
+        "disney",
+        "dragon ball",
+        "star wars",
+        "marvel",
+        "naruto",
+        "sanrio",
+        "studio ghibli",
+        "seiko",
+        "citizen",
+        "timex",
+        "spinnaker",
+        "casio",
+        "g-shock"
+      ],
+      "group": "collabs"
+    },
+    {
+      "id": "ann-collabs",
+      "name": "Anime News Network (collabs/merch)",
+      "kind": "rss",
+      "url": "https://www.animenewsnetwork.com/all/rss.xml",
+      "interval_s": 1800,
+      "keywords": [
+        "collab",
+        "collaboration",
+        "limited edition",
+        "merch",
+        "watch",
+        "sneaker",
+        "x "
+      ],
+      "group": "collabs"
+    },
+    {
+      "id": "wornandwound",
+      "name": "Worn & Wound (watch collabs)",
+      "kind": "rss",
+      "url": "https://wornandwound.com/feed/",
+      "interval_s": 1800,
+      "keywords": [
+        "collab",
+        "collaboration",
+        "limited",
+        "seiko",
+        "citizen",
+        "timex",
+        "spinnaker",
+        "casio",
+        "g-shock"
+      ],
+      "group": "watches"
+    },
+    {
+      "id": "monochrome",
+      "name": "Monochrome Watches (collabs)",
+      "kind": "rss",
+      "url": "https://monochrome-watches.com/feed/",
+      "interval_s": 1800,
+      "keywords": [
+        "collab",
+        "collaboration",
+        "limited edition"
+      ],
+      "group": "watches"
     }
   ],
   "reminders": [

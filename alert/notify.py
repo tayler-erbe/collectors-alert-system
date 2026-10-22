@@ -63,12 +63,35 @@ def ntfy(title, msg, url, live):
 QUIET = os.environ.get("QUIET_HOURS_PT", "21:00-03:00")   # Tayler 22 Oct 2026: no alerts 9 pm to 3 am Pacific
 
 
+MUTE_FILE = ROOT / "data" / "mute.json"   # set by the bot's /mute /unmute /quiet commands
+
+
+def mute_state():
+    try:
+        return json.loads(MUTE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def set_mute_state(**kw):
+    st = mute_state()
+    st.update(kw)
+    MUTE_FILE.parent.mkdir(exist_ok=True)
+    MUTE_FILE.write_text(json.dumps(st), encoding="utf-8")
+
+
 def quiet_now():
-    """True inside quiet hours (Pacific). Alerts then arrive silently in Telegram (no sound/buzz) and loud channels are skipped."""
+    """True when alerts should be silent: /mute is on (until a time or until /unmute), or inside quiet hours (Pacific,
+    default 21:00-03:00, changed with /quiet). Silent alerts still arrive in Telegram, with no sound or buzz."""
+    import time as _t
     from .schedule import pt_now
-    if not QUIET:
+    st = mute_state()
+    if st.get("muted") and (not st.get("until") or _t.time() < st["until"]):
+        return True
+    q = st.get("quiet", QUIET)
+    if not q:
         return False
-    a, b = QUIET.split("-")
+    a, b = q.split("-")
     m = lambda x: int(x.split(":")[0]) * 60 + int(x.split(":")[1])
     now = pt_now(); t = now.hour * 60 + now.minute
     return (m(a) <= t or t < m(b)) if m(a) > m(b) else (m(a) <= t < m(b))

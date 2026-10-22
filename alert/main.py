@@ -95,6 +95,39 @@ def handle(cmd, args):
         c = store.conn()
         rem = store.kv_get(c, "reminders", [])
         return "\n".join(f"{r['at'][5:16].replace('T', ' ')} {r['text']}" for r in rem) or "No reminders set."
+    if cmd == "/mute":
+        dur = {"m": 60, "h": 3600, "d": 86400}
+        until = None
+        if args:
+            a = args[0].lower()
+            if a[:-1].isdigit() and a[-1] in dur:
+                until = time.time() + int(a[:-1]) * dur[a[-1]]
+            elif a.isdigit():
+                until = time.time() + int(a) * 3600
+            else:
+                return "Use /mute (until /unmute), or /mute 30m, /mute 2h, /mute 1d"
+        notify.set_mute_state(muted=True, until=until)
+        when = schedule.pt_now(__import__("datetime").datetime.fromtimestamp(until, __import__("datetime").timezone.utc)).strftime("%a %I:%M %p PT") if until else "you send /unmute"
+        return f"🔕 Muted until {when}. Alerts still arrive here, just without sound."
+    if cmd == "/unmute":
+        notify.set_mute_state(muted=False, until=None)
+        q = notify.mute_state().get("quiet", notify.QUIET)
+        return "🔔 Unmuted: alerts will buzz again." + (f" (Nightly quiet hours {q} PT still apply; /quiet off removes them.)" if q else "")
+    if cmd == "/quiet":
+        if not args:
+            q = notify.mute_state().get("quiet", notify.QUIET)
+            return f"Quiet hours: {q or 'off'} (Pacific). Change with /quiet 21-3 or /quiet off."
+        a = args[0].lower()
+        if a == "off":
+            notify.set_mute_state(quiet="")
+            return "Nightly quiet hours are OFF: alerts buzz at any hour (unless you /mute)."
+        import re as _re
+        m = _re.match(r"^(\d{1,2})(?::(\d\d))?-(\d{1,2})(?::(\d\d))?$", a)
+        if not m:
+            return "Use /quiet 21-3 (9 pm to 3 am), /quiet 22:30-6, or /quiet off"
+        q = f"{int(m.group(1)):02d}:{m.group(2) or '00'}-{int(m.group(3)):02d}:{m.group(4) or '00'}"
+        notify.set_mute_state(quiet=q)
+        return f"🌙 Quiet hours set to {q} Pacific: alerts in that window arrive silently."
     if cmd == "/list":
         return "\n".join(f"{s['id']}: {s['name']} ({s['kind']}, {s['interval_s'] // 60 or 1} min)" for s in d["sources"])
     if cmd == "/status":
@@ -104,6 +137,7 @@ def handle(cmd, args):
         return f"{len(rows)} sources checked. " + ("Problems:\n" + "\n".join(bad) if bad else "All fine.")
     return ("Commands:\n/add <url> [keyword ...]  watch a site (use_underscores for multi-word keywords)\n"
             "/remove <id>\n/list\n/status\n/remind <time> <what>   e.g. /remind 9:30 Topps timer (Pacific)\n/reminders\n"
+            "/mute  /mute 2h  /unmute   silence alerts (they still arrive, no sound)\n/quiet 21-3  /quiet off   nightly quiet hours (Pacific)\n"
             "Anything else you type or dictate is saved as a note: a site to add, a problem, an idea.")
 
 
