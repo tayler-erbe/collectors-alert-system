@@ -1,5 +1,5 @@
 {
- "updated": 1792710992.3013387,
+ "updated": 1792711597.5390394,
  "events": [
   {
    "t": 1792710488.296383,
@@ -127,10 +127,10 @@
    "url": "https://seikousa.com",
    "group": "watches",
    "interval_s": 120,
-   "ok": 1792710752.6058538,
+   "ok": 1792711478.9777923,
    "err_t": null,
    "err": null,
-   "checks": 25
+   "checks": 30
   },
   {
    "id": "medicom",
@@ -139,10 +139,10 @@
    "url": "https://www.medicomtoy.co.jp",
    "group": "collectibles",
    "interval_s": 180,
-   "ok": 1792710753.0066023,
+   "ok": 1792711585.0449479,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 24
   },
   {
    "id": "bearwalker",
@@ -151,10 +151,10 @@
    "url": "https://bearwalker.com",
    "group": "collectibles",
    "interval_s": 60,
-   "ok": 1792710753.7038648,
+   "ok": 1792711572.5591476,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 50
   },
   {
    "id": "mattel-creations",
@@ -163,10 +163,10 @@
    "url": "https://creations.mattel.com",
    "group": "toys",
    "interval_s": 600,
-   "ok": 1792710754.5086756,
+   "ok": 1792711381.858743,
    "err_t": null,
    "err": null,
-   "checks": 11
+   "checks": 12
   },
   {
    "id": "timex",
@@ -187,10 +187,10 @@
    "url": "https://www.pokemoncenter.com/",
    "group": "cards",
    "interval_s": 300,
-   "ok": 1792710755.005422,
+   "ok": 1792711405.124056,
    "err_t": 1792707919.588466,
    "err": null,
-   "checks": 14
+   "checks": 16
   },
   {
    "id": "lorcana-news",
@@ -247,10 +247,10 @@
    "url": "https://www.disneystore.com/",
    "group": "toys",
    "interval_s": 120,
-   "ok": 1792710756.7436347,
+   "ok": 1792711474.749988,
    "err_t": null,
    "err": null,
-   "checks": 25
+   "checks": 30
   },
   {
    "id": "mattel-queue",
@@ -259,10 +259,10 @@
    "url": "https://creations.mattel.com/",
    "group": "toys",
    "interval_s": 180,
-   "ok": 1792710760.2084734,
+   "ok": 1792711548.4131799,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 23
   },
   {
    "id": "g-central",
@@ -319,10 +319,10 @@
    "url": "https://tcgdropradar.com/retailer/target/",
    "group": "big-box",
    "interval_s": 900,
-   "ok": 1792710772.980799,
+   "ok": 1792711589.4527698,
    "err_t": null,
    "err": null,
-   "checks": 10
+   "checks": 11
   },
   {
    "id": "tcgdr-walmart",
