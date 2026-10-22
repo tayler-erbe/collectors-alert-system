@@ -1,6 +1,42 @@
 {
- "updated": 1792708218.4043636,
+ "updated": 1792708821.6063597,
  "events": [
+  {
+   "t": 1792708532.9810925,
+   "source": "bearwalker",
+   "level": "LIVE",
+   "title": "Waiting room is UP",
+   "url": "https://bearwalker.com",
+   "detail": "A queue just appeared on the site: a drop is starting.",
+   "source_name": "Bear Walker (waiting-room watch)"
+  },
+  {
+   "t": 1792708464.3905046,
+   "source": "bearwalker",
+   "level": "INFO",
+   "title": "Waiting room closed",
+   "url": "https://bearwalker.com",
+   "detail": "",
+   "source_name": "Bear Walker (waiting-room watch)"
+  },
+  {
+   "t": 1792708343.2068722,
+   "source": "bearwalker",
+   "level": "LIVE",
+   "title": "Waiting room is UP",
+   "url": "https://bearwalker.com",
+   "detail": "A queue just appeared on the site: a drop is starting.",
+   "source_name": "Bear Walker (waiting-room watch)"
+  },
+  {
+   "t": 1792708287.0426383,
+   "source": "bearwalker",
+   "level": "INFO",
+   "title": "Waiting room closed",
+   "url": "https://bearwalker.com",
+   "detail": "",
+   "source_name": "Bear Walker (waiting-room watch)"
+  },
   {
    "t": 1792708166.7381392,
    "source": "bearwalker",
@@ -37,10 +73,10 @@
    "url": "https://seikousa.com",
    "group": "watches",
    "interval_s": 120,
-   "ok": 1792708165.5717075,
+   "ok": 1792708748.9533658,
    "err_t": null,
    "err": null,
-   "checks": 5
+   "checks": 10
   },
   {
    "id": "medicom",
@@ -49,10 +85,10 @@
    "url": "https://www.medicomtoy.co.jp",
    "group": "collectibles",
    "interval_s": 180,
-   "ok": 1792708165.9409337,
+   "ok": 1792708717.1473598,
    "err_t": null,
    "err": null,
-   "checks": 4
+   "checks": 7
   },
   {
    "id": "bearwalker",
@@ -61,10 +97,10 @@
    "url": "https://bearwalker.com",
    "group": "collectibles",
    "interval_s": 60,
-   "ok": 1792708166.7351396,
+   "ok": 1792708785.8159916,
    "err_t": null,
    "err": null,
-   "checks": 6
+   "checks": 16
   },
   {
    "id": "mattel-creations",
@@ -73,10 +109,10 @@
    "url": "https://creations.mattel.com",
    "group": "toys",
    "interval_s": 600,
-   "ok": 1792708167.8979995,
+   "ok": 1792708745.1594503,
    "err_t": null,
    "err": null,
-   "checks": 3
+   "checks": 4
   },
   {
    "id": "timex",
@@ -97,10 +133,10 @@
    "url": "https://www.pokemoncenter.com/",
    "group": "cards",
    "interval_s": 300,
-   "ok": 1792708168.45535,
+   "ok": 1792708804.4522297,
    "err_t": 1792707919.588466,
    "err": null,
-   "checks": 3
+   "checks": 5
   },
   {
    "id": "lorcana-news",
@@ -157,10 +193,10 @@
    "url": "https://www.disneystore.com/",
    "group": "toys",
    "interval_s": 120,
-   "ok": 1792708169.876172,
+   "ok": 1792708805.3605855,
    "err_t": null,
    "err": null,
-   "checks": 4
+   "checks": 9
   },
   {
    "id": "mattel-queue",
@@ -169,10 +205,10 @@
    "url": "https://creations.mattel.com/",
    "group": "toys",
    "interval_s": 180,
-   "ok": 1792708173.6444602,
+   "ok": 1792708722.2275167,
    "err_t": null,
    "err": null,
-   "checks": 4
+   "checks": 7
   },
   {
    "id": "g-central",
