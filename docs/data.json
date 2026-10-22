@@ -1,5 +1,5 @@
 {
- "updated": 1792707059.4375634,
+ "updated": 1792707970.9814432,
  "events": [
   {
    "t": 1792707006.9589634,
@@ -19,10 +19,10 @@
    "url": "https://seikousa.com",
    "group": "watches",
    "interval_s": 120,
-   "ok": 1792707005.7257977,
+   "ok": 1792707917.037402,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "medicom",
@@ -31,10 +31,10 @@
    "url": "https://www.medicomtoy.co.jp",
    "group": "collectibles",
    "interval_s": 180,
-   "ok": 1792707006.1245475,
+   "ok": 1792707917.525073,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "bearwalker",
@@ -43,10 +43,10 @@
    "url": "https://bearwalker.com",
    "group": "collectibles",
    "interval_s": 60,
-   "ok": 1792707006.9569633,
+   "ok": 1792707918.0941346,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "mattel-creations",
@@ -55,10 +55,10 @@
    "url": "https://creations.mattel.com",
    "group": "toys",
    "interval_s": 600,
-   "ok": 1792707007.8131304,
+   "ok": 1792707918.5314488,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "timex",
@@ -67,10 +67,10 @@
    "url": "https://www.timex.com",
    "group": "watches",
    "interval_s": 900,
-   "ok": 1792707008.2470667,
+   "ok": 1792707919.2434626,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "pokemon-center-news",
@@ -80,9 +80,9 @@
    "group": "cards",
    "interval_s": 300,
    "ok": null,
-   "err_t": 1792707008.429194,
+   "err_t": 1792707919.588466,
    "err": "www.pokemoncenter.com answered 403; backing off 60s",
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "lorcana-news",
@@ -91,10 +91,10 @@
    "url": "https://www.disneylorcana.com/en-US/news",
    "group": "cards",
    "interval_s": 900,
-   "ok": 1792707008.680318,
+   "ok": 1792707920.7148447,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "premium-bandai",
@@ -103,10 +103,10 @@
    "url": "https://p-bandai.com/us/c-new-arrival",
    "group": "toys",
    "interval_s": 900,
-   "ok": 1792707008.9535725,
+   "ok": 1792707921.0464394,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "hasbro-pulse",
@@ -115,10 +115,10 @@
    "url": "https://hasbropulse.com/",
    "group": "toys",
    "interval_s": 900,
-   "ok": 1792707009.2764025,
+   "ok": 1792707921.5317197,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "santa-cruz",
@@ -128,9 +128,9 @@
    "group": "collectibles",
    "interval_s": 1800,
    "ok": null,
-   "err_t": 1792707009.3773825,
+   "err_t": 1792707921.6254482,
    "err": "HTTPError: HTTP Error 500: Internal Server Error",
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "shopdisney-queue",
@@ -139,10 +139,10 @@
    "url": "https://www.disneystore.com/",
    "group": "toys",
    "interval_s": 120,
-   "ok": 1792707010.2553887,
+   "ok": 1792707922.6712818,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "mattel-queue",
@@ -151,10 +151,10 @@
    "url": "https://creations.mattel.com/",
    "group": "toys",
    "interval_s": 180,
-   "ok": 1792707013.5401137,
+   "ok": 1792707924.0532396,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "g-central",
@@ -163,10 +163,10 @@
    "url": "https://www.g-central.com/feed/",
    "group": "watches",
    "interval_s": 900,
-   "ok": 1792707013.9694047,
+   "ok": 1792707924.276962,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "resellcalendar",
@@ -175,10 +175,10 @@
    "url": "https://resellcalendar.com/news",
    "group": "calendars",
    "interval_s": 1800,
-   "ok": 1792707015.993515,
+   "ok": 1792707926.7221837,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "tcgdr-costco",
@@ -187,10 +187,10 @@
    "url": "https://tcgdropradar.com/retailer/costco/",
    "group": "big-box",
    "interval_s": 900,
-   "ok": 1792707016.267459,
+   "ok": 1792707927.0358975,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "tcgdr-sams",
@@ -199,10 +199,10 @@
    "url": "https://tcgdropradar.com/retailer/sams-club/",
    "group": "big-box",
    "interval_s": 900,
-   "ok": 1792707021.5950823,
+   "ok": 1792707932.3877952,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "tcgdr-target",
@@ -211,10 +211,10 @@
    "url": "https://tcgdropradar.com/retailer/target/",
    "group": "big-box",
    "interval_s": 900,
-   "ok": 1792707026.9181051,
+   "ok": 1792707937.5989625,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "tcgdr-walmart",
@@ -223,10 +223,10 @@
    "url": "https://tcgdropradar.com/retailer/walmart/",
    "group": "big-box",
    "interval_s": 900,
-   "ok": 1792707032.2434578,
+   "ok": 1792707942.7827282,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "tcgdr-bestbuy",
@@ -235,10 +235,10 @@
    "url": "https://tcgdropradar.com/retailer/best-buy/",
    "group": "big-box",
    "interval_s": 900,
-   "ok": 1792707037.4769046,
+   "ok": 1792707947.950141,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "footlocker-releases",
@@ -247,10 +247,10 @@
    "url": "https://www.footlocker.com/release-dates",
    "group": "sneakers",
    "interval_s": 3600,
-   "ok": 1792707038.0961618,
+   "ok": 1792707948.1828992,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "nintendo-merch",
@@ -259,10 +259,10 @@
    "url": "https://www.nintendo.com/us/store/merchandise/",
    "group": "cards",
    "interval_s": 900,
-   "ok": 1792707038.4453645,
+   "ok": 1792707948.3265207,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "casio-gshock",
@@ -272,9 +272,9 @@
    "group": "watches",
    "interval_s": 900,
    "ok": null,
-   "err_t": 1792707038.7923846,
+   "err_t": 1792707948.5050483,
    "err": "gshock.casio.com answered 403; backing off 60s",
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "zoomies",
@@ -283,10 +283,10 @@
    "url": "https://zoomies.com/",
    "group": "watches",
    "interval_s": 900,
-   "ok": 1792707039.3773067,
+   "ok": 1792707948.831113,
    "err_t": null,
    "err": null,
-   "checks": 1
+   "checks": 2
   },
   {
    "id": "boldr",
@@ -296,9 +296,9 @@
    "group": "watches",
    "interval_s": 1800,
    "ok": null,
-   "err_t": 1792707059.4345613,
+   "err_t": 1792707968.8459828,
    "err": "URLError: <urlopen error timed out>",
-   "checks": 1
+   "checks": 2
   }
  ]
 }
