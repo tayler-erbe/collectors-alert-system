@@ -1,5 +1,5 @@
 {
- "updated": 1792713312.514304,
+ "updated": 1792713346.9560177,
  "events": [
   {
    "t": 1792710488.296383,
@@ -129,10 +129,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792713111.5042977,
+   "ok": 1792713329.3201635,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "medicom",
@@ -143,10 +143,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792713112.0043561,
+   "ok": 1792713329.7172236,
    "err_t": null,
    "err": null,
-   "checks": 31
+   "checks": 32
   },
   {
    "id": "bearwalker",
@@ -157,10 +157,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792713112.8292234,
+   "ok": 1792713330.5388992,
    "err_t": null,
    "err": null,
-   "checks": 69
+   "checks": 70
   },
   {
    "id": "mattel-creations",
@@ -171,10 +171,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792712585.0814493,
+   "ok": 1792713331.0116436,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "timex",
@@ -185,10 +185,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792712546.769136,
+   "ok": 1792713331.4841588,
    "err_t": null,
    "err": null,
-   "checks": 12
+   "checks": 13
   },
   {
    "id": "pokemon-center-news",
@@ -199,10 +199,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792713113.0871518,
+   "ok": 1792713331.629614,
    "err_t": 1792707919.588466,
    "err": null,
-   "checks": 21
+   "checks": 22
   },
   {
    "id": "lorcana-news",
@@ -213,10 +213,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792712712.912312,
+   "ok": 1792713333.3037977,
    "err_t": null,
    "err": null,
-   "checks": 12
+   "checks": 13
   },
   {
    "id": "premium-bandai",
@@ -227,10 +227,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792712514.6266887,
+   "ok": 1792713333.7068956,
    "err_t": null,
    "err": null,
-   "checks": 12
+   "checks": 13
   },
   {
    "id": "hasbro-pulse",
@@ -241,10 +241,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792712482.7797537,
+   "ok": 1792713334.2498765,
    "err_t": null,
    "err": null,
-   "checks": 12
+   "checks": 13
   },
   {
    "id": "santa-cruz",
@@ -255,10 +255,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792712619.3402567,
+   "ok": 1792713334.3678973,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 10
+   "checks": 11
   },
   {
    "id": "shopdisney-queue",
@@ -269,10 +269,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792713114.0384738,
+   "ok": 1792713335.0664701,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "mattel-queue",
@@ -283,10 +283,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792713114.6926832,
+   "ok": 1792713336.8946316,
    "err_t": null,
    "err": null,
-   "checks": 30
+   "checks": 31
   },
   {
    "id": "g-central",
@@ -297,10 +297,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792712533.468296,
+   "ok": 1792713337.1923666,
    "err_t": null,
    "err": null,
-   "checks": 12
+   "checks": 13
   },
   {
    "id": "resellcalendar",
@@ -311,10 +311,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792712604.9042025,
+   "ok": 1792713339.198456,
    "err_t": null,
    "err": null,
-   "checks": 10
+   "checks": 11
   },
   {
    "id": "tcgdr-costco",
@@ -325,10 +325,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792712654.8729043,
+   "ok": 1792713339.4423332,
    "err_t": null,
    "err": null,
-   "checks": 12
+   "checks": 13
   },
   {
    "id": "tcgdr-sams",
@@ -339,10 +339,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792712510.5219781,
+   "ok": 1792713344.7747438,
    "err_t": null,
    "err": null,
-   "checks": 12
+   "checks": 13
   },
   {
    "id": "tcgdr-target",
