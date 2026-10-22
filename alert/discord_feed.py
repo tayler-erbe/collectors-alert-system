@@ -54,12 +54,35 @@ def _link(m, guild):
 
 
 def configured():
-    return bool(os.environ.get("DISCORD_BOT_TOKEN") and os.environ.get("DISCORD_GUILD_ID"))
+    return bool(os.environ.get("DISCORD_BOT_TOKEN"))
+
+
+def _guild(c):
+    """His server: DISCORD_GUILD_ID if set, else the (only) server the bot has been invited to. None until he authorizes."""
+    if os.environ.get("DISCORD_GUILD_ID"):
+        return os.environ["DISCORD_GUILD_ID"]
+    g = store.kv_get(c, "discord_guild")
+    if g and time.time() - store.kv_get(c, "discord_guild_t", 0) < 3600:
+        return g
+    guilds = _get("/users/@me/guilds") or []
+    store.kv_set(c, "discord_guild_t", time.time())
+    if not guilds:
+        return None
+    g = guilds[0]["id"]
+    if store.kv_get(c, "discord_guild") != g:
+        store.kv_set(c, "discord_guild", g)
+        store.kv_set(c, "discord_channels_t", 0)
+        from . import notify
+        notify.telegram(f"✅ Discord connected: the bot is in your server \"{guilds[0]['name']}\". I'm reading its channels every 30 seconds. "
+                        "Follow the 📢 drop channels into it and their drop posts will come to you here.")
+    return g
 
 
 def check(c):
     """Returns a list of (level, source_name, title, url, detail). The first look at a channel only records where we are."""
-    guild = os.environ["DISCORD_GUILD_ID"]
+    guild = _guild(c)
+    if not guild:
+        return []
     chans = store.kv_get(c, "discord_channels", {})
     if time.time() - store.kv_get(c, "discord_channels_t", 0) > CHANNEL_REFRESH_S:
         got = _get(f"/guilds/{guild}/channels") or []

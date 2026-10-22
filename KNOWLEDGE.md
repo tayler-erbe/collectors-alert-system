@@ -1,10 +1,10 @@
-# Drop Radar: domain knowledge (keep this current)
+﻿# Drop Radar: domain knowledge (keep this current)
 
 Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. The `drop-radar` agent keeps this file up to date after every change, every weekly review and every monthly research pass.
 
 ## What he wants
 - Alerts the moment a limited drop goes live, and **before** it drops whenever possible.
-- Main interests: **Pokémon, Disney Lorcana, One Piece, Dragon Ball (cards), Star Wars, Disney**; Hot Wheels Red Line Club (they are members); limited **G-Shock / Casio**, BOLDR, Seiko, Timex, Citizen watches; Bear Walker collab skate decks.
+- Main interests: **PokÃ©mon, Disney Lorcana, One Piece, Dragon Ball (cards), Star Wars, Disney**; Hot Wheels Red Line Club (they are members); limited **G-Shock / Casio**, BOLDR, Seiko, Timex, Citizen watches; Bear Walker collab skate decks.
 - He does **not** much want limited toys in general. He does not want GameStop ("don't want to pay retail").
 - He is US-based and Pacific time. He uses Amazon Japan and watches Japan as a leading indicator.
 
@@ -21,7 +21,7 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
 | Best Buy | Drops section (wait for it to go live, then join); card pre-orders | Bot-guarded. TCG Drop Radar Best Buy page. The official Products API needs a free key (open item) |
 | Mattel Creations (Hot Wheels RLC) | Drops about every 2 weeks at 9 am PT; sell out instantly | Shopify product feed (new RLC products show up before the drop) plus waiting-room watch; 30 to 60 s checks 8:45 to 9:30 am |
 | Meccha Japan | Resale site; shows what releases in the US the next day | Site has a human-verification wall. Not watched (we never get around bot checks) |
-| Pokémon Center | Random drops Mon to Thu, 8 to 11 am PT; the hardest to get | Waiting-room watch every minute in that window; site answers 403 to scripts, so the radar backs off. A paid monitor (PokePings) is the realistic way to get second-level speed |
+| PokÃ©mon Center | Random drops Mon to Thu, 8 to 11 am PT; the hardest to get | Waiting-room watch every minute in that window; site answers 403 to scripts, so the radar backs off. A paid monitor (PokePings) is the realistic way to get second-level speed |
 | Sam's Club, Costco | Online drops with no notice; found through Instagram and other sites | TCG Drop Radar Costco and Sam's pages every 15 min |
 | Nike (SNKRS and the main Nike app), Adidas Confirmed, Foot Locker, Dick's | App drops or lotteries; Nike and Dick's also do random drops | App notifications on; Foot Locker release-dates page hourly. Apps are heavily bot-guarded: do not poll them |
 | Zoomies, Casio G-Shock | Limited G-Shock releases | Casio blocks (403) and gets slow checks; G-Central RSS covers G-Shock news. The Zoomies URL is still to confirm |
@@ -37,7 +37,7 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
 - Alert levels: **LIVE** (loud push), **SOON** (push), **INFO** (dashboard only).
 - Phone: a Telegram bot (alerts, `/add`, `/remove`, `/list`, `/status`, `/remind`, `/reminders`). Anything else he texts or dictates, plus screenshots, photos, files and voice notes, is saved to `feedback/inbox.jsonl` with attachments in `feedback/attachments/` (LOCAL only, git-ignored: the repo is public). Voice notes are saved as audio; tell him the keyboard mic (speech-to-text) is better because the review reads text. Optional: Pushover (loud iPhone alerts), ntfy.
 - Dashboard: `docs/` on GitHub Pages; the PC publishes `docs/data.json` every 10 min.
-- Runs from Task Scheduler (`install_task.ps1` → `run_forever.cmd`).
+- Runs from Task Scheduler (`install_task.ps1` â†’ `run_forever.cmd`).
 
 ## Hard rules
 1. **Alerts only.** Never add to cart or check out, never join, skip or get around queues, never solve CAPTCHAs, never use rotating proxies, fake accounts or Discord self-bots.
@@ -89,5 +89,5 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
 - 22 Oct 2026 (Charles): Bear Walker's "Kaido" Queue-it event (kaido1023, started 12:00 pm PT 22 Oct) is an AUSTRALIAN release, not his. Bear Walker's Instagram: 4 carved One Piece boards drop Friday 23 Oct (time not announced); reminder set for 8 am PT.
 - 22 Oct 2026 bug fixed: Bear Walker runs an always-on Queue-it "safety net"; scripts get the queue page on roughly every other request, so "queue page seen" flapped 9 alerts in 30 min. The queue watcher now announces each Queue-it EVENT once (name and start time in PT), sends LIVE once when a future start time arrives, never alerts "closed", and for sites without event details needs 3 queue readings in a row (max 1 alert per 12 h).
 - Confirmations: every note gets "received" automatically on arrival and a "processed" message from the daily review naming the note and what was done.
-- 22 Oct 2026: added Reddit RSS (r/PKMNTCGDeals, r/PokemonRestocks, r/LorcanaRestocks; every 30 min) and Motor1 RSS (RLC sale dates). Reddit answered "403 Blocked" to our feed reads on the first day, so these may stay blocked; the proper route is a registered Reddit script app (before 31 Oct), as RSS ends 13 Nov. Pokémon Center window now starts at 7:00 am PT (queues seen from 7:09 am).
-- 22 Oct 2026: Discord reader built (alert/discord_feed.py). It reads every text channel in Charles's OWN private server every 30 s (channels he "Follows" from drop servers) through a bot Tayler creates. It needs DISCORD_BOT_TOKEN and DISCORD_GUILD_ID in .env.
+- 22 Oct 2026: added Reddit RSS (r/PKMNTCGDeals, r/PokemonRestocks, r/LorcanaRestocks; every 30 min) and Motor1 RSS (RLC sale dates). Reddit answered "403 Blocked" to our feed reads on the first day, so these may stay blocked; the proper route is a registered Reddit script app (before 31 Oct), as RSS ends 13 Nov. PokÃ©mon Center window now starts at 7:00 am PT (queues seen from 7:09 am).
+- 22 Oct 2026: Discord reader built (alert/discord_feed.py). It reads every text channel in Charles's OWN private server every 30 s (channels he "Follows" from drop servers) through a bot Tayler creates. It needs DISCORD_BOT_TOKEN in .env (set 22 Oct; bot "Drop Radar", app id 1562962668107726938, read-only permissions 66560). His server is detected automatically when he authorizes the invite link, and a "Discord connected" Telegram message is sent.
