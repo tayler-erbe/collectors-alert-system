@@ -1,11 +1,11 @@
 {
- "updated": 1792706672.2950788,
+ "updated": 1792707059.4375634,
  "events": [
   {
-   "t": 1792706664.1928504,
+   "t": 1792707006.9589634,
    "source": "bearwalker",
    "level": "LIVE",
-   "title": "Bear Walker (waiting-room watch): waiting room is UP",
+   "title": "Waiting room is UP",
    "url": "https://bearwalker.com",
    "detail": "A queue just appeared on the site: a drop is starting.",
    "source_name": "Bear Walker (waiting-room watch)"
@@ -19,7 +19,7 @@
    "url": "https://seikousa.com",
    "group": "watches",
    "interval_s": 120,
-   "ok": 1792706663.2019002,
+   "ok": 1792707005.7257977,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -31,7 +31,7 @@
    "url": "https://www.medicomtoy.co.jp",
    "group": "collectibles",
    "interval_s": 180,
-   "ok": 1792706663.481559,
+   "ok": 1792707006.1245475,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -43,7 +43,7 @@
    "url": "https://bearwalker.com",
    "group": "collectibles",
    "interval_s": 60,
-   "ok": 1792706664.1898437,
+   "ok": 1792707006.9569633,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -55,7 +55,7 @@
    "url": "https://creations.mattel.com",
    "group": "toys",
    "interval_s": 600,
-   "ok": 1792706664.51223,
+   "ok": 1792707007.8131304,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -67,7 +67,7 @@
    "url": "https://www.timex.com",
    "group": "watches",
    "interval_s": 900,
-   "ok": 1792706664.7574441,
+   "ok": 1792707008.2470667,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -80,7 +80,7 @@
    "group": "cards",
    "interval_s": 300,
    "ok": null,
-   "err_t": 1792706665.0175648,
+   "err_t": 1792707008.429194,
    "err": "www.pokemoncenter.com answered 403; backing off 60s",
    "checks": 1
   },
@@ -91,7 +91,7 @@
    "url": "https://www.disneylorcana.com/en-US/news",
    "group": "cards",
    "interval_s": 900,
-   "ok": 1792706665.1438684,
+   "ok": 1792707008.680318,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -100,10 +100,10 @@
    "id": "premium-bandai",
    "name": "Premium Bandai USA",
    "kind": "page",
-   "url": "https://p-bandai.com/us",
+   "url": "https://p-bandai.com/us/c-new-arrival",
    "group": "toys",
    "interval_s": 900,
-   "ok": 1792706665.4061394,
+   "ok": 1792707008.9535725,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -115,7 +115,7 @@
    "url": "https://hasbropulse.com/",
    "group": "toys",
    "interval_s": 900,
-   "ok": 1792706665.7577837,
+   "ok": 1792707009.2764025,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -128,7 +128,7 @@
    "group": "collectibles",
    "interval_s": 1800,
    "ok": null,
-   "err_t": 1792706665.854969,
+   "err_t": 1792707009.3773825,
    "err": "HTTPError: HTTP Error 500: Internal Server Error",
    "checks": 1
   },
@@ -139,7 +139,7 @@
    "url": "https://www.disneystore.com/",
    "group": "toys",
    "interval_s": 120,
-   "ok": 1792706666.3920784,
+   "ok": 1792707010.2553887,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -151,7 +151,7 @@
    "url": "https://creations.mattel.com/",
    "group": "toys",
    "interval_s": 180,
-   "ok": 1792706670.0141444,
+   "ok": 1792707013.5401137,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -163,7 +163,7 @@
    "url": "https://www.g-central.com/feed/",
    "group": "watches",
    "interval_s": 900,
-   "ok": 1792706670.297386,
+   "ok": 1792707013.9694047,
    "err_t": null,
    "err": null,
    "checks": 1
@@ -175,9 +175,129 @@
    "url": "https://resellcalendar.com/news",
    "group": "calendars",
    "interval_s": 1800,
-   "ok": 1792706672.2920787,
+   "ok": 1792707015.993515,
    "err_t": null,
    "err": null,
+   "checks": 1
+  },
+  {
+   "id": "tcgdr-costco",
+   "name": "TCG Drop Radar: Costco",
+   "kind": "page",
+   "url": "https://tcgdropradar.com/retailer/costco/",
+   "group": "big-box",
+   "interval_s": 900,
+   "ok": 1792707016.267459,
+   "err_t": null,
+   "err": null,
+   "checks": 1
+  },
+  {
+   "id": "tcgdr-sams",
+   "name": "TCG Drop Radar: Sam's Club",
+   "kind": "page",
+   "url": "https://tcgdropradar.com/retailer/sams-club/",
+   "group": "big-box",
+   "interval_s": 900,
+   "ok": 1792707021.5950823,
+   "err_t": null,
+   "err": null,
+   "checks": 1
+  },
+  {
+   "id": "tcgdr-target",
+   "name": "TCG Drop Radar: Target",
+   "kind": "page",
+   "url": "https://tcgdropradar.com/retailer/target/",
+   "group": "big-box",
+   "interval_s": 900,
+   "ok": 1792707026.9181051,
+   "err_t": null,
+   "err": null,
+   "checks": 1
+  },
+  {
+   "id": "tcgdr-walmart",
+   "name": "TCG Drop Radar: Walmart",
+   "kind": "page",
+   "url": "https://tcgdropradar.com/retailer/walmart/",
+   "group": "big-box",
+   "interval_s": 900,
+   "ok": 1792707032.2434578,
+   "err_t": null,
+   "err": null,
+   "checks": 1
+  },
+  {
+   "id": "tcgdr-bestbuy",
+   "name": "TCG Drop Radar: Best Buy",
+   "kind": "page",
+   "url": "https://tcgdropradar.com/retailer/best-buy/",
+   "group": "big-box",
+   "interval_s": 900,
+   "ok": 1792707037.4769046,
+   "err_t": null,
+   "err": null,
+   "checks": 1
+  },
+  {
+   "id": "footlocker-releases",
+   "name": "Foot Locker release dates",
+   "kind": "page",
+   "url": "https://www.footlocker.com/release-dates",
+   "group": "sneakers",
+   "interval_s": 3600,
+   "ok": 1792707038.0961618,
+   "err_t": null,
+   "err": null,
+   "checks": 1
+  },
+  {
+   "id": "nintendo-merch",
+   "name": "Nintendo store merchandise",
+   "kind": "page",
+   "url": "https://www.nintendo.com/us/store/merchandise/",
+   "group": "cards",
+   "interval_s": 900,
+   "ok": 1792707038.4453645,
+   "err_t": null,
+   "err": null,
+   "checks": 1
+  },
+  {
+   "id": "casio-gshock",
+   "name": "Casio G-Shock US (new and limited)",
+   "kind": "page",
+   "url": "https://gshock.casio.com/us/",
+   "group": "watches",
+   "interval_s": 900,
+   "ok": null,
+   "err_t": 1792707038.7923846,
+   "err": "gshock.casio.com answered 403; backing off 60s",
+   "checks": 1
+  },
+  {
+   "id": "zoomies",
+   "name": "Zoomies (G-Shock limited)",
+   "kind": "page",
+   "url": "https://zoomies.com/",
+   "group": "watches",
+   "interval_s": 900,
+   "ok": 1792707039.3773067,
+   "err_t": null,
+   "err": null,
+   "checks": 1
+  },
+  {
+   "id": "boldr",
+   "name": "BOLDR watches",
+   "kind": "page",
+   "url": "https://boldrsupply.com/",
+   "group": "watches",
+   "interval_s": 1800,
+   "ok": null,
+   "err_t": 1792707059.4345613,
+   "err": "URLError: <urlopen error timed out>",
    "checks": 1
   }
  ]

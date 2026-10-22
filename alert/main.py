@@ -12,7 +12,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from . import checkers, net, notify, store
+from . import checkers, net, notify, schedule, store
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources.json"
@@ -81,6 +81,20 @@ def handle(cmd, args):
         d["sources"] = [s for s in d["sources"] if s["id"] != args[0]]
         save_sources(d)
         return f"Removed {args[0]}." if len(d["sources"]) < n else f"No source called {args[0]}. Send /list."
+    if cmd == "/remind":
+        r = schedule.parse_remind(args)
+        if not r:
+            return "Use: /remind 9:30 Topps Chrome   or   /remind 10/24 7pm Premium Bandai One Piece (Pacific time)"
+        when, text = r
+        c = store.conn()
+        rem = store.kv_get(c, "reminders", [])
+        rem.append({"at": when.isoformat(), "text": text, "warned": False})
+        store.kv_set(c, "reminders", rem)
+        return f"OK: I'll ping you 10 min before and at {when:%a %b %d %I:%M %p} PT: {text}"
+    if cmd == "/reminders":
+        c = store.conn()
+        rem = store.kv_get(c, "reminders", [])
+        return "\n".join(f"{r['at'][5:16].replace('T', ' ')} {r['text']}" for r in rem) or "No reminders set."
     if cmd == "/list":
         return "\n".join(f"{s['id']}: {s['name']} ({s['kind']}, {s['interval_s'] // 60 or 1} min)" for s in d["sources"])
     if cmd == "/status":
@@ -89,7 +103,8 @@ def handle(cmd, args):
         bad = [f"{r[0]}: {r[2]}" for r in rows if r[2]]
         return f"{len(rows)} sources checked. " + ("Problems:\n" + "\n".join(bad) if bad else "All fine.")
     return ("Commands:\n/add <url> [keyword ...]  watch a site (use_underscores for multi-word keywords)\n"
-            "/remove <id>\n/list\n/status")
+            "/remove <id>\n/list\n/status\n/remind <time> <what>   e.g. /remind 9:30 Topps timer (Pacific)\n/reminders\n"
+            "Anything else you type or dictate is saved as a note: a site to add, a problem, an idea.")
 
 
 def telegram_poll(c):
@@ -114,11 +129,43 @@ def telegram_poll(c):
             print("ignored message from chat", chat, flush=True)   # first-time setup: put this id in TELEGRAM_CHAT_ID
             continue
         parts = text.split()
+        if not parts[0].startswith("/"):
+            # Anything that isn't a command is feedback: a site to add, a problem with an alert or the website, an idea.
+            # It goes to feedback/inbox.jsonl (committed with the dashboard), which the weekly review job reads and acts on.
+            fb = ROOT / "feedback" / "inbox.jsonl"
+            fb.parent.mkdir(exist_ok=True)
+            with fb.open("a", encoding="utf-8") as f:
+                f.write(json.dumps({"t": time.strftime("%Y-%m-%d %H:%M"), "from": chat, "text": text}, ensure_ascii=False) + "\n")
+            n = sum(1 for _ in fb.open(encoding="utf-8"))
+            notify.telegram(f"Got it, saved as note #{n}. It gets worked on in the weekly update. (To add a site right away: /add <url>)", chat_id=chat)
+            continue
         try:
             reply = handle(parts[0].split("@")[0].lower(), parts[1:])
         except Exception as e:
             reply = f"Sorry, that failed: {e}"
         notify.telegram(reply, chat_id=chat)
+
+
+def run_reminders(c, fixed):
+    now = schedule.pt_now()
+    sent = set(store.kv_get(c, "fixed_sent", []))
+    for key, text in schedule.due_reminders(fixed, sent, now):
+        notify.send("SOON", "Reminder", text, "", "")
+        sent.add(key)
+    store.kv_set(c, "fixed_sent", sorted(sent)[-200:])
+    rem, keep = store.kv_get(c, "reminders", []), []
+    import datetime as dt
+    for r in rem:
+        at = dt.datetime.fromisoformat(r["at"])
+        if not r["warned"] and now >= at - dt.timedelta(minutes=10):
+            notify.send("SOON", "Reminder", f"In 10 min: {r['text']}", "", f"{at:%I:%M %p} PT")
+            r["warned"] = True
+        if now >= at:
+            notify.send("LIVE", "Reminder", f"NOW: {r['text']}", "", "")
+            continue
+        keep.append(r)
+    if keep != rem:
+        store.kv_set(c, "reminders", keep)
 
 
 # ------------------------------------------------------------------ dashboard (GitHub Pages reads docs/data.json)
@@ -136,7 +183,7 @@ def export_dashboard(c, push=True):
     DASH.write_text(json.dumps(data, indent=1), encoding="utf-8")
     if push:
         g = lambda *a: subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True)
-        g("add", "docs/data.json", "sources.json")
+        g("add", "docs/data.json", "sources.json", "feedback")
         if g("diff", "--cached", "--quiet").returncode:
             g("commit", "-m", "dashboard data update")
             r = g("push", "-q")
@@ -151,16 +198,24 @@ def main():
     due = {}
     last_dash = 0
     while True:
-        srcs = load_sources()["sources"]
+        cfg = load_sources()
+        srcs = cfg["sources"]
         now = time.time()
         for s in srcs:
             if once or now >= due.get(s["id"], 0):
                 check(c, s)
-                due[s["id"]] = time.time() + s["interval_s"] * random.uniform(0.9, 1.1)
+                iv = schedule.window_interval(s) or s["interval_s"]
+                due[s["id"]] = time.time() + iv * random.uniform(0.9, 1.1)
+            elif schedule.window_interval(s) and due[s["id"]] - now > schedule.window_interval(s) * 1.1:
+                due[s["id"]] = now   # a drop window just opened: check now instead of waiting out the slow interval
         if once:
             export_dashboard(c, push="--push" in sys.argv)
             return
         telegram_poll(c)
+        try:
+            run_reminders(c, cfg.get("reminders", []))
+        except Exception:
+            traceback.print_exc()
         if time.time() - last_dash > DASH_EVERY_S:
             try:
                 export_dashboard(c)
