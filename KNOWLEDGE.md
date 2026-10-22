@@ -53,6 +53,28 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
 ## Known facts (dated)
 - 22 Oct 2026: Reddit stops accepting new public API requests after 31 Oct 2026, and its RSS feeds end 13 Nov 2026. Nitter (X RSS) is effectively dead. The X API is pay-per-use. Instagram has no official way to get alerts for others' posts, so he keeps native post notifications on for key brands.
 - 22 Oct 2026: bearwalker.com sat behind a Queue-it room (event "kaido1023") all afternoon.
+- 22 Oct 2026, community-sources research (about 36 searches):
+  - **Telegram:** no credible public US drop channel found for any of his categories. The drop communities are on Discord. A Telegram user-client is only worth building if he names channels he already follows.
+  - **Telegram user clients are allowed.** The API is "100% open for all developers" (core.telegram.org/api). You need your own api_id from my.telegram.org, one per phone number. Accounts that log in through unofficial clients are "automatically put under observation", and flooding or spam gets a permanent ban (core.telegram.org/api/obtaining_api_id). The API terms forbid acting without the user's consent and using Telegram data to train AI (core.telegram.org/api/terms). Telethon is not standard library, so it would need an exception to the code-style rule.
+  - **Discord channel Follow:** it only works on announcement channels (megaphone icon). The follower needs Manage Webhooks in the target channel. Posts arrive as a webhook under the source server's name, with role mentions stripped. The source admin decides which posts are published. Unfollow in Server Settings > Integrations > Channels Followed. API: `POST /channels/{id}/followers` (docs.discord.com/developers/resources/channel). Our bot can then read his own server's channel over REST (`GET /channels/{id}/messages`, which plain urllib can do). Most restock servers post alerts in ordinary channels, so check each server for a followable channel.
+  - **Discord restock servers** (listing counts, self-reported):
+    - PokePings: about 43k members; covers Pokemon Center, Target, Best Buy and Amazon; $8.99 a month with a 5-day trial (tcgdropradar.com, reviewed 20 Oct 2026; affiliate site).
+    - Poke RestockR / Emerald Alerts: about 55k members; 35 US retailers; has a free tier, but Costco and Sam's may be paid-only.
+    - Pokemon Restocks and Alerts: about 88k members; free.
+    - PKMNTCGDeals: about 94k members; free; discord.gg/pkmntcgdeals.
+    - TheHobbyBin: free.
+    - TrackaLacker: free alerts, app push, about 37k Discord members; also covers Lorcana, Mattel Creations and P-Bandai products.
+    - PackPing: free; One Piece, Pokemon and Lorcana, US and Canada; about 1.4k members.
+    - TCGTRACKER (One Piece): $7.99 a month.
+    - Poke Alerts app: $5.99 a month.
+    - PokeNotify: $7.99 a month.
+  - **Speed** (pagecrawl.io, updated 25 Sep 2026): paid bots (Hayha, Stock Informer) take seconds; Discord servers take 15 s to 5 min; retailer notify-me emails take 5 to 30 min; the Pokemon Center newsletter takes hours.
+  - **Pokemon Center queues:** US openings 8 Jun to 22 Jul 2026 fell between 10:09 am and 1:13 pm ET, which is 7:09 to 10:13 am PT. Five of ten were on a Wednesday. X account @switchstock posts "Queue is Now Open" (tcgdropradar.com/pokemon-center-queue). Our Mon-Thu 8-11 am PT window misses some 7 am PT openings: think about starting it at 7:00.
+  - **Walmart Collectibles Drawing:** a free-entry lottery that started 31 Aug 2026. You need a Walmart account with an address and a payment card saved; winners' orders are placed automatically (Dexerto, Kotaku, godisageek Sep 2026). r/PKMNTCGDeals posted "WALMART LOTTERY LIVE FOR 1 HOUR" and "WALMART QUEUE IS LIVE" on 21-22 Oct 2026, so the sub is very active and fast for Walmart, Target and Amazon.
+  - **Reddit:** r/PKMNTCGDeals (about 122k members) is the one sub clearly worth it. r/PokemonRestocks (about 960) and r/LorcanaRestocks (about 505) are small. Reddit returned errors after two quick RSS reads today, so poll it gently. Reddit's API needs approval under the Responsible Builder Policy (Nov 2025).
+  - **X API** is pay-per-use: $0.005 per post read, billed per post returned, capped at 2M reads a month. Basic and Pro tiers are closed to new sign-ups (postproxy.dev, opentweet.io, 2026). Watching 5 to 10 accounts with since_id should cost roughly $5 to $30 a month.
+  - **Official lists:** Pokemon Center has email only ("Get Email Updates", marketing opt-in; slow; no SMS). Premium Bandai lottery and event entries go through the BANDAI TCG+ app (EB-05 event lottery 25 Sep to 4 Oct 2026). hobbyDB has no drop alerts. Sole Retriever app: sneaker restock, shock-drop and raffle alerts.
+  - **RLC sale dates** are reported days ahead by autoevolution and motor1: F40 on 18 Aug and Skyline GT-R on 29 Sep 2026, both 9 am PT. Orange Track Diecast's RLC tag feed is stale (last post Apr 2026).
 - Open items:
   - Telegram bot token from him.
   - iPhone or Android (Pushover?).
@@ -62,3 +84,4 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
   - Best Buy API key.
   - Zoomies URL.
   - Paid monitors: PokePings ~$9/mo; Restockr X free for 25 items.
+  - (22 Oct) Community hook-in: does he want a private Discord server plus our bot to receive followed announcement channels? Which Telegram channels, if any, does he already follow? Should we try an X API trial with a $10 cap?
