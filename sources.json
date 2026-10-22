@@ -1,0 +1,188 @@
+{
+  "_note": "Watched sources. Add more by texting the Telegram bot: /add <url> [keywords]. kind: shopify (store with /products.json), page (any web page, alerts when it changes or a keyword appears), rss (feed). interval_s is the normal check interval; the poller slows down by itself if a site answers 429/403.",
+  "sources": [
+    {
+      "id": "seiko-usa",
+      "name": "Seiko USA",
+      "kind": "shopify",
+      "url": "https://seikousa.com",
+      "interval_s": 120,
+      "keywords": [
+        "limited",
+        "prospex",
+        "presage",
+        "5 sports"
+      ],
+      "group": "watches"
+    },
+    {
+      "id": "medicom",
+      "name": "Medicom Toy (BE@RBRICK)",
+      "kind": "shopify",
+      "url": "https://www.medicomtoy.co.jp",
+      "interval_s": 180,
+      "keywords": [
+        "be@rbrick",
+        "bearbrick"
+      ],
+      "group": "collectibles"
+    },
+    {
+      "id": "bearwalker",
+      "name": "Bear Walker (waiting-room watch)",
+      "kind": "queue",
+      "url": "https://bearwalker.com",
+      "interval_s": 60,
+      "keywords": [],
+      "group": "collectibles"
+    },
+    {
+      "id": "mattel-creations",
+      "name": "Mattel Creations",
+      "kind": "shopify",
+      "url": "https://creations.mattel.com",
+      "interval_s": 600,
+      "keywords": [
+        "hot wheels",
+        "rlc",
+        "barbie",
+        "masters of the universe"
+      ],
+      "group": "toys"
+    },
+    {
+      "id": "timex",
+      "name": "Timex",
+      "kind": "shopify",
+      "url": "https://www.timex.com",
+      "interval_s": 900,
+      "keywords": [
+        "limited",
+        "collab",
+        "marlin",
+        "q timex"
+      ],
+      "group": "watches"
+    },
+    {
+      "id": "pokemon-center-news",
+      "name": "Pokemon Center (waiting-room watch)",
+      "kind": "queue",
+      "url": "https://www.pokemoncenter.com/",
+      "interval_s": 300,
+      "keywords": [
+        "pre-order",
+        "preorder",
+        "coming soon",
+        "exclusive"
+      ],
+      "group": "cards"
+    },
+    {
+      "id": "lorcana-news",
+      "name": "Disney Lorcana news",
+      "kind": "page",
+      "url": "https://www.disneylorcana.com/en-US/news",
+      "interval_s": 900,
+      "keywords": [
+        "release",
+        "set",
+        "pre-order"
+      ],
+      "group": "cards"
+    },
+    {
+      "id": "premium-bandai",
+      "name": "Premium Bandai USA",
+      "kind": "page",
+      "url": "https://p-bandai.com/us",
+      "interval_s": 900,
+      "keywords": [
+        "pre-order",
+        "new arrival",
+        "limited"
+      ],
+      "group": "toys"
+    },
+    {
+      "id": "hasbro-pulse",
+      "name": "Hasbro Pulse",
+      "kind": "page",
+      "url": "https://hasbropulse.com/",
+      "interval_s": 900,
+      "keywords": [
+        "pre-order",
+        "exclusive",
+        "drop"
+      ],
+      "group": "toys"
+    },
+    {
+      "id": "santa-cruz",
+      "name": "Santa Cruz Skateboards",
+      "kind": "page",
+      "url": "https://santacruzskateboards.com/",
+      "interval_s": 1800,
+      "keywords": [
+        "collab",
+        "pokemon",
+        "limited",
+        "x santa cruz"
+      ],
+      "group": "collectibles"
+    },
+    {
+      "id": "shopdisney-queue",
+      "name": "shopDisney (waiting-room watch)",
+      "kind": "queue",
+      "url": "https://www.disneystore.com/",
+      "interval_s": 120,
+      "keywords": [],
+      "group": "toys"
+    },
+    {
+      "id": "mattel-queue",
+      "name": "Mattel Creations (waiting-room watch)",
+      "kind": "queue",
+      "url": "https://creations.mattel.com/",
+      "interval_s": 180,
+      "keywords": [],
+      "group": "toys"
+    },
+    {
+      "id": "g-central",
+      "name": "G-Central (G-Shock news)",
+      "kind": "rss",
+      "url": "https://www.g-central.com/feed/",
+      "interval_s": 900,
+      "keywords": [
+        "limited",
+        "collab",
+        "release",
+        "pre-order"
+      ],
+      "group": "watches"
+    },
+    {
+      "id": "resellcalendar",
+      "name": "Resell Calendar news",
+      "kind": "page",
+      "url": "https://resellcalendar.com/news",
+      "interval_s": 1800,
+      "keywords": [
+        "bear walker",
+        "pokemon",
+        "lorcana",
+        "one piece",
+        "hot wheels",
+        "g-shock",
+        "seiko",
+        "topps",
+        "panini",
+        "costco",
+        "sam's"
+      ],
+      "group": "calendars"
+    }
+  ]
+}
