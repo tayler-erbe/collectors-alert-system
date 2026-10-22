@@ -245,8 +245,9 @@ def export_dashboard(c, push=True):
     for e in ev:
         e["source_name"] = names.get(e["source"], e["source"])
     data = {"updated": time.time(), "events": ev,
-            "sources": [{"id": s["id"], "name": s["name"], "kind": s["kind"], "url": s["url"], "group": s.get("group", ""),
-                         "interval_s": s["interval_s"], **health.get(s["id"], {})} for s in srcs]}
+            "sources": [{"id": s["id"], "name": s["name"], "kind": s["kind"], "url": s.get("link") or s["url"],   # a page to open, never a feed file (Charles, note #5)
+                         "group": s.get("group", ""), "interval_s": s["interval_s"], "paused": s.get("enabled") is False,
+                         "note": s.get("note", "") if s.get("enabled") is False else "", **health.get(s["id"], {})} for s in srcs]}
     DASH.write_text(json.dumps(data, indent=1), encoding="utf-8")
     if push:
         g = lambda *a: subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True)
@@ -270,6 +271,8 @@ def main():
         srcs = cfg["sources"]
         now = time.time()
         for s in srcs:
+            if s.get("enabled") is False:
+                continue
             if once or now >= due.get(s["id"], 0):
                 check(c, s)
                 iv = schedule.window_interval(s) or s["interval_s"]

@@ -29,7 +29,7 @@ h2{font:700 18px "Space Grotesk",system-ui,sans-serif;margin:28px 0 10px}
 table{border-collapse:collapse;width:100%;font-size:13px}
 td,th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;white-space:nowrap}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--ok)}
-.dot.bad{background:var(--live)}
+.dot.bad{background:var(--live)}.dot.paused{background:var(--info)}
 .empty{color:var(--muted);padding:20px 0}
 @media (max-width:560px){.ev{grid-template-columns:52px 1fr}.t{grid-column:2}}
 </style>
@@ -46,7 +46,7 @@ td,th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;white-
   </div>
   <div id="events"></div>
   <h2>Watched sources</h2>
-  <div class="tbl"><table><thead><tr><th>Source</th><th>Kind</th><th>Every</th><th>Last OK</th><th>Note</th></tr></thead><tbody id="src"></tbody></table></div>
+  <div class="tbl"><table><thead><tr><th>Source</th><th>Type</th><th>Every</th><th>Last OK</th><th>Note</th></tr></thead><tbody id="src"></tbody></table></div>
 </div>
 <script>
 let data=null,filter="all";
@@ -57,7 +57,7 @@ function render(){
   document.getElementById("sub").textContent=`${data.sources.length} sources watched · updated ${ago(data.updated)} · alerts go to his phone instantly; this page refreshes every few minutes`;
   const ev=data.events.filter(e=>filter==="all"||e.level===filter);
   document.getElementById("events").innerHTML=ev.length?ev.slice(0,150).map(e=>`<div class="ev"><div class="lv ${e.level}">${e.level==="SOON"?"SOON":e.level}</div><div><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><div class="meta">${esc(e.source_name)}${e.detail?" · "+esc(e.detail):""}</div></div><div class="t">${ago(e.t)}</div></div>`).join(""):'<div class="empty">Nothing yet. New drops appear here as they are found.</div>';
-  document.getElementById("src").innerHTML=data.sources.map(s=>`<tr><td><span class="dot ${s.err?"bad":""}"></span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${s.kind}</td><td>${Math.max(1,Math.round(s.interval_s/60))} min</td><td>${ago(s.ok)}</td><td>${esc(s.err||"")}</td></tr>`).join("");
+  document.getElementById("src").innerHTML=data.sources.map(s=>`<tr><td><span class="dot ${s.paused?"paused":s.err?"bad":""}"></span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${s.kind==="rss"?"news":s.kind==="queue"?"waiting room":s.kind==="shopify"?"store":"page"}</td><td>${s.paused?"paused":Math.max(1,Math.round(s.interval_s/60))+" min"}</td><td>${s.paused?"":ago(s.ok)}</td><td>${esc(s.paused?s.note:(s.err?"site is blocking checks right now; retrying":""))}</td></tr>`).join("");
 }
 async function load(){try{const r=await fetch("data.json?"+Date.now());data=await r.json();render()}catch(e){document.getElementById("sub").textContent="No data yet: the checker has not published its first update."}}
 document.getElementById("bar").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;filter=b.dataset.f;document.querySelectorAll("#bar button").forEach(x=>x.setAttribute("aria-pressed",x===b));render()});

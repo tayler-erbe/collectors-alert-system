@@ -214,7 +214,8 @@
         "release",
         "pre-order"
       ],
-      "group": "watches"
+      "group": "watches",
+      "link": "https://www.g-central.com/"
     },
     {
       "id": "resellcalendar",
@@ -386,7 +387,8 @@
         "drop"
       ],
       "group": "watches",
-      "note": "site did not answer on 22 Oct; Instagram is his main signal"
+      "note": "Paused 22 Oct 2026: boldrsupply.com never answered. Instagram post notifications are the BOLDR signal.",
+      "enabled": false
     },
     {
       "id": "reddit-pkmntcgdeals",
@@ -408,7 +410,9 @@
         "raffle"
       ],
       "group": "community",
-      "note": "Reddit RSS ends 13 Nov 2026; needs a registered Reddit app after that"
+      "note": "Paused 22 Oct 2026: Reddit blocks feed reads (403). Turns back on once a Reddit app is registered (before 31 Oct).",
+      "link": "https://www.reddit.com/r/PKMNTCGDeals/new/",
+      "enabled": false
     },
     {
       "id": "reddit-pokemonrestocks",
@@ -430,7 +434,9 @@
         "raffle"
       ],
       "group": "community",
-      "note": "Reddit RSS ends 13 Nov 2026"
+      "note": "Paused 22 Oct 2026: Reddit blocks feed reads (403). Turns back on once a Reddit app is registered (before 31 Oct).",
+      "link": "https://www.reddit.com/r/PokemonRestocks/new/",
+      "enabled": false
     },
     {
       "id": "reddit-lorcanarestocks",
@@ -452,7 +458,9 @@
         "raffle"
       ],
       "group": "community",
-      "note": "Reddit RSS ends 13 Nov 2026"
+      "note": "Paused 22 Oct 2026: Reddit blocks feed reads (403). Turns back on once a Reddit app is registered (before 31 Oct).",
+      "link": "https://www.reddit.com/r/LorcanaRestocks/new/",
+      "enabled": false
     },
     {
       "id": "motor1-rlc",
@@ -465,7 +473,8 @@
         "red line club",
         "rlc"
       ],
-      "group": "toys"
+      "group": "toys",
+      "link": "https://www.motor1.com/news/"
     },
     {
       "id": "spinnaker",
@@ -510,7 +519,8 @@
         "g-shock"
       ],
       "group": "collabs",
-      "note": "alerts when an anime/brand name or watch brand appears; Charles note #3/#4"
+      "note": "alerts when an anime/brand name or watch brand appears; Charles note #3/#4",
+      "link": "https://hypebeast.com/"
     },
     {
       "id": "highsnobiety-collabs",
@@ -536,7 +546,8 @@
         "casio",
         "g-shock"
       ],
-      "group": "collabs"
+      "group": "collabs",
+      "link": "https://www.highsnobiety.com/"
     },
     {
       "id": "ann-collabs",
@@ -553,7 +564,8 @@
         "sneaker",
         "x "
       ],
-      "group": "collabs"
+      "group": "collabs",
+      "link": "https://www.animenewsnetwork.com/"
     },
     {
       "id": "wornandwound",
@@ -572,7 +584,8 @@
         "casio",
         "g-shock"
       ],
-      "group": "watches"
+      "group": "watches",
+      "link": "https://wornandwound.com/"
     },
     {
       "id": "monochrome",
@@ -585,7 +598,8 @@
         "collaboration",
         "limited edition"
       ],
-      "group": "watches"
+      "group": "watches",
+      "link": "https://monochrome-watches.com/"
     }
   ],
   "reminders": [

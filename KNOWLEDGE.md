@@ -93,3 +93,5 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
 - 22 Oct 2026: Discord reader built (alert/discord_feed.py). It reads every text channel in Charles's OWN private server every 30 s (channels he "Follows" from drop servers) through a bot Tayler creates. It needs DISCORD_BOT_TOKEN in .env (set 22 Oct; bot "Drop Radar", app id 1562962668107726938, read-only permissions 66560). His server is detected automatically when he authorizes the invite link, and a "Discord connected" Telegram message is sent.
 
 - 22 Oct 2026: Discord reader now checks every 10 s; posts about IN-STORE stock (in-store, BrickSeek, store #, spotted at...) go to the dashboard only, because Charles wants online drops only. PokePings: its Discord listing claims free tier + ACO + monitors (unverified); earlier research said 8.99/mo. Auto-checkout is not part of Drop Radar (alerts only).
+
+- 22 Oct 2026 (Charles, note #5): the website must never link to anything that downloads (feed files). Each source has a 'link' (a normal page); the dashboard uses it. Sources can be paused with "enabled": false (Reddit until an app is registered, BOLDR site down).
