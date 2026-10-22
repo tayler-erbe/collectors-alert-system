@@ -107,6 +107,33 @@ def handle(cmd, args):
             "Anything else you type or dictate is saved as a note: a site to add, a problem, an idea.")
 
 
+def save_attachments(tok, m):
+    """Download any photo / screenshot / file / voice note / video in a message to feedback/attachments/. Returns paths."""
+    want = []
+    if m.get("photo"):
+        want.append((m["photo"][-1]["file_id"], ".jpg"))          # last = largest size
+    for k, ext in (("document", ""), ("voice", ".ogg"), ("audio", ""), ("video", ".mp4"), ("video_note", ".mp4")):
+        if m.get(k):
+            name = m[k].get("file_name", "")
+            want.append((m[k]["file_id"], Path(name).suffix if name else ext))
+    out = []
+    d = ROOT / "feedback" / "attachments"
+    for fid, ext in want:
+        try:
+            with urllib.request.urlopen(f"https://api.telegram.org/bot{tok}/getFile?file_id={fid}", timeout=20) as r:
+                fp = json.loads(r.read())["result"]["file_path"]
+            ext = ext or Path(fp).suffix
+            d.mkdir(parents=True, exist_ok=True)
+            dest = d / f"{time.strftime('%Y%m%d_%H%M%S')}_{len(out) + 1}{ext}"
+            with urllib.request.urlopen(f"https://api.telegram.org/file/bot{tok}/{fp}", timeout=60) as r:
+                dest.write_bytes(r.read())
+            out.append(str(dest.relative_to(ROOT)).replace("\\", "/"))
+        except Exception as e:   # bot API max download is 20 MB
+            print("attachment download failed", e, flush=True)
+            out.append(f"(could not download: {e})")
+    return out
+
+
 def telegram_poll(c):
     tok = notify.os.environ.get("TELEGRAM_BOT_TOKEN")
     allowed = {x.strip() for x in notify.os.environ.get("TELEGRAM_ALLOWED_CHATS", notify.os.environ.get("TELEGRAM_CHAT_ID", "")).split(",") if x.strip()}
@@ -122,22 +149,28 @@ def telegram_poll(c):
     for u in ups:
         store.kv_set(c, "tg_offset", u["update_id"] + 1)
         m = u.get("message") or {}
-        chat, text = str(m.get("chat", {}).get("id", "")), (m.get("text") or "").strip()
-        if not text:
+        chat = str(m.get("chat", {}).get("id", ""))
+        text = (m.get("text") or m.get("caption") or "").strip()
+        files = save_attachments(tok, m) if chat in allowed else []
+        if not text and not files:
             continue
         if chat not in allowed:
             print("ignored message from chat", chat, flush=True)   # first-time setup: put this id in TELEGRAM_CHAT_ID
             continue
-        parts = text.split()
-        if not parts[0].startswith("/"):
-            # Anything that isn't a command is feedback: a site to add, a problem with an alert or the website, an idea.
-            # It goes to feedback/inbox.jsonl (committed with the dashboard), which the weekly review job reads and acts on.
+        parts = text.split() or [""]
+        if files or not parts[0].startswith("/"):
+            # Anything that isn't a command is feedback: a site to add, a problem with an alert or the website, an idea,
+            # with any screenshot/photo/file/voice note saved next to it. Kept LOCAL only (feedback/ is git-ignored: the
+            # repo is public). notes_watcher.py queues the same-day Claude review that reads and acts on it.
             fb = ROOT / "feedback" / "inbox.jsonl"
             fb.parent.mkdir(exist_ok=True)
             with fb.open("a", encoding="utf-8") as f:
-                f.write(json.dumps({"t": time.strftime("%Y-%m-%d %H:%M"), "from": chat, "text": text}, ensure_ascii=False) + "\n")
+                f.write(json.dumps({"t": time.strftime("%Y-%m-%d %H:%M:%S"), "from": chat, "text": text, "files": files},
+                                   ensure_ascii=False) + "\n")
             n = sum(1 for _ in fb.open(encoding="utf-8"))
-            notify.telegram(f"Got it, saved as note #{n}. Claude works on notes the same day (usually within a few hours). (To add a site right away: /add <url>)", chat_id=chat)
+            got = f" with {len(files)} attachment{'s' if len(files) > 1 else ''}" if files else ""
+            notify.telegram(f"Got it, saved as note #{n}{got}. Claude works on notes the same day (usually within a few hours). "
+                            "(To add a site right away: /add <url>)", chat_id=chat)
             continue
         try:
             reply = handle(parts[0].split("@")[0].lower(), parts[1:])
@@ -183,7 +216,7 @@ def export_dashboard(c, push=True):
     DASH.write_text(json.dumps(data, indent=1), encoding="utf-8")
     if push:
         g = lambda *a: subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True)
-        g("add", "docs/data.json", "sources.json", "feedback")
+        g("add", "docs/data.json", "sources.json")
         if g("diff", "--cached", "--quiet").returncode:
             g("commit", "-m", "dashboard data update")
             r = g("push", "-q")

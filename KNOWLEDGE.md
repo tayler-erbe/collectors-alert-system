@@ -34,7 +34,7 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
   - `page`: new keyword links or keywords on a page.
   - `rss`: new posts on a feed.
 - Alert levels: **LIVE** (loud push), **SOON** (push), **INFO** (dashboard only).
-- Phone: a Telegram bot (alerts, `/add`, `/remove`, `/list`, `/status`, `/remind`, `/reminders`). Anything else he texts or dictates is saved to `feedback/inbox.jsonl`. Optional: Pushover (loud iPhone alerts), ntfy.
+- Phone: a Telegram bot (alerts, `/add`, `/remove`, `/list`, `/status`, `/remind`, `/reminders`). Anything else he texts or dictates, plus screenshots, photos, files and voice notes, is saved to `feedback/inbox.jsonl` with attachments in `feedback/attachments/` (LOCAL only, git-ignored: the repo is public). Voice notes are saved as audio; tell him the keyboard mic (speech-to-text) is better because the review reads text. Optional: Pushover (loud iPhone alerts), ntfy.
 - Dashboard: `docs/` on GitHub Pages; the PC publishes `docs/data.json` every 10 min.
 - Runs from Task Scheduler (`install_task.ps1` → `run_forever.cmd`).
 
