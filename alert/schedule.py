@@ -56,7 +56,7 @@ def due_reminders(reminders, sent, now=None):
     out = []
     for r in reminders:
         key = f"{r['id']}|{now.date()}"
-        if key in sent or now.weekday() not in day_set(r.get("days", "daily")):
+        if key in sent or now.weekday() not in day_set(r.get("days", "daily")) or (r.get("once_on") and r["once_on"] != str(now.date())):
             continue
         if 0 <= (now.hour * 60 + now.minute) - _hm(r["time"]) < 5:
             out.append((key, r["text"]))

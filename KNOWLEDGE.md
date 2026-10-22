@@ -85,3 +85,6 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
   - Zoomies URL.
   - Paid monitors: PokePings ~$9/mo; Restockr X free for 25 items.
   - (22 Oct) Community hook-in: does he want a private Discord server plus our bot to receive followed announcement channels? Which Telegram channels, if any, does he already follow? Should we try an X API trial with a $10 cap?
+- 22 Oct 2026 (Charles): Bear Walker's "Kaido" Queue-it event (kaido1023, started 12:00 pm PT 22 Oct) is an AUSTRALIAN release, not his. Bear Walker's Instagram: 4 carved One Piece boards drop Friday 23 Oct (time not announced); reminder set for 8 am PT.
+- 22 Oct 2026 bug fixed: Bear Walker runs an always-on Queue-it "safety net"; scripts get the queue page on roughly every other request, so "queue page seen" flapped 9 alerts in 30 min. The queue watcher now announces each Queue-it EVENT once (name and start time in PT), sends LIVE once when a future start time arrives, never alerts "closed", and for sites without event details needs 3 queue readings in a row (max 1 alert per 12 h).
+- Confirmations: every note gets "received" automatically on arrival and a "processed" message from the daily review naming the note and what was done.

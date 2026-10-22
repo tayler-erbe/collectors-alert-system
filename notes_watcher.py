@@ -20,8 +20,10 @@ PROMPT = ("You are the drop-radar agent, working unattended. First read C:/Users
           "C:/dev/collectors-alert-system: process every open note in feedback/inbox.jsonl that is not yet in feedback/done.jsonl "
           "(add sites, fix reported problems with alerts or the dashboard, tune keywords/windows; ignore greetings like 'hi' but "
           "still mark them done), check data/state.db health for sources failing more than 24 h and fix or retire them, test with "
-          "`python -X utf8 -m alert.main --once`, commit and push, update KNOWLEDGE.md, and send Charles ONE short plain Telegram "
-          "message (alert.notify.load_env() then alert.notify.telegram(text)) saying what you did for each of his notes. "
+          "`python -X utf8 -m alert.main --once`, commit and push, update KNOWLEDGE.md, and send Charles a plain Telegram "
+          "confirmation (alert.notify.load_env() then alert.notify.telegram(text)) that names EACH of his notes by number and a few of "
+          "his words and says what you did ('Note #3 (add Zoomies): done, watching zoomies.com every 15 min') or why not; he must always "
+          "get a 'processed' confirmation for every note, even greetings ('Note #1 (Hi): nothing to do'). "
           "sources.json changes are picked up live; if you changed code, restart with `schtasks /End /TN CollectorsAlert` then "
           "`schtasks /Run /TN CollectorsAlert`. Report what you changed.")
 

@@ -114,25 +114,61 @@ def rss(c, src):
 QUEUE_MARKS = ("queue-it", "queueit", "virtual waiting room", "you are now in line", "waitingroom.")   # specific markers only ("queue." matched ordinary page scripts)
 
 
+def _pt(iso):
+    import datetime as dt
+    from . import schedule
+    u = dt.datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    return schedule.pt_now(u)
+
+
 def queue(c, src):
-    """Drop is minutes away / live when a waiting room (e.g. Queue-it) appears on the homepage. We only LOOK at the
-    homepage; we never join, skip or work around the queue."""
-    try:
-        status, htm = net.get(src["url"], accept="text/html")
-        body = (htm or "").lower()
-        up = any(m in body for m in QUEUE_MARKS)
-    except net.Blocked:
-        raise
-    prev = c.execute("SELECT keywords FROM pages WHERE source=?", (src["id"],)).fetchone()
-    was = prev is not None and prev[0] == "queue"
-    now, out = time.time(), []
-    if up and not was:
-        out.append(("LIVE", "Waiting room is UP", src["url"], "A queue just appeared on the site: a drop is starting."))
-    elif was and not up:
-        out.append(("INFO", "Waiting room closed", src["url"], ""))
-    state = "queue" if up else "open"
+    """Waiting-room watch (Queue-it). Many stores keep an always-on 'safety net' queue that real visitors pass straight
+    through, while a script is always shown the queue page, so "queue page seen" is NOT a drop signal (22 Oct bug: Bear
+    Walker alerts flapped 9 times in 30 min). Instead we read the queue page itself:
+      - a NEW event id (e.g. 'kaido1023') -> one COMING alert with the event name and its start time in Pacific;
+      - its start time arriving -> one LIVE alert;
+      - no alerts for a queue 'closing', and never more than one alert per event per kind.
+    Sites without Queue-it details: alert only after 3 checks in a row see a queue, at most once per 12 h.
+    We only LOOK; we never join, skip or work around the queue."""
+    import datetime as dt
+    from . import schedule
+    status, htm = net.get(src["url"], accept="text/html")
+    body = htm or ""
+    low = body.lower()
+    up = any(m in low for m in QUEUE_MARKS)
+    st_row = c.execute("SELECT keywords FROM pages WHERE source=?", (src["id"],)).fetchone()
+    st = json.loads(st_row[0]) if st_row and st_row[0] and st_row[0].startswith("{") else {}
+    st.setdefault("events", {})
+    out, now_pt = [], schedule.pt_now()
+    ev = re.search(r"eventId:\s*'([^']+)'", body)
+    if up and ev:
+        eid = ev.group(1)
+        vis = _visible(body)
+        title = re.search(r"You are in line for (.{3,120}?)\s+(?:You are in line|When it is your turn)", vis)
+        title = title.group(1).strip() if title else eid
+        starts = [x for x in re.findall(r"20\d\d-\d\d-\d\dT\d\d:\d\d:00Z", body)]
+        start_pt = _pt(starts[0]) if starts else None
+        e = st["events"].setdefault(eid, {"title": title, "start": start_pt.isoformat() if start_pt else None})
+        when = f"{start_pt:%a %b %d, %I:%M %p} PT" if start_pt else "start time not shown"
+        if not e.get("announced"):
+            state = "opened" if start_pt and start_pt <= now_pt else "opens"
+            out.append(("SOON", f"Waiting room set up: {title}", src["url"], f"The queue {state} {when}."))
+            e["announced"] = True
+            if start_pt and start_pt <= now_pt:
+                e["live_sent"] = True   # it already started before we saw it: no LIVE alert for a start in the past
+        elif start_pt and not e.get("live_sent") and now_pt >= start_pt:
+            out.append(("LIVE", f"Waiting room OPEN NOW: {title}", src["url"], f"Started {when}."))
+            e["live_sent"] = True
+    elif up:
+        st["streak"] = st.get("streak", 0) + 1
+        if st["streak"] >= 3 and time.time() - st.get("last_alert", 0) > 12 * 3600:
+            out.append(("LIVE", "Waiting room is UP", src["url"], "A queue has been showing for 3 checks in a row: a drop may be starting."))
+            st["last_alert"] = time.time()
+    if not up:
+        st["streak"] = 0
+    now = time.time()
     c.execute("INSERT INTO pages(source, digest, keywords, t) VALUES (?,?,?,?) ON CONFLICT(source) DO UPDATE SET keywords=?, t=?",
-              (src["id"], "", state, now, state, now))
+              (src["id"], "", json.dumps(st), now, json.dumps(st), now))
     c.commit()
     return out
 
