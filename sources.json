@@ -88,7 +88,7 @@
       "windows": [
         {
           "days": "Mon-Thu",
-          "start": "08:00",
+          "start": "07:00",
           "end": "11:00",
           "interval_s": 60
         }
@@ -370,6 +370,85 @@
       ],
       "group": "watches",
       "note": "site did not answer on 22 Oct; Instagram is his main signal"
+    },
+    {
+      "id": "reddit-pkmntcgdeals",
+      "name": "r/PKMNTCGDeals",
+      "kind": "rss",
+      "url": "https://www.reddit.com/r/PKMNTCGDeals/new/.rss",
+      "interval_s": 1800,
+      "keywords": [
+        "live",
+        "queue",
+        "restock",
+        "in stock",
+        "drop",
+        "lottery",
+        "drawing",
+        "pre-order",
+        "preorder",
+        "available",
+        "raffle"
+      ],
+      "group": "community",
+      "note": "Reddit RSS ends 13 Nov 2026; needs a registered Reddit app after that"
+    },
+    {
+      "id": "reddit-pokemonrestocks",
+      "name": "r/PokemonRestocks",
+      "kind": "rss",
+      "url": "https://www.reddit.com/r/PokemonRestocks/new/.rss",
+      "interval_s": 1800,
+      "keywords": [
+        "live",
+        "queue",
+        "restock",
+        "in stock",
+        "drop",
+        "lottery",
+        "drawing",
+        "pre-order",
+        "preorder",
+        "available",
+        "raffle"
+      ],
+      "group": "community",
+      "note": "Reddit RSS ends 13 Nov 2026"
+    },
+    {
+      "id": "reddit-lorcanarestocks",
+      "name": "r/LorcanaRestocks",
+      "kind": "rss",
+      "url": "https://www.reddit.com/r/LorcanaRestocks/new/.rss",
+      "interval_s": 1800,
+      "keywords": [
+        "live",
+        "queue",
+        "restock",
+        "in stock",
+        "drop",
+        "lottery",
+        "drawing",
+        "pre-order",
+        "preorder",
+        "available",
+        "raffle"
+      ],
+      "group": "community",
+      "note": "Reddit RSS ends 13 Nov 2026"
+    },
+    {
+      "id": "motor1-rlc",
+      "name": "Motor1 news (Hot Wheels RLC dates)",
+      "kind": "rss",
+      "url": "https://www.motor1.com/rss/news/all/",
+      "interval_s": 1800,
+      "keywords": [
+        "hot wheels",
+        "red line club",
+        "rlc"
+      ],
+      "group": "toys"
     }
   ],
   "reminders": [

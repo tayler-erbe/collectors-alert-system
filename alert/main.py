@@ -12,7 +12,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from . import checkers, net, notify, schedule, store
+from . import checkers, discord_feed, net, notify, schedule, store
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources.json"
@@ -230,6 +230,7 @@ def main():
     once = "--once" in sys.argv
     due = {}
     last_dash = 0
+    next_discord = 0
     while True:
         cfg = load_sources()
         srcs = cfg["sources"]
@@ -245,6 +246,16 @@ def main():
             export_dashboard(c, push="--push" in sys.argv)
             return
         telegram_poll(c)
+        if discord_feed.configured() and time.time() >= next_discord:
+            try:
+                for level, sname, title, url, detail in discord_feed.check(c):
+                    store.event(c, "discord", level, title, url, f"{sname}: {detail}"[:500])
+                    notify.send(level, sname, title, url, detail)
+                store.health(c, "discord")
+            except Exception as e:
+                store.health(c, "discord", f"{type(e).__name__}: {e}")
+                print("discord check failed", e, flush=True)
+            next_discord = time.time() + 30
         try:
             run_reminders(c, cfg.get("reminders", []))
         except Exception:

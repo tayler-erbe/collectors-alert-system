@@ -57,7 +57,7 @@ def get(url, timeout=20, accept="*/*"):
             return 304, _last_body.get(url, "")
         if e.code in (429, 403, 503):
             retry = e.headers.get("Retry-After")
-            base = int(retry) if retry and retry.isdigit() else 60
+            base = max(int(retry), 60) if retry and retry.isdigit() else 60   # some sites send Retry-After: 0
             pen = min(max(base, _host_penalty.get(h, 0) * 2 or base), 3600)
             _host_penalty[h] = pen
             _host_next[h] = time.time() + pen + random.uniform(0, 10)
