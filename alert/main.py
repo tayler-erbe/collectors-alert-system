@@ -137,7 +137,7 @@ def telegram_poll(c):
             with fb.open("a", encoding="utf-8") as f:
                 f.write(json.dumps({"t": time.strftime("%Y-%m-%d %H:%M"), "from": chat, "text": text}, ensure_ascii=False) + "\n")
             n = sum(1 for _ in fb.open(encoding="utf-8"))
-            notify.telegram(f"Got it, saved as note #{n}. It gets worked on in the weekly update. (To add a site right away: /add <url>)", chat_id=chat)
+            notify.telegram(f"Got it, saved as note #{n}. Claude works on notes the same day (usually within a few hours). (To add a site right away: /add <url>)", chat_id=chat)
             continue
         try:
             reply = handle(parts[0].split("@")[0].lower(), parts[1:])

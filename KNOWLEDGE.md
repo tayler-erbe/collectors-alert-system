@@ -47,7 +47,7 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
 ## Feedback loop
 - **He sends:** any text or dictation to the Telegram bot. To add a site straight away: `/add <url> [keywords]`. For issues with alerts or the website, ideas, or "put this on the radar", he just types or speaks it.
 - **Backup:** an email to Tayler's Gmail with "Drop Radar" in the subject. The weekly review also searches her Gmail for that subject when a session has Gmail access.
-- **Weekly review** (job queue, Mondays): read new notes, apply the changes (sources, keywords, windows, fixes), mark each note done in `feedback/done.jsonl`, and send him a summary on Telegram.
+- **Daily review** (hourly watcher queues a Claude job the same day when there are open notes or a source failed 24 h; max 2 a day): read new notes, apply the changes (sources, keywords, windows, fixes), mark each note done in `feedback/done.jsonl`, and send him a summary on Telegram.
 - **Monthly research** (job queue, 1st of the month): a deep dive into new drop sources, changed store procedures, new tools and monitors, and broken sources (the health table); improve the radar without being asked, then update this file.
 
 ## Known facts (dated)
