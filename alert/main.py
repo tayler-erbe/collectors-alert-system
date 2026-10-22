@@ -289,7 +289,7 @@ def main():
             except Exception as e:
                 store.health(c, "discord", f"{type(e).__name__}: {e}")
                 print("discord check failed", e, flush=True)
-            next_discord = time.time() + 30
+            next_discord = time.time() + 10   # every 10 s (Discord allows far more)
         try:
             run_reminders(c, cfg.get("reminders", []))
         except Exception:

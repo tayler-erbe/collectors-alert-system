@@ -21,6 +21,8 @@ API = "https://discord.com/api/v10"
 UA = "DiscordBot (https://github.com/tayler-erbe/collectors-alert-system, 1.0)"
 INTEREST = ["pokemon", "pokémon", "lorcana", "one piece", "dragon ball", "star wars", "disney", "hot wheels", "rlc",
             "g-shock", "gshock", "bear walker", "topps", "panini"]
+# Charles wants ONLINE drops only (22 Oct 2026): posts about in-store stock go to the dashboard, never to his phone.
+IN_STORE = ["in-store", "in store", "instore", "store #", "brickseek", "local store", "pickup only", "found at", "spotted at", "shelf", "shelves"]
 LIVE_WORDS = ["live", "in stock", "restock", "queue is open", "queue open", "available now", "add to cart", "atc", "dropped"]
 CHANNEL_REFRESH_S = 600
 
@@ -106,6 +108,8 @@ def check(c):
                 author = (m.get("author") or {}).get("username", "")
                 interest = any(k in low for k in INTEREST)
                 level = "LIVE" if interest and any(w in low for w in LIVE_WORDS) else "SOON" if interest else "INFO"
+                if any(w in low for w in IN_STORE):
+                    level = "INFO"
                 title = t.splitlines()[0][:140]
                 out.append((level, f"Discord #{cname} ({author})", title, _link(m, guild), t[len(title):][:600].strip()))
         last[cid] = newest
