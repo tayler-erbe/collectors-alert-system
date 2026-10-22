@@ -60,10 +60,32 @@ def ntfy(title, msg, url, live):
     return True
 
 
+QUIET = os.environ.get("QUIET_HOURS_PT", "21:00-03:00")   # Tayler 22 Oct 2026: no alerts 9 pm to 3 am Pacific
+
+
+def quiet_now():
+    """True inside quiet hours (Pacific). Alerts then arrive silently in Telegram (no sound/buzz) and loud channels are skipped."""
+    from .schedule import pt_now
+    if not QUIET:
+        return False
+    a, b = QUIET.split("-")
+    m = lambda x: int(x.split(":")[0]) * 60 + int(x.split(":")[1])
+    now = pt_now(); t = now.hour * 60 + now.minute
+    return (m(a) <= t or t < m(b)) if m(a) > m(b) else (m(a) <= t < m(b))
+
+
 def send(level, source_name, title, url, detail=""):
     if level == "INFO":
         return
     live = level == "LIVE"
+    if quiet_now():
+        try:
+            icon, head = ("🚨", "LIVE NOW: ") if live else ("🔔", "Coming: ")
+            telegram("\n".join(x for x in (f"{icon} (quiet hours) {head}{title}", source_name, detail, url) if x), silent=True)
+        except Exception as e:
+            print("notify failed (quiet)", e, flush=True)
+        print(f"[{level}] {source_name}: {title} -> telegram (silent, quiet hours)", flush=True)
+        return
     head = ("LIVE NOW: " if live else "Coming: ") + title
     msg = f"{source_name}\n{detail}".strip()
     sent = []
