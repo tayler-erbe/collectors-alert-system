@@ -121,3 +121,10 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
   - Health: only Casio (403, slow), BOLDR (down, paused), Reddit x3 (403, paused) fail, all known; none new over 24 h.
 
 - 22 Oct 2026 (night) daily review: no open notes (inbox 9, all in done.jsonl). Health: only Casio (403, slow), BOLDR (down, paused), Reddit x3 (403, paused) fail, all known; --once ran clean. No changes, no Telegram sent (nothing new to confirm).
+
+- 23 Oct 2026 daily review, notes #10-#14:
+  - **#10 "Only include limited edition watches":** RULE: watch sources alert only on limited/collab/franchise keywords. Removed 5 Sports/Presage/Prospex/Marlin/Q Timex/"x " and "release"/"pre-order" (G-Central, Worn & Wound, Monochrome).
+  - **#11 Target links useless:** the midnight Target reminders were a tracker guess with no link. Code: fixed reminders in sources.json can now carry `"url"` (alert/main.py run_reminders). Never present a tracker expectation as a confirmed Target drop.
+  - **#12/#13 questions:** Target stock/timing is invisible to us (app only). Alerts should include a timeframe when known. Pokemon Center 403s scripts (hourly backoff); Discord reader healthy. Lorcana Hyperia City out 23 Oct: display $143.76, Trove $49.99, Prerelease Box $39.99 (icv2); Target/Walmart via TCG Drop Radar pages; Ravensburger blocks.
+  - **#14:** no confirmed US Seiko collab date found (Puella Magi Madoka Magica chronographs 31 Aug 2026; Seiko 5 x Rowing Blazers sold out).
+  - Health: only Casio (403), BOLDR (down), Reddit x3 (403) never ok, all known/paused; Pokemon Center news 403 from 7 am window, backing off. Code changed, loop restarted.

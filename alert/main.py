@@ -298,8 +298,9 @@ def telegram_poll(c):
 def run_reminders(c, fixed):
     now = schedule.pt_now()
     sent = set(store.kv_get(c, "fixed_sent", []))
+    urls = {r["id"]: r.get("url", "") for r in fixed}
     for key, text in schedule.due_reminders(fixed, sent, now):
-        notify.send("SOON", "Reminder", text, "", "")
+        notify.send("SOON", "Reminder", text, urls.get(key.split("|")[0], ""), "")
         sent.add(key)
     store.kv_set(c, "fixed_sent", sorted(sent)[-200:])
     rem, keep = store.kv_get(c, "reminders", []), []

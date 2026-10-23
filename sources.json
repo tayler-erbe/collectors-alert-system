@@ -8,19 +8,15 @@
       "url": "https://seikousa.com",
       "interval_s": 120,
       "keywords": [
-        "5 sports",
+        "limited",
         "collab",
         "collaboration",
         "disney",
         "dragon ball",
-        "limited",
         "marvel",
         "one piece",
         "pokemon",
-        "presage",
-        "prospex",
-        "star wars",
-        "x "
+        "star wars"
       ],
       "group": "watches"
     },
@@ -79,18 +75,15 @@
       "url": "https://www.timex.com",
       "interval_s": 900,
       "keywords": [
+        "limited",
         "collab",
         "collaboration",
         "disney",
         "dragon ball",
-        "limited",
-        "marlin",
         "marvel",
         "one piece",
         "pokemon",
-        "q timex",
-        "star wars",
-        "x "
+        "star wars"
       ],
       "group": "watches"
     },
@@ -224,9 +217,7 @@
       "interval_s": 900,
       "keywords": [
         "collab",
-        "limited",
-        "pre-order",
-        "release"
+        "limited"
       ],
       "group": "watches",
       "link": "https://www.g-central.com/",
@@ -549,14 +540,13 @@
       "url": "https://spinnaker-watches.com",
       "interval_s": 120,
       "keywords": [
+        "limited",
         "collab",
+        "limited edition",
         "disney",
         "dragon ball",
-        "edition",
-        "limited",
         "one piece",
-        "pokemon",
-        "x "
+        "pokemon"
       ],
       "group": "watches"
     },
