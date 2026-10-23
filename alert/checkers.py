@@ -33,27 +33,46 @@ def gate(src, found):
     return out
 
 
+NEW_DAYS = 14   # a product published longer ago than this is not "new", it just scrolled into the feed
+
+
+def _age_days(p):
+    import datetime as dt
+    s = p.get("published_at") or p.get("created_at")
+    if not s:
+        return 0
+    try:
+        return (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(s.replace("Z", "+00:00"))).total_seconds() / 86400
+    except ValueError:
+        return 0
+
+
 def shopify(c, src):
+    """products.json shows at most 250 products. On big catalogs (Timex, Mattel) old products move in and out of that
+    window, so an unseen product only counts as NEW if it was published in the last NEW_DAYS days, and a product that was
+    out of the window is not reported "back in stock" (23 Oct bug: ~25 Timex alerts for ordinary watches overnight)."""
     base = src["url"].rstrip("/")
     status, text = net.get(f"{base}/products.json?limit=250", accept="application/json")
     products = json.loads(text).get("products", []) if text else []
     first = c.execute("SELECT COUNT(*) FROM items WHERE source=?", (src["id"],)).fetchone()[0] == 0
     out, now = [], time.time()
+    stale_s = max(3 * src.get("interval_s", 900), 3600)
     for p in products:
         avail = any(v.get("available") for v in p.get("variants", []))
         price = min((v.get("price") for v in p.get("variants", []) if v.get("price")), default="")
         url = f"{base}/products/{p['handle']}"
         title = p.get("title", "")
         hay = " ".join([title, p.get("vendor", ""), p.get("product_type", ""), " ".join(p.get("tags", []) if isinstance(p.get("tags"), list) else [str(p.get("tags", ""))])])
-        row = c.execute("SELECT available FROM items WHERE source=? AND item=?", (src["id"], str(p["id"]))).fetchone()
+        row = c.execute("SELECT available, last_seen FROM items WHERE source=? AND item=?", (src["id"], str(p["id"]))).fetchone()
         if row is None:
             c.execute("INSERT INTO items VALUES (?,?,?,?,?,?,?,?)", (src["id"], str(p["id"]), title, url, price, int(avail), now, now))
-            if not first:
+            if not first and _age_days(p) <= NEW_DAYS:
                 lvl = ("LIVE" if avail else "SOON") if _match(hay, src.get("keywords")) else "INFO"
-                out.append((lvl, title, url, f"New product, ${price}, {'IN STOCK' if avail else 'not buyable yet'}"))
+                out.append((lvl, title, url, f"New product, ${price}, " + ("IN STOCK now" if avail else
+                            "not buyable yet; the store has not announced a time")))
         else:
             c.execute("UPDATE items SET last_seen=?, available=?, price=? WHERE source=? AND item=?", (now, int(avail), price, src["id"], str(p["id"])))
-            if avail and not row[0]:
+            if avail and not row[0] and now - (row[1] or 0) < stale_s:
                 lvl = "LIVE" if _match(hay, src.get("keywords")) else "INFO"
                 out.append((lvl, title, url, f"Back in stock / now buyable, ${price}"))
     c.commit()

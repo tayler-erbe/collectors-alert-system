@@ -35,9 +35,10 @@ def open_notes():
     if done.exists():
         for l in done.read_text(encoding="utf-8").splitlines():
             if l.strip():
-                d = json.loads(l)
-                seen.add((d.get("t"), d.get("text")))
-    return [r for r in rows if (r.get("t"), r.get("text")) not in seen]
+                seen.add(json.loads(l).get("t"))
+    # matched on the arrival time only: reviews often shorten the text in done.jsonl, and exact-text matching left 5
+    # processed notes looking open on 23 Oct (and kept queueing reviews)
+    return [r for r in rows if r.get("t") not in seen]
 
 
 def failing_sources():
@@ -46,8 +47,10 @@ def failing_sources():
         return []
     c = sqlite3.connect(db)
     day = time.time() - 86400
+    srcs = json.loads((ROOT / "sources.json").read_text(encoding="utf-8")).get("sources", [])
+    paused = {s["id"] for s in srcs if s.get("enabled") is False}   # paused on purpose: not a reason to queue a review
     return [r[0] for r in c.execute("SELECT source FROM health WHERE err IS NOT NULL AND (ok_t IS NULL OR ok_t < ?) AND err_t > ?",
-                                    (day, day))]
+                                    (day, day)) if r[0] not in paused]
 
 
 def main():

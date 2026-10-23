@@ -33,6 +33,10 @@ def get(url, timeout=20, accept="*/*"):
     """Returns (status, text). Raises Blocked when the site says slow down; the caller reschedules."""
     h = host(url)
     wait = _host_next.get(h, 0) - time.time()
+    if wait > MIN_GAP_S + 1:
+        # A host in backoff (403/429) is skipped, NOT slept on: sleeping here froze the whole loop for up to an hour
+        # (23 Oct bug: Discord, Bear Walker and every other source only got checked once an hour).
+        raise Blocked(f"{h} still backing off ({int(wait)}s left)")
     if wait > 0:
         time.sleep(wait)
     hdr = {"User-Agent": UA, "Accept": accept, "Accept-Encoding": "gzip"}
