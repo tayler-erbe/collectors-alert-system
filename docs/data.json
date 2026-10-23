@@ -1,6 +1,24 @@
 {
- "updated": 1792741453.0219252,
+ "updated": 1792744083.7958283,
  "events": [
+  {
+   "t": 1792744079.5070126,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "First Look at the Supreme x Nike Air Force 1 Low \"Olive Camo\"",
+   "url": "https://hypebeast.com/2026/10/supreme-nike-air-force-1-low-olive-camo-first-look-cu9225-900-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792744079.5050128,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Todd Snyder and New Balance Reunite for the T500 \"Cafe Pack\"",
+   "url": "https://hypebeast.com/2026/10/todd-snyder-new-balance-t500-cafe-pack-collaboration-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
   {
    "t": 1792740715.4315882,
    "source": "footlocker-releases",
@@ -2478,10 +2496,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792740726.5648007,
+   "ok": 1792741458.1429043,
    "err_t": null,
    "err": null,
-   "checks": 181
+   "checks": 182
   },
   {
    "id": "medicom",
@@ -2492,10 +2510,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792740676.1121292,
+   "ok": 1792741458.8626444,
    "err_t": null,
    "err": null,
-   "checks": 130
+   "checks": 131
   },
   {
    "id": "bearwalker",
@@ -2506,10 +2524,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792740750.240992,
+   "ok": 1792741459.387459,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 334
+   "checks": 335
   },
   {
    "id": "mattel-creations",
@@ -2520,10 +2538,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792740485.8143394,
+   "ok": 1792741459.8339307,
    "err_t": null,
    "err": null,
-   "checks": 49
+   "checks": 50
   },
   {
    "id": "timex",
@@ -2534,10 +2552,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740486.3292468,
+   "ok": 1792741460.318761,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "pokemon-center-news",
@@ -2562,10 +2580,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740487.492484,
+   "ok": 1792741461.0380764,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "premium-bandai",
@@ -2576,10 +2594,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740487.750949,
+   "ok": 1792741461.3282638,
    "err_t": null,
    "err": null,
-   "checks": 50
+   "checks": 51
   },
   {
    "id": "hasbro-pulse",
@@ -2618,10 +2636,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792740741.9564831,
+   "ok": 1792741461.8805501,
    "err_t": null,
    "err": null,
-   "checks": 182
+   "checks": 183
   },
   {
    "id": "mattel-queue",
@@ -2632,10 +2650,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792740665.0510128,
+   "ok": 1792741465.5173988,
    "err_t": null,
    "err": null,
-   "checks": 126
+   "checks": 127
   },
   {
    "id": "g-central",
@@ -2646,10 +2664,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740491.5986404,
+   "ok": 1792741465.9190881,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "resellcalendar",
@@ -2674,10 +2692,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740491.8426137,
+   "ok": 1792741466.233312,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "tcgdr-sams",
@@ -2688,10 +2706,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740497.1751313,
+   "ok": 1792741471.5629306,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "tcgdr-target",
@@ -2702,10 +2720,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740502.3976438,
+   "ok": 1792741476.8798652,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "tcgdr-walmart",
@@ -2730,10 +2748,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740512.8431854,
+   "ok": 1792741482.3067803,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "footlocker-releases",
@@ -2758,10 +2776,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740513.0021033,
+   "ok": 1792741482.7288985,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "casio-gshock",
@@ -2773,9 +2791,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792740475.768017,
+   "err_t": 1792744077.8949175,
    "err": "gshock.casio.com answered 403; backing off 3600s",
-   "checks": 34
+   "checks": 35
   },
   {
    "id": "zoomies",
@@ -2786,10 +2804,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740513.691053,
+   "ok": 1792744078.3957903,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "boldr",
@@ -2870,10 +2888,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792740778.5425365,
+   "ok": 1792744079.2079546,
    "err_t": null,
    "err": null,
-   "checks": 76
+   "checks": 77
   },
   {
    "id": "hypebeast-collabs",
@@ -2884,10 +2902,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740515.1239634,
+   "ok": 1792744079.502015,
    "err_t": null,
    "err": null,
-   "checks": 27
+   "checks": 28
   },
   {
    "id": "highsnobiety-collabs",
