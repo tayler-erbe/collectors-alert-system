@@ -52,9 +52,12 @@
       "url": "https://creations.mattel.com",
       "interval_s": 600,
       "keywords": [
-        "rlc",
+        "240z",
+        "datsun",
+        "hot wheels",
+        "m3",
         "red line club",
-        "hot wheels"
+        "rlc"
       ],
       "group": "toys",
       "windows": [
@@ -118,6 +121,9 @@
       "url": "https://www.disneylorcana.com/en-US/news",
       "interval_s": 900,
       "keywords": [
+        "gift box",
+        "hyperia",
+        "illumineer",
         "pre-order",
         "preorder",
         "release",
@@ -132,11 +138,14 @@
       "url": "https://p-bandai.com/us/c-new-arrival",
       "interval_s": 900,
       "keywords": [
-        "one piece",
-        "dragon ball",
         "card game",
+        "dragon ball",
+        "fusion world",
+        "heroines",
         "limited",
-        "pre-order"
+        "one piece",
+        "pre-order",
+        "premium card collection"
       ],
       "group": "toys",
       "windows": [
@@ -224,17 +233,23 @@
       "url": "https://resellcalendar.com/news",
       "interval_s": 1800,
       "keywords": [
+        "240z",
         "bear walker",
-        "pokemon",
-        "lorcana",
-        "one piece",
-        "hot wheels",
+        "costco",
+        "delta reign",
         "g-shock",
+        "hot wheels",
+        "hyperia",
+        "lorcana",
+        "night out",
+        "one piece",
+        "op-18",
+        "panini",
+        "pokemon",
+        "sam's",
         "seiko",
         "topps",
-        "panini",
-        "costco",
-        "sam's"
+        "ultra-premium"
       ],
       "group": "calendars"
     },
@@ -245,13 +260,18 @@
       "url": "https://tcgdropradar.com/retailer/costco/",
       "interval_s": 900,
       "keywords": [
-        "pokemon",
-        "pokémon",
+        "30th celebration",
+        "delta reign",
+        "disney",
+        "dragon ball",
+        "hyperia",
         "lorcana",
         "one piece",
-        "dragon ball",
+        "op-18",
+        "pokemon",
+        "pokémon",
         "star wars",
-        "disney"
+        "ultra-premium"
       ],
       "group": "big-box"
     },
@@ -262,13 +282,18 @@
       "url": "https://tcgdropradar.com/retailer/sams-club/",
       "interval_s": 900,
       "keywords": [
-        "pokemon",
-        "pokémon",
+        "30th celebration",
+        "delta reign",
+        "disney",
+        "dragon ball",
+        "hyperia",
         "lorcana",
         "one piece",
-        "dragon ball",
+        "op-18",
+        "pokemon",
+        "pokémon",
         "star wars",
-        "disney"
+        "ultra-premium"
       ],
       "group": "big-box"
     },
@@ -279,13 +304,21 @@
       "url": "https://tcgdropradar.com/retailer/target/",
       "interval_s": 900,
       "keywords": [
+        "30th celebration",
+        "delta reign",
+        "disney",
+        "dragon ball",
+        "fusion world",
+        "hyperia",
+        "illumineer",
+        "lorcana",
+        "night out",
+        "one piece",
+        "op-18",
         "pokemon",
         "pokémon",
-        "lorcana",
-        "one piece",
-        "dragon ball",
         "star wars",
-        "disney"
+        "ultra-premium"
       ],
       "group": "big-box"
     },
@@ -296,13 +329,19 @@
       "url": "https://tcgdropradar.com/retailer/walmart/",
       "interval_s": 900,
       "keywords": [
-        "pokemon",
-        "pokémon",
+        "30th celebration",
+        "delta reign",
+        "disney",
+        "dragon ball",
+        "fusion world",
+        "hyperia",
         "lorcana",
         "one piece",
-        "dragon ball",
+        "op-18",
+        "pokemon",
+        "pokémon",
         "star wars",
-        "disney"
+        "ultra-premium"
       ],
       "group": "big-box"
     },
@@ -313,13 +352,16 @@
       "url": "https://tcgdropradar.com/retailer/best-buy/",
       "interval_s": 900,
       "keywords": [
-        "pokemon",
-        "pokémon",
+        "30th celebration",
+        "delta reign",
+        "disney",
+        "dragon ball",
         "lorcana",
         "one piece",
-        "dragon ball",
+        "pokemon",
+        "pokémon",
         "star wars",
-        "disney"
+        "ultra-premium"
       ],
       "group": "big-box"
     },
@@ -627,6 +669,34 @@
       "time": "08:00",
       "once_on": "2026-10-23",
       "text": "Bear Walker: 4 carved One Piece boards drop today (from their Instagram). Time not announced; the radar is checking their site every minute"
+    },
+    {
+      "id": "pk-30th-upc-1106",
+      "days": "Fri",
+      "time": "06:45",
+      "once_on": "2026-11-06",
+      "text": "Pokémon 30th Celebration Ultra-Premium Collection + Delta Reign ETBs release today (Pokémon Center, Target, Walmart, Best Buy online)"
+    },
+    {
+      "id": "lorcana-beast-1113",
+      "days": "Fri",
+      "time": "06:45",
+      "once_on": "2026-11-13",
+      "text": "Lorcana Hyperia City Beast Gift Box ($29.99) releases today"
+    },
+    {
+      "id": "op18-1120",
+      "days": "Fri",
+      "time": "06:45",
+      "once_on": "2026-11-20",
+      "text": "One Piece OP-18 'The Dominance of God' English release today"
+    },
+    {
+      "id": "pk-dec-wave-1204",
+      "days": "Fri",
+      "time": "06:45",
+      "once_on": "2026-12-04",
+      "text": "Pokémon Dec wave today: Unova Heavy Hitters Premium Collection, 30th Celebration ex Tins and Binder"
     }
   ],
   "_app_only": "Nike SNKRS, the Nike app drops, Adidas Confirmed, Best Buy drops and Target drawings are app/login based and bot-guarded: keep their app notifications ON; the radar covers them through TCG Drop Radar and calendars."
