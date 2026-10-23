@@ -1,6 +1,132 @@
 {
- "updated": 1792772944.7403727,
+ "updated": 1792776553.4514444,
  "events": [
+  {
+   "t": 1792772995.4726956,
+   "source": "monochrome",
+   "level": "INFO",
+   "title": "Just Because \u2013 More Than Timekeepers \u2013 Diving with Doxa in the Gulf",
+   "url": "https://monochrome-watches.com/more-than-timekeepers-diving-with-doxa-in-the-gulf/",
+   "detail": "New post",
+   "source_name": "Monochrome Watches (collabs)"
+  },
+  {
+   "t": 1792772994.9817326,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "Street Fighter Live-Action Film Review",
+   "url": "https://www.animenewsnetwork.com/review/street-fighter/live-action-film/.242955",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
+  {
+   "t": 1792772994.9787345,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "Seven Seas Licenses Secret Relationships Webtoon for Print Release in August 2027",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-23/seven-seas-licenses-secret-relationships-webtoon-for-print-release-in-august-2027/.243126",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
+  {
+   "t": 1792772994.711741,
+   "source": "highsnobiety-collabs",
+   "level": "INFO",
+   "title": "Artist Uniform: Hiroshi Fujiwara\u2019s Wardrobe Is His R\u00e9sum\u00e9",
+   "url": "https://www.highsnobiety.com/p/artist-uniform-for-hiroshi-fujiwara-the-uniform-is-everything/",
+   "detail": "New post",
+   "source_name": "Highsnobiety (collabs)"
+  },
+  {
+   "t": 1792772994.4509559,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Burna Boy Brings His Inner Circle Into the Spotlight For Latest On Campaign",
+   "url": "https://hypebeast.com/2026/10/burna-boy-on-no-giant-stands-alone-sneaker-campaign-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792772965.4340026,
+   "source": "mattel-creations",
+   "level": "LIVE",
+   "title": "Hot Wheels R/C 1:64 Subaru Impreza Rally",
+   "url": "https://creations.mattel.com/products/hot-wheels-rc-subaru-impreza-rally-vehicle-jmp91",
+   "detail": "Back in stock / now buyable, $55.00",
+   "source_name": "Mattel Creations"
+  },
+  {
+   "t": 1792772964.6999218,
+   "source": "mattel-creations",
+   "level": "LIVE",
+   "title": "Hot Wheels 2025 Formula 1\u00ae Scuderia Ferrari HP Racing Team #16",
+   "url": "https://creations.mattel.com/products/hot-wheels-2025-formula-1-scuderia-ferrari-hp-racing-team-16-jkd93",
+   "detail": "New product, $10.00, IN STOCK",
+   "source_name": "Mattel Creations"
+  },
+  {
+   "t": 1792772963.9839046,
+   "source": "mattel-creations",
+   "level": "LIVE",
+   "title": "Hot Wheels Premium 2025 Formula 1\u00ae Aston Martin #18 Lance Stroll and #14 Fernando Alonso",
+   "url": "https://creations.mattel.com/products/hot-wheels-premium-2025-formula-1-aston-martin-18-lance-stroll-and-14-fernando-alonso-jmn00",
+   "detail": "New product, $25.00, IN STOCK",
+   "source_name": "Mattel Creations"
+  },
+  {
+   "t": 1792772959.8868856,
+   "source": "mattel-creations",
+   "level": "LIVE",
+   "title": "Hot Wheels Premium 2025 Formula 1\u00ae Aston Martin Aramco Racing Team #17",
+   "url": "https://creations.mattel.com/products/hot-wheels-premium-formula-1-aston-martin-aramco-racing-team-jkd97",
+   "detail": "New product, $10.00, IN STOCK",
+   "source_name": "Mattel Creations"
+  },
+  {
+   "t": 1792772955.7039928,
+   "source": "mattel-creations",
+   "level": "LIVE",
+   "title": "Hot Wheels Premium 2025 Formula 1\u00ae Atlassian Williams Racing Team #23",
+   "url": "https://creations.mattel.com/products/hot-wheels-premium-2025-formula-1-atlassian-williams-racing-team-23-jkd96",
+   "detail": "New product, $10.00, IN STOCK",
+   "source_name": "Mattel Creations"
+  },
+  {
+   "t": 1792772955.0974908,
+   "source": "mattel-creations",
+   "level": "LIVE",
+   "title": "Hot Wheels Premium 2025 Formula 1\u00ae BWT #10 Pierre Gasly & #43 Franco Colapinto 2-Pack",
+   "url": "https://creations.mattel.com/products/hot-wheels-premium-2025-formula-1-bwt-10-pierre-gasly-43-franco-colapinto-2-pack-jmm96",
+   "detail": "New product, $25.00, IN STOCK",
+   "source_name": "Mattel Creations"
+  },
+  {
+   "t": 1792772954.4914625,
+   "source": "mattel-creations",
+   "level": "LIVE",
+   "title": "Hot Wheels Premium 2025 Formula 1\u00ae BWT Alpine Racing Team #43",
+   "url": "https://creations.mattel.com/products/hot-wheels-premium-formula-1-bwt-alpine-racing-team-jkd94",
+   "detail": "New product, $10.00, IN STOCK",
+   "source_name": "Mattel Creations"
+  },
+  {
+   "t": 1792772953.8082728,
+   "source": "mattel-creations",
+   "level": "LIVE",
+   "title": "Hot Wheels Premium 2025 Formula 1\u00ae Scuderia Ferrari HP #44 Lewis Hamilton and #16 Charles Leclerc",
+   "url": "https://creations.mattel.com/products/hot-wheels-premium-formula-1-scuderia-ferrari-hp-44-lewis-hamilton-and-16-charles-leclerc-jmm99",
+   "detail": "New product, $25.00, IN STOCK",
+   "source_name": "Mattel Creations"
+  },
+  {
+   "t": 1792772952.9954941,
+   "source": "mattel-creations",
+   "level": "LIVE",
+   "title": "Hot Wheels Premium Formula 1\u00ae Oracle Red Bull Racing Team #22",
+   "url": "https://creations.mattel.com/products/hot-wheels-premium-formula-1-oracle-red-bull-racing-team-jkd95",
+   "detail": "New product, $10.00, IN STOCK",
+   "source_name": "Mattel Creations"
+  },
   {
    "t": 1792769380.0934556,
    "source": "ann-collabs",
@@ -2574,132 +2700,6 @@
    "url": "https://www.champssports.com/category/clothing/windwear",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1383197,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Activewear",
-   "url": "https://www.champssports.com/category/brands/csg/csg-active.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1353197,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Fan Shop Clothing",
-   "url": "https://www.champssports.com/category/fan-shop/clothing.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1333196,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Fleece",
-   "url": "https://www.champssports.com/category/clothing/fleece",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1303198,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "XX-Large",
-   "url": "https://www.champssports.com/en/category/mens/clothing/size/xx-large.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1283195,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "X-Large",
-   "url": "https://www.champssports.com/en/category/mens/clothing/size/x-large.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.12532,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Large",
-   "url": "https://www.champssports.com/en/category/mens/clothing/size/large.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1223197,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Medium",
-   "url": "https://www.champssports.com/en/category/mens/clothing/size/medium.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1193202,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Small",
-   "url": "https://www.champssports.com/en/category/mens/clothing/size/small.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1173193,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "X-Small",
-   "url": "https://www.champssports.com/en/category/mens/clothing/size/x-small.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1143215,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Long Sleeve Shirts",
-   "url": "https://www.champssports.com/category/clothing/t-shirts/long-sleeve",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.11232,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Short Sleeve Shirts",
-   "url": "https://www.champssports.com/category/clothing/t-shirts/short-sleeve",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1093197,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "All Clothing",
-   "url": "https://www.champssports.com/category/clothing.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1073198,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "New Balance",
-   "url": "https://www.champssports.com/category/kids/shoes/new-balance.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.1043198,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Jordan",
-   "url": "https://www.champssports.com/category/kids/jordan.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792769588.0720417,
+   "ok": 1792773189.2038586,
    "err_t": null,
    "err": null,
-   "checks": 206
+   "checks": 209
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792769537.5196412,
+   "ok": 1792773128.8555095,
    "err_t": null,
    "err": null,
-   "checks": 147
+   "checks": 149
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792769658.1723442,
+   "ok": 1792773205.7868426,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 377
+   "checks": 382
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792769343.8971,
+   "ok": 1792773028.3422384,
    "err_t": null,
    "err": null,
-   "checks": 58
+   "checks": 60
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769344.37631,
+   "ok": 1792772966.8648868,
    "err_t": null,
    "err": null,
-   "checks": 50
+   "checks": 51
   },
   {
    "id": "pokemon-center-news",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792772943.7077575,
+   "err_t": 1792776548.2548442,
    "err": "www.pokemoncenter.com answered 403; backing off 3600s",
-   "checks": 92
+   "checks": 93
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769345.495964,
+   "ok": 1792772967.393107,
    "err_t": null,
    "err": null,
-   "checks": 47
+   "checks": 48
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769345.7866962,
+   "ok": 1792772967.9366343,
    "err_t": null,
    "err": null,
-   "checks": 59
+   "checks": 60
   },
   {
    "id": "hasbro-pulse",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769346.2139423,
+   "ok": 1792772968.528341,
    "err_t": null,
    "err": null,
-   "checks": 45
+   "checks": 46
   },
   {
    "id": "santa-cruz",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792769346.437413,
+   "ok": 1792772968.659001,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 35
+   "checks": 36
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792769589.1652055,
+   "ok": 1792773201.2823212,
    "err_t": null,
    "err": null,
-   "checks": 207
+   "checks": 210
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792769546.6738322,
+   "ok": 1792773176.6037076,
    "err_t": null,
    "err": null,
-   "checks": 143
+   "checks": 146
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769349.7485547,
+   "ok": 1792772970.4150665,
    "err_t": null,
    "err": null,
-   "checks": 47
+   "checks": 48
   },
   {
    "id": "resellcalendar",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769350.0703733,
+   "ok": 1792772970.7129612,
    "err_t": null,
    "err": null,
-   "checks": 46
+   "checks": 47
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769355.2431767,
+   "ok": 1792772975.9690046,
    "err_t": null,
    "err": null,
-   "checks": 45
+   "checks": 46
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769360.3680844,
+   "ok": 1792772981.2942562,
    "err_t": null,
    "err": null,
-   "checks": 45
+   "checks": 46
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769365.5855348,
+   "ok": 1792772986.4753468,
    "err_t": null,
    "err": null,
-   "checks": 46
+   "checks": 47
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769370.7755697,
+   "ok": 1792772991.8406367,
    "err_t": null,
    "err": null,
-   "checks": 46
+   "checks": 47
   },
   {
    "id": "footlocker-releases",
@@ -2978,10 +2978,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792769370.9805624,
+   "ok": 1792772992.2330816,
    "err_t": null,
    "err": null,
-   "checks": 29
+   "checks": 30
   },
   {
    "id": "nintendo-merch",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769371.1247225,
+   "ok": 1792772992.5657313,
    "err_t": null,
    "err": null,
-   "checks": 46
+   "checks": 47
   },
   {
    "id": "casio-gshock",
@@ -3007,9 +3007,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792769377.0548987,
+   "err_t": 1792772992.685568,
    "err": "gshock.casio.com answered 403; backing off 3600s",
-   "checks": 42
+   "checks": 43
   },
   {
    "id": "zoomies",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769377.8371372,
+   "ok": 1792772993.044344,
    "err_t": null,
    "err": null,
-   "checks": 44
+   "checks": 45
   },
   {
    "id": "boldr",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792769378.1886258,
+   "ok": 1792772993.3265755,
    "err_t": null,
    "err": null,
-   "checks": 29
+   "checks": 30
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792769639.4210525,
+   "ok": 1792773123.3357224,
    "err_t": null,
    "err": null,
-   "checks": 99
+   "checks": 101
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792769379.5642612,
+   "ok": 1792772994.4479544,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 36
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792769379.8876224,
+   "ok": 1792772994.709741,
    "err_t": null,
    "err": null,
-   "checks": 27
+   "checks": 28
   },
   {
    "id": "ann-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792769380.0904546,
+   "ok": 1792772994.976732,
    "err_t": null,
    "err": null,
-   "checks": 27
+   "checks": 28
   },
   {
    "id": "wornandwound",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792769380.4226463,
+   "ok": 1792772995.3437455,
    "err_t": null,
    "err": null,
-   "checks": 27
+   "checks": 28
   },
   {
    "id": "monochrome",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792769380.577984,
+   "ok": 1792772995.4693835,
    "err_t": null,
    "err": null,
-   "checks": 28
+   "checks": 29
   }
  ]
 }
