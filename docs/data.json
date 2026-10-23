@@ -1,5 +1,5 @@
 {
- "updated": 1792733879.5873463,
+ "updated": 1792736874.5619164,
  "events": [
   {
    "t": 1792732019.9371183,
@@ -354,10 +354,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792733766.7500498,
+   "ok": 1792734136.3735237,
    "err_t": null,
    "err": null,
-   "checks": 167
+   "checks": 170
   },
   {
    "id": "medicom",
@@ -368,10 +368,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792733825.2172868,
+   "ok": 1792734193.9680796,
    "err_t": null,
    "err": null,
-   "checks": 120
+   "checks": 122
   },
   {
    "id": "bearwalker",
@@ -382,10 +382,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792733851.4300132,
+   "ok": 1792734165.5001543,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 309
+   "checks": 314
   },
   {
    "id": "mattel-creations",
@@ -410,10 +410,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792733279.4691043,
+   "ok": 1792734136.847108,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "pokemon-center-news",
@@ -424,10 +424,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792733576.132218,
+   "ok": 1792734216.4862154,
    "err_t": 1792725429.4072082,
    "err": null,
-   "checks": 75
+   "checks": 77
   },
   {
    "id": "lorcana-news",
@@ -438,10 +438,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792733281.6715276,
+   "ok": 1792734114.4041767,
    "err_t": null,
    "err": null,
-   "checks": 34
+   "checks": 35
   },
   {
    "id": "premium-bandai",
@@ -452,10 +452,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792733281.9611447,
+   "ok": 1792734178.094532,
    "err_t": null,
    "err": null,
-   "checks": 46
+   "checks": 47
   },
   {
    "id": "hasbro-pulse",
@@ -466,10 +466,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792733282.624512,
+   "ok": 1792734166.3915367,
    "err_t": null,
    "err": null,
-   "checks": 34
+   "checks": 35
   },
   {
    "id": "santa-cruz",
@@ -494,10 +494,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792733775.2783272,
+   "ok": 1792734137.503106,
    "err_t": null,
    "err": null,
-   "checks": 168
+   "checks": 171
   },
   {
    "id": "mattel-queue",
@@ -508,10 +508,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792733805.938268,
+   "ok": 1792734190.114263,
    "err_t": null,
    "err": null,
-   "checks": 116
+   "checks": 118
   },
   {
    "id": "g-central",
@@ -634,10 +634,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792733306.9968522,
+   "ok": 1792734216.6107914,
    "err_t": null,
    "err": null,
-   "checks": 34
+   "checks": 35
   },
   {
    "id": "casio-gshock",
@@ -649,9 +649,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792733271.5010772,
+   "err_t": 1792736873.6855369,
    "err": "gshock.casio.com answered 403; backing off 3600s",
-   "checks": 32
+   "checks": 33
   },
   {
    "id": "zoomies",
@@ -732,10 +732,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792732150.6775193,
+   "ok": 1792734103.1114547,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "spinnaker",
@@ -746,10 +746,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792733794.340053,
+   "ok": 1792734157.4147382,
    "err_t": null,
    "err": null,
-   "checks": 62
+   "checks": 65
   },
   {
    "id": "hypebeast-collabs",
@@ -760,10 +760,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792733308.7576203,
+   "ok": 1792734178.3287635,
    "err_t": null,
    "err": null,
-   "checks": 24
+   "checks": 25
   },
   {
    "id": "highsnobiety-collabs",
@@ -774,10 +774,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792732195.640513,
+   "ok": 1792734027.7911422,
    "err_t": null,
    "err": null,
-   "checks": 16
+   "checks": 17
   },
   {
    "id": "ann-collabs",
