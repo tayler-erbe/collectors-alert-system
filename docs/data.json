@@ -1,5 +1,5 @@
 {
- "updated": 1792718195.462823,
+ "updated": 1792719867.8492966,
  "events": [
   {
    "t": 1792717131.2002,
@@ -156,10 +156,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792718181.1523764,
+   "ok": 1792718670.5724876,
    "err_t": null,
    "err": null,
-   "checks": 81
+   "checks": 85
   },
   {
    "id": "medicom",
@@ -170,10 +170,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792718116.81828,
+   "ok": 1792718661.6168516,
    "err_t": null,
    "err": null,
-   "checks": 58
+   "checks": 61
   },
   {
    "id": "bearwalker",
@@ -184,10 +184,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792718131.2786338,
+   "ok": 1792718723.1734307,
    "err_t": null,
    "err": null,
-   "checks": 145
+   "checks": 154
   },
   {
    "id": "mattel-creations",
@@ -198,10 +198,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792717950.882825,
+   "ok": 1792718542.9307423,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 24
   },
   {
    "id": "timex",
@@ -212,10 +212,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792717951.2756178,
+   "ok": 1792718763.112294,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "pokemon-center-news",
@@ -226,10 +226,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792717951.5080988,
+   "ok": 1792718524.7007942,
    "err_t": 1792707919.588466,
    "err": null,
-   "checks": 37
+   "checks": 39
   },
   {
    "id": "lorcana-news",
@@ -240,10 +240,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792717734.4432237,
+   "ok": 1792718623.9972093,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "premium-bandai",
@@ -254,10 +254,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792717744.5203762,
+   "ok": 1792718628.3392267,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "hasbro-pulse",
@@ -296,10 +296,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792718106.8950374,
+   "ok": 1792718713.7499764,
    "err_t": null,
    "err": null,
-   "checks": 81
+   "checks": 86
   },
   {
    "id": "mattel-queue",
@@ -310,10 +310,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792718160.5862935,
+   "ok": 1792718714.4873755,
    "err_t": null,
    "err": null,
-   "checks": 57
+   "checks": 60
   },
   {
    "id": "g-central",
@@ -324,10 +324,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792717823.130689,
+   "ok": 1792718750.198971,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "resellcalendar",
@@ -338,10 +338,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792716755.5656316,
+   "ok": 1792718477.3854542,
    "err_t": null,
    "err": null,
-   "checks": 13
+   "checks": 14
   },
   {
    "id": "tcgdr-costco",
@@ -366,10 +366,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792717702.194737,
+   "ok": 1792718686.195829,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "tcgdr-target",
@@ -394,10 +394,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792717752.273863,
+   "ok": 1792718645.4436579,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "tcgdr-bestbuy",
@@ -436,10 +436,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792717764.0960512,
+   "ok": 1792718670.945653,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "casio-gshock",
@@ -451,9 +451,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792717942.939264,
-   "err": "gshock.casio.com answered 403; backing off 1920s",
-   "checks": 18
+   "err_t": 1792719866.5103023,
+   "err": "gshock.casio.com answered 403; backing off 3600s",
+   "checks": 19
   },
   {
    "id": "zoomies",
@@ -534,10 +534,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792716871.9157376,
+   "ok": 1792718530.7425148,
    "err_t": null,
    "err": null,
-   "checks": 6
+   "checks": 7
   },
   {
    "id": "spinnaker",
@@ -590,10 +590,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792716828.0652704,
+   "ok": 1792718564.2542012,
    "err_t": null,
    "err": null,
-   "checks": 5
+   "checks": 6
   },
   {
    "id": "wornandwound",
@@ -618,10 +618,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792716828.5763354,
+   "ok": 1792718742.474373,
    "err_t": null,
    "err": null,
-   "checks": 5
+   "checks": 6
   }
  ]
 }
