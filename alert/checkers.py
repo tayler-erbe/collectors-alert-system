@@ -11,9 +11,26 @@ import xml.etree.ElementTree as ET
 from . import net
 
 
-def _match(text, kws):
-    t = text.lower()
-    return not kws or any(k.lower() in t for k in kws)
+def _match(text, kws, also=None):
+    t = " " + text.lower() + " "
+    ok = not kws or any(k.lower() in t for k in kws)
+    return ok and (not also or any(a.lower() in t for a in also))
+
+
+LIVE_WORDS = ["restock", "in stock", "back in stock", "live now", "is live", "queue is open", "queue open", "available now",
+              "drops today", "dropping today", "on sale now", "pre-order now", "preorders open", "pre-orders open"]
+
+
+def gate(src, found):
+    """Sources marked phone:false (news sites, trackers) send to the dashboard only, unless the text says it is live/restocking.
+    Charles, 22 Oct 2026: alerts must be things he can act on, linking to a store or waiting room."""
+    if src.get("phone", True):
+        return found
+    out = []
+    for level, title, url, detail in found:
+        txt = (title + " " + detail).lower()
+        out.append((level if any(w in txt for w in LIVE_WORDS) else "INFO", title, url, detail))
+    return out
 
 
 def shopify(c, src):
@@ -76,14 +93,18 @@ def page(c, src):
             if prev is not None:
                 out.append(("SOON", lab, full, "New link on the page"))
     if prev is not None:
-        newk = sorted(set(present) - set(json.loads(prev[1] or "[]")))
+        pv = json.loads(prev[1] or "[]")
+        prev_present, prev_cfg = (pv.get("present", []), pv.get("cfg", kws)) if isinstance(pv, dict) else (pv, kws)
+        # a keyword added to the config since the last check is NOT news (22 Oct bug: adding '30th celebration' fired 6 alerts)
+        newk = sorted((set(present) - set(prev_present)) & set(prev_cfg))
         if newk:
             i = text.find(newk[0])
             out.append(("SOON", f"'{newk[0]}' just appeared", src["url"], "..." + text[max(0, i - 80): i + 120] + "..."))
         elif prev[0] != digest and not out:
             out.append(("INFO", "Page changed", src["url"], ""))
+    stv = json.dumps({"present": present, "cfg": kws})
     c.execute("INSERT INTO pages(source, digest, keywords, t) VALUES (?,?,?,?) ON CONFLICT(source) DO UPDATE SET digest=?, keywords=?, t=?",
-              (src["id"], digest, json.dumps(present), now, digest, json.dumps(present), now))
+              (src["id"], digest, stv, now, digest, stv, now))
     c.commit()
     return out
 
@@ -106,7 +127,7 @@ def rss(c, src):
             continue
         c.execute("INSERT INTO items VALUES (?,?,?,?,?,?,?,?)", (src["id"], link, title, link, "", 0, now, now))
         if not first:
-            out.append(("SOON" if _match(title, src.get("keywords")) and src.get("keywords") else "INFO", title, link, "New post"))
+            out.append(("SOON" if src.get("keywords") and _match(title, src.get("keywords"), src.get("also")) else "INFO", title, link, "New post"))
     c.commit()
     return out
 

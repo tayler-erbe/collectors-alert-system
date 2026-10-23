@@ -31,7 +31,7 @@ def save_sources(d):
 def check(c, src):
     fn = checkers.KINDS[src["kind"]]
     try:
-        found = fn(c, src)
+        found = checkers.gate(src, fn(c, src))
         store.health(c, src["id"])
     except net.Blocked as e:
         store.health(c, src["id"], str(e))

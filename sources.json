@@ -52,10 +52,7 @@
       "url": "https://creations.mattel.com",
       "interval_s": 600,
       "keywords": [
-        "240z",
-        "datsun",
         "hot wheels",
-        "m3",
         "red line club",
         "rlc"
       ],
@@ -68,7 +65,12 @@
           "interval_s": 60
         }
       ],
-      "note": "RLC drops ~every 2 weeks at 9am PT; new RLC product pages usually appear before the drop"
+      "note": "RLC drops ~every 2 weeks at 9am PT; new RLC product pages usually appear before the drop",
+      "_pk_rlc240z": [
+        "240z",
+        "datsun",
+        "m3"
+      ]
     },
     {
       "id": "timex",
@@ -99,10 +101,10 @@
       "url": "https://www.pokemoncenter.com/",
       "interval_s": 300,
       "keywords": [
-        "pre-order",
-        "preorder",
         "coming soon",
-        "exclusive"
+        "exclusive",
+        "pre-order",
+        "preorder"
       ],
       "group": "cards",
       "windows": [
@@ -129,7 +131,8 @@
         "release",
         "set"
       ],
-      "group": "cards"
+      "group": "cards",
+      "phone": false
     },
     {
       "id": "premium-bandai",
@@ -165,11 +168,12 @@
       "url": "https://hasbropulse.com/",
       "interval_s": 900,
       "keywords": [
-        "pre-order",
+        "drop",
         "exclusive",
-        "drop"
+        "pre-order"
       ],
-      "group": "toys"
+      "group": "toys",
+      "phone": false
     },
     {
       "id": "santa-cruz",
@@ -179,11 +183,12 @@
       "interval_s": 1800,
       "keywords": [
         "collab",
-        "pokemon",
         "limited",
+        "pokemon",
         "x santa cruz"
       ],
-      "group": "collectibles"
+      "group": "collectibles",
+      "phone": false
     },
     {
       "id": "shopdisney-queue",
@@ -218,13 +223,14 @@
       "url": "https://www.g-central.com/feed/",
       "interval_s": 900,
       "keywords": [
-        "limited",
         "collab",
-        "release",
-        "pre-order"
+        "limited",
+        "pre-order",
+        "release"
       ],
       "group": "watches",
-      "link": "https://www.g-central.com/"
+      "link": "https://www.g-central.com/",
+      "phone": false
     },
     {
       "id": "resellcalendar",
@@ -233,7 +239,6 @@
       "url": "https://resellcalendar.com/news",
       "interval_s": 1800,
       "keywords": [
-        "240z",
         "bear walker",
         "costco",
         "delta reign",
@@ -241,7 +246,6 @@
         "hot wheels",
         "hyperia",
         "lorcana",
-        "night out",
         "one piece",
         "op-18",
         "panini",
@@ -251,7 +255,14 @@
         "topps",
         "ultra-premium"
       ],
-      "group": "calendars"
+      "group": "calendars",
+      "_pk_rlc240z": [
+        "240z"
+      ],
+      "_pk_nightout": [
+        "night out"
+      ],
+      "phone": false
     },
     {
       "id": "tcgdr-costco",
@@ -273,7 +284,8 @@
         "star wars",
         "ultra-premium"
       ],
-      "group": "big-box"
+      "group": "big-box",
+      "phone": false
     },
     {
       "id": "tcgdr-sams",
@@ -295,7 +307,8 @@
         "star wars",
         "ultra-premium"
       ],
-      "group": "big-box"
+      "group": "big-box",
+      "phone": false
     },
     {
       "id": "tcgdr-target",
@@ -312,7 +325,6 @@
         "hyperia",
         "illumineer",
         "lorcana",
-        "night out",
         "one piece",
         "op-18",
         "pokemon",
@@ -320,7 +332,11 @@
         "star wars",
         "ultra-premium"
       ],
-      "group": "big-box"
+      "group": "big-box",
+      "_pk_nightout": [
+        "night out"
+      ],
+      "phone": false
     },
     {
       "id": "tcgdr-walmart",
@@ -343,7 +359,8 @@
         "star wars",
         "ultra-premium"
       ],
-      "group": "big-box"
+      "group": "big-box",
+      "phone": false
     },
     {
       "id": "tcgdr-bestbuy",
@@ -363,7 +380,8 @@
         "star wars",
         "ultra-premium"
       ],
-      "group": "big-box"
+      "group": "big-box",
+      "phone": false
     },
     {
       "id": "footlocker-releases",
@@ -372,7 +390,8 @@
       "url": "https://www.footlocker.com/release-dates",
       "interval_s": 3600,
       "keywords": [],
-      "group": "sneakers"
+      "group": "sneakers",
+      "phone": false
     },
     {
       "id": "nintendo-merch",
@@ -381,12 +400,13 @@
       "url": "https://www.nintendo.com/us/store/merchandise/",
       "interval_s": 900,
       "keywords": [
-        "limited",
         "exclusive",
-        "pre-order",
-        "new"
+        "limited",
+        "new",
+        "pre-order"
       ],
-      "group": "cards"
+      "group": "cards",
+      "phone": false
     },
     {
       "id": "casio-gshock",
@@ -395,12 +415,13 @@
       "url": "https://gshock.casio.com/us/",
       "interval_s": 900,
       "keywords": [
-        "limited",
-        "collaboration",
         "collab",
+        "collaboration",
+        "limited",
         "new arrival"
       ],
-      "group": "watches"
+      "group": "watches",
+      "phone": false
     },
     {
       "id": "zoomies",
@@ -409,12 +430,13 @@
       "url": "https://zoomies.com/",
       "interval_s": 900,
       "keywords": [
+        "casio",
         "g-shock",
-        "limited",
-        "casio"
+        "limited"
       ],
       "group": "watches",
-      "note": "URL to confirm"
+      "note": "URL to confirm",
+      "phone": false
     },
     {
       "id": "boldr",
@@ -423,10 +445,10 @@
       "url": "https://boldrsupply.com/",
       "interval_s": 1800,
       "keywords": [
+        "drop",
         "limited",
         "pre-order",
-        "presale",
-        "drop"
+        "presale"
       ],
       "group": "watches",
       "note": "Paused 22 Oct 2026: boldrsupply.com never answered. Instagram post notifications are the BOLDR signal.",
@@ -439,17 +461,17 @@
       "url": "https://www.reddit.com/r/PKMNTCGDeals/new/.rss",
       "interval_s": 1800,
       "keywords": [
-        "live",
-        "queue",
-        "restock",
-        "in stock",
-        "drop",
-        "lottery",
+        "available",
         "drawing",
+        "drop",
+        "in stock",
+        "live",
+        "lottery",
         "pre-order",
         "preorder",
-        "available",
-        "raffle"
+        "queue",
+        "raffle",
+        "restock"
       ],
       "group": "community",
       "note": "Paused 22 Oct 2026: Reddit blocks feed reads (403). Turns back on once a Reddit app is registered (before 31 Oct).",
@@ -463,17 +485,17 @@
       "url": "https://www.reddit.com/r/PokemonRestocks/new/.rss",
       "interval_s": 1800,
       "keywords": [
-        "live",
-        "queue",
-        "restock",
-        "in stock",
-        "drop",
-        "lottery",
+        "available",
         "drawing",
+        "drop",
+        "in stock",
+        "live",
+        "lottery",
         "pre-order",
         "preorder",
-        "available",
-        "raffle"
+        "queue",
+        "raffle",
+        "restock"
       ],
       "group": "community",
       "note": "Paused 22 Oct 2026: Reddit blocks feed reads (403). Turns back on once a Reddit app is registered (before 31 Oct).",
@@ -487,17 +509,17 @@
       "url": "https://www.reddit.com/r/LorcanaRestocks/new/.rss",
       "interval_s": 1800,
       "keywords": [
-        "live",
-        "queue",
-        "restock",
-        "in stock",
-        "drop",
-        "lottery",
+        "available",
         "drawing",
+        "drop",
+        "in stock",
+        "live",
+        "lottery",
         "pre-order",
         "preorder",
-        "available",
-        "raffle"
+        "queue",
+        "raffle",
+        "restock"
       ],
       "group": "community",
       "note": "Paused 22 Oct 2026: Reddit blocks feed reads (403). Turns back on once a Reddit app is registered (before 31 Oct).",
@@ -516,7 +538,8 @@
         "rlc"
       ],
       "group": "toys",
-      "link": "https://www.motor1.com/news/"
+      "link": "https://www.motor1.com/news/",
+      "phone": false
     },
     {
       "id": "spinnaker",
@@ -525,14 +548,14 @@
       "url": "https://spinnaker-watches.com",
       "interval_s": 900,
       "keywords": [
-        "limited",
         "collab",
-        "x ",
+        "disney",
+        "dragon ball",
         "edition",
+        "limited",
         "one piece",
         "pokemon",
-        "disney",
-        "dragon ball"
+        "x "
       ],
       "group": "watches"
     },
@@ -549,20 +572,36 @@
         "disney",
         "dragon ball",
         "star wars",
-        "marvel",
-        "naruto",
-        "sanrio",
-        "studio ghibli",
+        "lorcana",
+        "hot wheels",
+        "g-shock",
         "seiko",
-        "citizen",
         "timex",
-        "spinnaker",
+        "citizen",
         "casio",
-        "g-shock"
+        "spinnaker"
       ],
       "group": "collabs",
       "note": "alerts when an anime/brand name or watch brand appears; Charles note #3/#4",
-      "link": "https://hypebeast.com/"
+      "link": "https://hypebeast.com/",
+      "phone": false,
+      "also": [
+        "collab",
+        "collaboration",
+        "limited edition",
+        "limited-edition",
+        "exclusive",
+        "merch",
+        "figure",
+        "watch",
+        "sneaker",
+        "card",
+        "drop",
+        "release",
+        "pre-order",
+        "preorder",
+        "capsule"
+      ]
     },
     {
       "id": "highsnobiety-collabs",
@@ -577,19 +616,35 @@
         "disney",
         "dragon ball",
         "star wars",
-        "marvel",
-        "naruto",
-        "sanrio",
-        "studio ghibli",
+        "lorcana",
+        "hot wheels",
+        "g-shock",
         "seiko",
-        "citizen",
         "timex",
-        "spinnaker",
+        "citizen",
         "casio",
-        "g-shock"
+        "spinnaker"
       ],
       "group": "collabs",
-      "link": "https://www.highsnobiety.com/"
+      "link": "https://www.highsnobiety.com/",
+      "phone": false,
+      "also": [
+        "collab",
+        "collaboration",
+        "limited edition",
+        "limited-edition",
+        "exclusive",
+        "merch",
+        "figure",
+        "watch",
+        "sneaker",
+        "card",
+        "drop",
+        "release",
+        "pre-order",
+        "preorder",
+        "capsule"
+      ]
     },
     {
       "id": "ann-collabs",
@@ -598,16 +653,41 @@
       "url": "https://www.animenewsnetwork.com/all/rss.xml",
       "interval_s": 1800,
       "keywords": [
+        "one piece",
+        "pokemon",
+        "pokémon",
+        "disney",
+        "dragon ball",
+        "star wars",
+        "lorcana",
+        "hot wheels",
+        "g-shock",
+        "seiko",
+        "timex",
+        "citizen",
+        "casio",
+        "spinnaker"
+      ],
+      "group": "collabs",
+      "link": "https://www.animenewsnetwork.com/",
+      "phone": false,
+      "also": [
         "collab",
         "collaboration",
         "limited edition",
+        "limited-edition",
+        "exclusive",
         "merch",
+        "figure",
         "watch",
         "sneaker",
-        "x "
-      ],
-      "group": "collabs",
-      "link": "https://www.animenewsnetwork.com/"
+        "card",
+        "drop",
+        "release",
+        "pre-order",
+        "preorder",
+        "capsule"
+      ]
     },
     {
       "id": "wornandwound",
@@ -616,18 +696,19 @@
       "url": "https://wornandwound.com/feed/",
       "interval_s": 1800,
       "keywords": [
+        "casio",
+        "citizen",
         "collab",
         "collaboration",
+        "g-shock",
         "limited",
         "seiko",
-        "citizen",
-        "timex",
         "spinnaker",
-        "casio",
-        "g-shock"
+        "timex"
       ],
       "group": "watches",
-      "link": "https://wornandwound.com/"
+      "link": "https://wornandwound.com/",
+      "phone": false
     },
     {
       "id": "monochrome",
@@ -641,7 +722,8 @@
         "limited edition"
       ],
       "group": "watches",
-      "link": "https://monochrome-watches.com/"
+      "link": "https://monochrome-watches.com/",
+      "phone": false
     }
   ],
   "reminders": [
@@ -675,28 +757,32 @@
       "days": "Fri",
       "time": "06:45",
       "once_on": "2026-11-06",
-      "text": "Pokémon 30th Celebration Ultra-Premium Collection + Delta Reign ETBs release today (Pokémon Center, Target, Walmart, Best Buy online)"
+      "text": "Pokémon 30th Celebration Ultra-Premium Collection + Delta Reign ETBs release today (Pokémon Center, Target, Walmart, Best Buy online)",
+      "enabled": true
     },
     {
       "id": "lorcana-beast-1113",
       "days": "Fri",
       "time": "06:45",
       "once_on": "2026-11-13",
-      "text": "Lorcana Hyperia City Beast Gift Box ($29.99) releases today"
+      "text": "Lorcana Hyperia City Beast Gift Box ($29.99) releases today",
+      "enabled": true
     },
     {
       "id": "op18-1120",
       "days": "Fri",
       "time": "06:45",
       "once_on": "2026-11-20",
-      "text": "One Piece OP-18 'The Dominance of God' English release today"
+      "text": "One Piece OP-18 'The Dominance of God' English release today",
+      "enabled": true
     },
     {
       "id": "pk-dec-wave-1204",
       "days": "Fri",
       "time": "06:45",
       "once_on": "2026-12-04",
-      "text": "Pokémon Dec wave today: Unova Heavy Hitters Premium Collection, 30th Celebration ex Tins and Binder"
+      "text": "Pokémon Dec wave today: Unova Heavy Hitters Premium Collection, 30th Celebration ex Tins and Binder",
+      "enabled": true
     }
   ],
   "_app_only": "Nike SNKRS, the Nike app drops, Adidas Confirmed, Best Buy drops and Target drawings are app/login based and bot-guarded: keep their app notifications ON; the radar covers them through TCG Drop Radar and calendars."
