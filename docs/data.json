@@ -1,6 +1,15 @@
 {
- "updated": 1792737479.9578063,
+ "updated": 1792740478.1265273,
  "events": [
+  {
+   "t": 1792737505.0411775,
+   "source": "mattel-creations",
+   "level": "INFO",
+   "title": "Little People Collector Gilmore Girls TV Show Special Edition Set",
+   "url": "https://creations.mattel.com/products/little-people-collector-gilmore-girls-tv-show-special-edition-set-jlb18",
+   "detail": "Back in stock / now buyable, $27.00",
+   "source_name": "Mattel Creations"
+  },
   {
    "t": 1792736909.872014,
    "source": "footlocker-releases",
@@ -363,10 +372,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792737406.9900923,
+   "ok": 1792737788.1773105,
    "err_t": null,
    "err": null,
-   "checks": 175
+   "checks": 178
   },
   {
    "id": "medicom",
@@ -377,10 +386,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792737418.8892684,
+   "ok": 1792737796.454209,
    "err_t": null,
    "err": null,
-   "checks": 126
+   "checks": 128
   },
   {
    "id": "bearwalker",
@@ -391,10 +400,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792737449.1245403,
+   "ok": 1792737759.492768,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 324
+   "checks": 329
   },
   {
    "id": "mattel-creations",
@@ -405,10 +414,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792736882.5336926,
+   "ok": 1792737505.0381773,
    "err_t": null,
    "err": null,
-   "checks": 47
+   "checks": 48
   },
   {
    "id": "timex",
@@ -419,10 +428,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736883.0261054,
+   "ok": 1792737751.3031092,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "pokemon-center-news",
@@ -434,9 +443,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792737456.779072,
-   "err": "www.pokemoncenter.com answered 403; backing off 240s",
-   "checks": 80
+   "err_t": 1792737751.60109,
+   "err": "www.pokemoncenter.com answered 403; backing off 480s",
+   "checks": 81
   },
   {
    "id": "lorcana-news",
@@ -447,10 +456,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736884.7210698,
+   "ok": 1792737715.692606,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "premium-bandai",
@@ -461,10 +470,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736885.006592,
+   "ok": 1792737779.6904,
    "err_t": null,
    "err": null,
-   "checks": 48
+   "checks": 49
   },
   {
    "id": "hasbro-pulse",
@@ -503,10 +512,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792737389.1475925,
+   "ok": 1792737767.6439188,
    "err_t": null,
    "err": null,
-   "checks": 176
+   "checks": 179
   },
   {
    "id": "mattel-queue",
@@ -517,10 +526,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792737419.531438,
+   "ok": 1792737789.0901382,
    "err_t": null,
    "err": null,
-   "checks": 122
+   "checks": 124
   },
   {
    "id": "g-central",
@@ -531,10 +540,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736888.1999247,
+   "ok": 1792737796.7624438,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "resellcalendar",
@@ -601,10 +610,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736904.5150917,
+   "ok": 1792737739.4198055,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "tcgdr-bestbuy",
@@ -615,10 +624,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736909.644459,
+   "ok": 1792737797.0720224,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 36
   },
   {
    "id": "footlocker-releases",
@@ -658,9 +667,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792736873.6855369,
+   "err_t": 1792740475.768017,
    "err": "gshock.casio.com answered 403; backing off 3600s",
-   "checks": 33
+   "checks": 34
   },
   {
    "id": "zoomies",
@@ -755,10 +764,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792737411.0127935,
+   "ok": 1792737780.3950167,
    "err_t": null,
    "err": null,
-   "checks": 70
+   "checks": 73
   },
   {
    "id": "hypebeast-collabs",
