@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 OPS = Path("C:/dev/skyrule-fresh/.opencode/ops")
 STATE = ROOT / "data" / "watcher_state.json"
-MAX_PER_DAY = 2
+MAX_PER_DAY = 8   # Tayler 22 Oct 2026: Claude should read and answer Telegram more often
 AGAIN = 75
 
 PROMPT = ("You are the drop-radar agent, working unattended. First read C:/Users/tayle/.claude/agents/drop-radar.md (your role and "
@@ -65,7 +65,7 @@ def main():
         return AGAIN
     jid = f"radar-daily-{dt.datetime.now():%Y%m%dT%H%M}"
     job = [{"id": jid, "title": f"drop-radar: daily review ({'; '.join(reason)})", "lane": "claude", "model": "sonnet",
-            "cwd": str(ROOT).replace("\\", "/"), "priority": 3, "max_attempts": 1, "prompt": PROMPT,
+            "cwd": str(ROOT).replace("\\", "/"), "priority": 9, "max_attempts": 1, "prompt": PROMPT,
             "approved_by": "Founder 22 Oct 2026: notes 'need to be read probably daily ... those issues need to be addressed daily'"}]
     f = ROOT / "data" / f"{jid}.json"
     f.write_text(json.dumps(job), encoding="utf-8")

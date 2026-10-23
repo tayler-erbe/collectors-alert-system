@@ -203,7 +203,7 @@ def telegram_poll(c):
                                    ensure_ascii=False) + "\n")
             n = sum(1 for _ in fb.open(encoding="utf-8"))
             got = f" with {len(files)} attachment{'s' if len(files) > 1 else ''}" if files else ""
-            notify.telegram(f"Got it, saved as note #{n}{got}. Claude works on notes the same day (usually within a few hours). "
+            notify.telegram(f"Got it, saved as note #{n}{got}. Claude replies within about 15-30 minutes. "
                             "(To add a site right away: /add <url>)", chat_id=chat)
             continue
         try:
