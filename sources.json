@@ -262,7 +262,8 @@
       "_pk_nightout": [
         "night out"
       ],
-      "phone": false
+      "phone": false,
+      "enabled": false
     },
     {
       "id": "tcgdr-costco",
@@ -546,7 +547,7 @@
       "name": "Spinnaker watches",
       "kind": "shopify",
       "url": "https://spinnaker-watches.com",
-      "interval_s": 900,
+      "interval_s": 120,
       "keywords": [
         "collab",
         "disney",
