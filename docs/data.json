@@ -1,6 +1,15 @@
 {
- "updated": 1792715177.7354622,
+ "updated": 1792715779.961449,
  "events": [
+  {
+   "t": 1792715305.8302479,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Lamine Yamal and American Eagle Are Bringing a New Generation of Style Beyond the Pitch",
+   "url": "https://hypebeast.com/2026/10/lamine-yamal-american-eagle-football-collaboration-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
   {
    "t": 1792713360.7955267,
    "source": "footlocker-releases",
@@ -138,10 +147,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792715149.6665428,
+   "ok": 1792715649.4025578,
    "err_t": null,
    "err": null,
-   "checks": 57
+   "checks": 61
   },
   {
    "id": "medicom",
@@ -152,10 +161,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792715095.1748714,
+   "ok": 1792715670.8064556,
    "err_t": null,
    "err": null,
-   "checks": 42
+   "checks": 45
   },
   {
    "id": "bearwalker",
@@ -166,10 +175,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792715145.4109359,
+   "ok": 1792715725.011599,
    "err_t": null,
    "err": null,
-   "checks": 99
+   "checks": 108
   },
   {
    "id": "mattel-creations",
@@ -180,10 +189,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792715086.4909806,
+   "ok": 1792715645.3594954,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "timex",
@@ -194,10 +203,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714268.2460268,
+   "ok": 1792715194.5581727,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "pokemon-center-news",
@@ -208,10 +217,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792714894.2609804,
+   "ok": 1792715537.0510352,
    "err_t": 1792707919.588466,
    "err": null,
-   "checks": 27
+   "checks": 29
   },
   {
    "id": "lorcana-news",
@@ -264,10 +273,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792713334.3678973,
+   "ok": 1792715226.0801365,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 11
+   "checks": 12
   },
   {
    "id": "shopdisney-queue",
@@ -278,10 +287,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792715082.1708364,
+   "ok": 1792715679.1171277,
    "err_t": null,
    "err": null,
-   "checks": 56
+   "checks": 61
   },
   {
    "id": "mattel-queue",
@@ -292,10 +301,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792715168.8403833,
+   "ok": 1792715709.3409617,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 44
   },
   {
    "id": "g-central",
@@ -544,10 +553,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714312.9066668,
+   "ok": 1792715305.827248,
    "err_t": null,
    "err": null,
-   "checks": 5
+   "checks": 6
   },
   {
    "id": "highsnobiety-collabs",
@@ -558,10 +567,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792713362.4886343,
+   "ok": 1792715285.9601562,
    "err_t": null,
    "err": null,
-   "checks": 3
+   "checks": 4
   },
   {
    "id": "ann-collabs",
@@ -586,10 +595,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792713363.0009868,
+   "ok": 1792715226.490574,
    "err_t": null,
    "err": null,
-   "checks": 3
+   "checks": 4
   },
   {
    "id": "monochrome",
