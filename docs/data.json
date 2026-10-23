@@ -1,5 +1,5 @@
 {
- "updated": 1792720472.768695,
+ "updated": 1792723471.1708229,
  "events": [
   {
    "t": 1792717131.2002,
@@ -156,10 +156,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792720373.9381747,
+   "ok": 1792720638.2411482,
    "err_t": null,
    "err": null,
-   "checks": 90
+   "checks": 92
   },
   {
    "id": "medicom",
@@ -170,10 +170,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792720401.0666602,
+   "ok": 1792720588.3635664,
    "err_t": null,
    "err": null,
-   "checks": 65
+   "checks": 66
   },
   {
    "id": "bearwalker",
@@ -184,10 +184,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792720441.023517,
+   "ok": 1792720686.0604637,
    "err_t": null,
    "err": null,
-   "checks": 164
+   "checks": 168
   },
   {
    "id": "mattel-creations",
@@ -226,10 +226,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792720162.6698856,
+   "ok": 1792720489.9672244,
    "err_t": 1792707919.588466,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "lorcana-news",
@@ -254,10 +254,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792720452.5288777,
+   "ok": 1792720638.4996738,
    "err_t": null,
    "err": null,
-   "checks": 29
+   "checks": 32
   },
   {
    "id": "hasbro-pulse",
@@ -296,10 +296,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792720384.3809059,
+   "ok": 1792720650.3278508,
    "err_t": null,
    "err": null,
-   "checks": 91
+   "checks": 93
   },
   {
    "id": "mattel-queue",
@@ -310,10 +310,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792720430.4051213,
+   "ok": 1792720601.3995547,
    "err_t": null,
    "err": null,
-   "checks": 64
+   "checks": 65
   },
   {
    "id": "g-central",
@@ -422,10 +422,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792717131.1969883,
+   "ok": 1792720510.7198327,
    "err_t": null,
    "err": null,
-   "checks": 11
+   "checks": 12
   },
   {
    "id": "nintendo-merch",
@@ -451,9 +451,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792719866.5103023,
+   "err_t": 1792723469.8287373,
    "err": "gshock.casio.com answered 403; backing off 3600s",
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "zoomies",
@@ -590,10 +590,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792718564.2542012,
+   "ok": 1792720485.6109238,
    "err_t": null,
    "err": null,
-   "checks": 6
+   "checks": 7
   },
   {
    "id": "wornandwound",
@@ -618,10 +618,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792718742.474373,
+   "ok": 1792720511.0603805,
    "err_t": null,
    "err": null,
-   "checks": 6
+   "checks": 7
   }
  ]
 }
