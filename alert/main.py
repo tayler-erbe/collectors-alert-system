@@ -128,8 +128,11 @@ def handle(cmd, args):
         q = f"{int(m.group(1)):02d}:{m.group(2) or '00'}-{int(m.group(3)):02d}:{m.group(4) or '00'}"
         notify.set_mute_state(quiet=q)
         return f"🌙 Quiet hours set to {q} Pacific: alerts in that window arrive silently."
+    if cmd == "/picks":
+        send_picks(notify.os.environ.get("TELEGRAM_CHAT_ID"))
+        return "Tap to choose, then Save."
     if cmd == "/list":
-        return "\n".join(f"{s['id']}: {s['name']} ({s['kind']}, {s['interval_s'] // 60 or 1} min)" for s in d["sources"])
+        return "\n".join(f"{s['id']}: {s['name']} " + ("(paused)" if s.get("enabled") is False else f"({s['interval_s'] // 60 or 1} min)") for s in d["sources"])
     if cmd == "/status":
         c = store.conn()
         rows = c.execute("SELECT source, ok_t, err FROM health").fetchall()
@@ -137,8 +140,8 @@ def handle(cmd, args):
         return f"{len(rows)} sources checked. " + ("Problems:\n" + "\n".join(bad) if bad else "All fine.")
     return ("Commands:\n/add <url> [keyword ...]  watch a site (use_underscores for multi-word keywords)\n"
             "/remove <id>\n/list\n/status\n/remind <time> <what>   e.g. /remind 9:30 Topps timer (Pacific)\n/reminders\n"
-            "/picks   choose which suggested items to follow
-/mute  /mute 2h  /unmute   silence alerts (they still arrive, no sound)\n/quiet 21-3  /quiet off   nightly quiet hours (Pacific)\n"
+            "/picks   choose which suggested items to follow\n"
+            "/mute  /mute 2h  /unmute   silence alerts (they still arrive, no sound)\n/quiet 21-3  /quiet off   nightly quiet hours (Pacific)\n"
             "Anything else you type or dictate is saved as a note: a site to add, a problem, an idea.")
 
 
@@ -196,19 +199,22 @@ def apply_picks(sel):
     for p in pk["picks"]:
         on = p["id"] in sel
         for s in d["sources"]:
+            key = "_pk_" + p["id"]          # keywords this pick removed from this source, so Save can put exactly those back
             kws = set(s.get("keywords", []))
-            if on and p.get("keywords") and s.get("_pk_" + p["id"]):
-                kws |= set(p["keywords"]); s.pop("_pk_" + p["id"], None)
-            elif not on and kws & set(p.get("keywords", [])):
-                s["_pk_" + p["id"]] = True; kws -= set(p["keywords"])
+            if on and key in s:
+                kws |= set(s.pop(key))
+            elif not on and key not in s:
+                gone = sorted(kws & set(p.get("keywords", [])))
+                if gone:
+                    s[key] = gone
+                    kws -= set(gone)
             s["keywords"] = sorted(kws)
         for r in d.get("reminders", []):
             if r["id"] in p.get("reminders", []):
                 r["enabled"] = on
     save_sources(d)
     with (ROOT / "feedback" / "done.jsonl").open("a", encoding="utf-8") as f:
-        f.write(json.dumps({"t": time.strftime("%Y-%m-%d %H:%M:%S"), "text": "picks selection", "done": "following: " + ", ".join(sel), "at": time.strftime("%Y-%m-%d %H:%M")}, ensure_ascii=False) + "
-")
+        f.write(json.dumps({"t": time.strftime("%Y-%m-%d %H:%M:%S"), "text": "picks selection", "done": "following: " + ", ".join(sel), "at": time.strftime("%Y-%m-%d %H:%M")}, ensure_ascii=False) + "\n")
     chosen = [p["label"] for p in pk["picks"] if p["id"] in sel]
     return chosen
 
@@ -226,8 +232,7 @@ def handle_callback(tok, cq):
     elif k == "*save":
         chosen = apply_picks(sel)
         notify._post(f"https://api.telegram.org/bot{tok}/editMessageText", {"chat_id": chat, "message_id": mid,
-                     "text": "✅ Saved. Following: " + ("; ".join(chosen) or "none of these") + "
-Send /picks to change it any time."}, as_json=True)
+                     "text": "✅ Saved. Following: " + ("; ".join(chosen) or "none of these") + "\nSend /picks to change it any time."}, as_json=True)
         notify._post(f"https://api.telegram.org/bot{tok}/answerCallbackQuery", {"callback_query_id": cq["id"], "text": "Saved"}, as_json=True)
         return
     elif k in ids:
