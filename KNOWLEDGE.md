@@ -111,3 +111,5 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
   - **Market context:** modern sealed Pokemon corrected 20-30% by Q1 2026, and Prismatic Evolutions is about 40-50% off its peak and near MSRP (pokemonpricetracker; a tool seller).
 
 - 22 Oct 2026 (Charles, note #7 "Yes"): he accepted the weekly resale picks offer. Flag file `data/picks_weekly_approved` created; the Monday `radar-picks-*` jobs now run. Daily review health check: all sources fine; only Reddit (403, paused), BOLDR (down, paused) and Casio (403, slow checks) are failing, all known. Zoomies now checks OK.
+
+- 22 Oct 2026 (late) daily review: no open notes (inbox 7, done 7). Health: only Casio (403, slow checks), BOLDR (down, paused) and Reddit x3 (403, paused) fail, all known; no source failing over 24 h that is not already handled. No changes made.
