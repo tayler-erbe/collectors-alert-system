@@ -1,5 +1,5 @@
 {
- "updated": 1792784938.926188,
+ "updated": 1792787364.9680412,
  "events": [
   {
    "t": 1792784937.9140036,
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792784888.888557,
-   "err": "www.pokemoncenter.com answered 403; backing off 60s",
-   "checks": 96
+   "err_t": 1792787363.9252682,
+   "err": "www.pokemoncenter.com answered 403; backing off 3600s",
+   "checks": 97
   },
   {
    "id": "lorcana-news",
