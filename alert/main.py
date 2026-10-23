@@ -137,7 +137,8 @@ def handle(cmd, args):
         return f"{len(rows)} sources checked. " + ("Problems:\n" + "\n".join(bad) if bad else "All fine.")
     return ("Commands:\n/add <url> [keyword ...]  watch a site (use_underscores for multi-word keywords)\n"
             "/remove <id>\n/list\n/status\n/remind <time> <what>   e.g. /remind 9:30 Topps timer (Pacific)\n/reminders\n"
-            "/mute  /mute 2h  /unmute   silence alerts (they still arrive, no sound)\n/quiet 21-3  /quiet off   nightly quiet hours (Pacific)\n"
+            "/picks   choose which suggested items to follow
+/mute  /mute 2h  /unmute   silence alerts (they still arrive, no sound)\n/quiet 21-3  /quiet off   nightly quiet hours (Pacific)\n"
             "Anything else you type or dictate is saved as a note: a site to add, a problem, an idea.")
 
 
@@ -168,6 +169,74 @@ def save_attachments(tok, m):
     return out
 
 
+PICKS = ROOT / "data" / "picks.json"
+
+
+def _picks():
+    return json.loads(PICKS.read_text(encoding="utf-8")) if PICKS.exists() else {"picks": []}
+
+
+def picks_keyboard(sel):
+    rows = [[{"text": ("✅ " if p["id"] in sel else "⬜ ") + p["label"], "callback_data": "pk:" + p["id"]}] for p in _picks()["picks"]]
+    rows.append([{"text": "All", "callback_data": "pk:*all"}, {"text": "None", "callback_data": "pk:*none"}, {"text": "💾 Save", "callback_data": "pk:*save"}])
+    return {"inline_keyboard": rows}
+
+
+def send_picks(chat):
+    sel = [p["id"] for p in _picks()["picks"]]          # everything starts ticked (already on the radar); untick what he doesn't want
+    notify.set_mute_state(picks_sel=sel)
+    tok = notify.os.environ["TELEGRAM_BOT_TOKEN"]
+    notify._post(f"https://api.telegram.org/bot{tok}/sendMessage", {"chat_id": chat, "reply_markup": picks_keyboard(sel),
+                 "text": "🎯 Pick what to follow. Tap to switch on/off, then Save. ✅ = on your radar."}, as_json=True)
+
+
+def apply_picks(sel):
+    """Unticked picks: their keywords and reminders come off the radar. Ticked: put back on if they were removed."""
+    d, pk = load_sources(), _picks()
+    for p in pk["picks"]:
+        on = p["id"] in sel
+        for s in d["sources"]:
+            kws = set(s.get("keywords", []))
+            if on and p.get("keywords") and s.get("_pk_" + p["id"]):
+                kws |= set(p["keywords"]); s.pop("_pk_" + p["id"], None)
+            elif not on and kws & set(p.get("keywords", [])):
+                s["_pk_" + p["id"]] = True; kws -= set(p["keywords"])
+            s["keywords"] = sorted(kws)
+        for r in d.get("reminders", []):
+            if r["id"] in p.get("reminders", []):
+                r["enabled"] = on
+    save_sources(d)
+    with (ROOT / "feedback" / "done.jsonl").open("a", encoding="utf-8") as f:
+        f.write(json.dumps({"t": time.strftime("%Y-%m-%d %H:%M:%S"), "text": "picks selection", "done": "following: " + ", ".join(sel), "at": time.strftime("%Y-%m-%d %H:%M")}, ensure_ascii=False) + "
+")
+    chosen = [p["label"] for p in pk["picks"] if p["id"] in sel]
+    return chosen
+
+
+def handle_callback(tok, cq):
+    data, chat = cq.get("data", ""), str(cq["message"]["chat"]["id"])
+    mid = cq["message"]["message_id"]
+    sel = list(notify.mute_state().get("picks_sel", []))
+    ids = [p["id"] for p in _picks()["picks"]]
+    k = data[3:]
+    if k == "*all":
+        sel = ids
+    elif k == "*none":
+        sel = []
+    elif k == "*save":
+        chosen = apply_picks(sel)
+        notify._post(f"https://api.telegram.org/bot{tok}/editMessageText", {"chat_id": chat, "message_id": mid,
+                     "text": "✅ Saved. Following: " + ("; ".join(chosen) or "none of these") + "
+Send /picks to change it any time."}, as_json=True)
+        notify._post(f"https://api.telegram.org/bot{tok}/answerCallbackQuery", {"callback_query_id": cq["id"], "text": "Saved"}, as_json=True)
+        return
+    elif k in ids:
+        sel = [x for x in sel if x != k] if k in sel else sel + [k]
+    notify.set_mute_state(picks_sel=sel)
+    notify._post(f"https://api.telegram.org/bot{tok}/editMessageReplyMarkup", {"chat_id": chat, "message_id": mid, "reply_markup": picks_keyboard(sel)}, as_json=True)
+    notify._post(f"https://api.telegram.org/bot{tok}/answerCallbackQuery", {"callback_query_id": cq["id"]}, as_json=True)
+
+
 def telegram_poll(c):
     tok = notify.os.environ.get("TELEGRAM_BOT_TOKEN")
     allowed = {x.strip() for x in notify.os.environ.get("TELEGRAM_ALLOWED_CHATS", notify.os.environ.get("TELEGRAM_CHAT_ID", "")).split(",") if x.strip()}
@@ -182,6 +251,14 @@ def telegram_poll(c):
         return
     for u in ups:
         store.kv_set(c, "tg_offset", u["update_id"] + 1)
+        if u.get("callback_query"):
+            cq = u["callback_query"]
+            if str(cq.get("message", {}).get("chat", {}).get("id", "")) in allowed and cq.get("data", "").startswith("pk:"):
+                try:
+                    handle_callback(tok, cq)
+                except Exception as e:
+                    print("picks callback failed", e, flush=True)
+            continue
         m = u.get("message") or {}
         chat = str(m.get("chat", {}).get("id", ""))
         text = (m.get("text") or m.get("caption") or "").strip()
