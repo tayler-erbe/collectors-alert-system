@@ -1,6 +1,15 @@
 {
- "updated": 1792716986.7960923,
+ "updated": 1792717590.676369,
  "events": [
+  {
+   "t": 1792717131.2002,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Page changed",
+   "url": "https://www.footlocker.com/release-dates",
+   "detail": "",
+   "source_name": "Foot Locker release dates"
+  },
   {
    "t": 1792715305.8302479,
    "source": "hypebeast-collabs",
@@ -147,10 +156,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792716915.6259396,
+   "ok": 1792717525.3622146,
    "err_t": null,
    "err": null,
-   "checks": 71
+   "checks": 76
   },
   {
    "id": "medicom",
@@ -161,10 +170,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792716948.4937024,
+   "ok": 1792717500.9661756,
    "err_t": null,
    "err": null,
-   "checks": 52
+   "checks": 55
   },
   {
    "id": "bearwalker",
@@ -175,10 +184,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792716978.4514093,
+   "ok": 1792717556.2103853,
    "err_t": null,
    "err": null,
-   "checks": 128
+   "checks": 137
   },
   {
    "id": "mattel-creations",
@@ -189,10 +198,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792716759.9520729,
+   "ok": 1792717315.6587803,
    "err_t": null,
    "err": null,
-   "checks": 21
+   "checks": 22
   },
   {
    "id": "timex",
@@ -203,10 +212,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792716171.925964,
+   "ok": 1792717113.4127836,
    "err_t": null,
    "err": null,
-   "checks": 16
+   "checks": 17
   },
   {
    "id": "pokemon-center-news",
@@ -217,10 +226,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792716699.8261158,
+   "ok": 1792717300.1669698,
    "err_t": 1792707919.588466,
    "err": null,
-   "checks": 33
+   "checks": 35
   },
   {
    "id": "lorcana-news",
@@ -273,10 +282,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792715226.0801365,
+   "ok": 1792717180.7273834,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 12
+   "checks": 13
   },
   {
    "id": "shopdisney-queue",
@@ -287,10 +296,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792716895.1481102,
+   "ok": 1792717472.6974776,
    "err_t": null,
    "err": null,
-   "checks": 71
+   "checks": 76
   },
   {
    "id": "mattel-queue",
@@ -301,10 +310,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792716814.55727,
+   "ok": 1792717521.3753107,
    "err_t": null,
    "err": null,
-   "checks": 50
+   "checks": 54
   },
   {
    "id": "g-central",
@@ -343,10 +352,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792716064.8475554,
+   "ok": 1792717021.725783,
    "err_t": null,
    "err": null,
-   "checks": 16
+   "checks": 17
   },
   {
    "id": "tcgdr-sams",
@@ -413,10 +422,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792713360.792286,
+   "ok": 1792717131.1969883,
    "err_t": null,
    "err": null,
-   "checks": 10
+   "checks": 11
   },
   {
    "id": "nintendo-merch",
@@ -455,10 +464,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792716149.54168,
+   "ok": 1792717079.8942976,
    "err_t": null,
    "err": null,
-   "checks": 16
+   "checks": 17
   },
   {
    "id": "boldr",
@@ -553,10 +562,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792716133.2083566,
+   "ok": 1792717113.7365572,
    "err_t": null,
    "err": null,
-   "checks": 7
+   "checks": 8
   },
   {
    "id": "highsnobiety-collabs",
@@ -567,10 +576,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792715285.9601562,
+   "ok": 1792717114.1352012,
    "err_t": null,
    "err": null,
-   "checks": 4
+   "checks": 5
   },
   {
    "id": "ann-collabs",
@@ -595,10 +604,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792715226.490574,
+   "ok": 1792717142.2324693,
    "err_t": null,
    "err": null,
-   "checks": 4
+   "checks": 5
   },
   {
    "id": "monochrome",
