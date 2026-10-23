@@ -1,6 +1,96 @@
 {
- "updated": 1792726069.924355,
+ "updated": 1792726363.9293678,
  "events": [
+  {
+   "t": 1792726361.4917734,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Ye Reportedly Plans YEEZY Runway Return at New Los Angeles Flagship",
+   "url": "https://hypebeast.com/2026/10/ye-reportedly-plans-yeezy-runway-return-new-los-angeles-flagship-news",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792726358.5507324,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Page changed",
+   "url": "https://www.footlocker.com/release-dates",
+   "detail": "",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792726353.0723064,
+   "source": "tcgdr-walmart",
+   "level": "SOON",
+   "title": "'30th celebration' just appeared",
+   "url": "https://tcgdropradar.com/retailer/walmart/",
+   "detail": "...ords retailers pok\u00e9mon sets english japanese chase cards artists most expensive 30th celebration one piece palworld tools supplies blog alerts & offers \u2192 best discords retailers pok\u00e9mon sets english j...",
+   "source_name": "TCG Drop Radar: Walmart"
+  },
+  {
+   "t": 1792726349.2363322,
+   "source": "tcgdr-target",
+   "level": "SOON",
+   "title": "'30th celebration' just appeared",
+   "url": "https://tcgdropradar.com/retailer/target/",
+   "detail": "...ords retailers pok\u00e9mon sets english japanese chase cards artists most expensive 30th celebration one piece palworld tools supplies blog alerts & offers \u2192 best discords retailers pok\u00e9mon sets english j...",
+   "source_name": "TCG Drop Radar: Target"
+  },
+  {
+   "t": 1792726348.5957325,
+   "source": "tcgdr-target",
+   "level": "SOON",
+   "title": "30th Celebration ME: 30th Celebration \u00b7 Released September 16, 2026",
+   "url": "https://tcgdropradar.com/set/30th-celebration/",
+   "detail": "New link on the page",
+   "source_name": "TCG Drop Radar: Target"
+  },
+  {
+   "t": 1792726347.7213962,
+   "source": "tcgdr-target",
+   "level": "SOON",
+   "title": "Delta Reign ME06: Delta Reign \u00b7 Released November 6, 2026",
+   "url": "https://tcgdropradar.com/set/delta-reign/",
+   "detail": "New link on the page",
+   "source_name": "TCG Drop Radar: Target"
+  },
+  {
+   "t": 1792726342.5076444,
+   "source": "tcgdr-sams",
+   "level": "SOON",
+   "title": "'30th celebration' just appeared",
+   "url": "https://tcgdropradar.com/retailer/sams-club/",
+   "detail": "...ords retailers pok\u00e9mon sets english japanese chase cards artists most expensive 30th celebration one piece palworld tools supplies blog get alerts \u2192 best discords retailers pok\u00e9mon sets english japane...",
+   "source_name": "TCG Drop Radar: Sam's Club"
+  },
+  {
+   "t": 1792726313.7560623,
+   "source": "lorcana-news",
+   "level": "SOON",
+   "title": "Hyperia City",
+   "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+   "detail": "New link on the page",
+   "source_name": "Disney Lorcana news"
+  },
+  {
+   "t": 1792726293.7872767,
+   "source": "tcgdr-bestbuy",
+   "level": "SOON",
+   "title": "'30th celebration' just appeared",
+   "url": "https://tcgdropradar.com/retailer/best-buy/",
+   "detail": "...ords retailers pok\u00e9mon sets english japanese chase cards artists most expensive 30th celebration one piece palworld tools supplies blog alerts & offers \u2192 best discords retailers pok\u00e9mon sets english j...",
+   "source_name": "TCG Drop Radar: Best Buy"
+  },
+  {
+   "t": 1792726287.73887,
+   "source": "tcgdr-costco",
+   "level": "SOON",
+   "title": "'30th celebration' just appeared",
+   "url": "https://tcgdropradar.com/retailer/costco/",
+   "detail": "...ords retailers pok\u00e9mon sets english japanese chase cards artists most expensive 30th celebration one piece palworld tools supplies blog alerts & offers \u2192 best discords retailers pok\u00e9mon sets english j...",
+   "source_name": "TCG Drop Radar: Costco"
+  },
   {
    "t": 1792725261.4476347,
    "source": "ann-collabs",
@@ -228,10 +318,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792726008.2374527,
+   "ok": 1792726326.467343,
    "err_t": null,
    "err": null,
-   "checks": 108
+   "checks": 112
   },
   {
    "id": "medicom",
@@ -242,10 +332,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792726001.1070468,
+   "ok": 1792726326.752432,
    "err_t": null,
    "err": null,
-   "checks": 78
+   "checks": 81
   },
   {
    "id": "bearwalker",
@@ -256,10 +346,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792726054.2492986,
+   "ok": 1792726328.3169188,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 198
+   "checks": 204
   },
   {
    "id": "mattel-creations",
@@ -270,10 +360,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792725428.307054,
+   "ok": 1792726329.123242,
    "err_t": null,
    "err": null,
-   "checks": 30
+   "checks": 33
   },
   {
    "id": "timex",
@@ -284,10 +374,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725429.2043772,
+   "ok": 1792726329.7370949,
    "err_t": null,
    "err": null,
-   "checks": 24
+   "checks": 27
   },
   {
    "id": "pokemon-center-news",
@@ -298,10 +388,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792726042.650731,
+   "ok": 1792726329.85286,
    "err_t": 1792725429.4072082,
    "err": null,
-   "checks": 49
+   "checks": 51
   },
   {
    "id": "lorcana-news",
@@ -312,10 +402,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725429.5664473,
+   "ok": 1792726330.0175989,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 25
   },
   {
    "id": "premium-bandai",
@@ -326,10 +416,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725429.856154,
+   "ok": 1792726330.3187072,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 36
   },
   {
    "id": "hasbro-pulse",
@@ -340,10 +430,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725430.5945973,
+   "ok": 1792726331.4510558,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 24
   },
   {
    "id": "santa-cruz",
@@ -354,10 +444,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792725430.7085896,
+   "ok": 1792726331.5603278,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 17
+   "checks": 18
   },
   {
    "id": "shopdisney-queue",
@@ -368,10 +458,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792726035.0183818,
+   "ok": 1792726332.5055778,
    "err_t": null,
    "err": null,
-   "checks": 109
+   "checks": 112
   },
   {
    "id": "mattel-queue",
@@ -382,10 +472,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792725981.1469939,
+   "ok": 1792726335.0084956,
    "err_t": null,
    "err": null,
-   "checks": 76
+   "checks": 78
   },
   {
    "id": "g-central",
@@ -396,10 +486,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725433.7307522,
+   "ok": 1792726335.1677566,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 25
   },
   {
    "id": "resellcalendar",
@@ -410,10 +500,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792725435.903946,
+   "ok": 1792726336.9905062,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "tcgdr-costco",
@@ -424,10 +514,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725436.141542,
+   "ok": 1792726337.2425287,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 25
   },
   {
    "id": "tcgdr-sams",
@@ -438,10 +528,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725441.465107,
+   "ok": 1792726342.5046442,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 24
   },
   {
    "id": "tcgdr-target",
@@ -452,10 +542,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725446.9303074,
+   "ok": 1792726347.7173953,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 24
   },
   {
    "id": "tcgdr-walmart",
@@ -466,10 +556,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725452.2099147,
+   "ok": 1792726353.0683057,
    "err_t": null,
    "err": null,
-   "checks": 24
+   "checks": 25
   },
   {
    "id": "tcgdr-bestbuy",
@@ -480,10 +570,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725457.4554296,
+   "ok": 1792726358.3344603,
    "err_t": null,
    "err": null,
-   "checks": 22
+   "checks": 24
   },
   {
    "id": "footlocker-releases",
@@ -494,10 +584,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792725457.6706002,
+   "ok": 1792726358.5487297,
    "err_t": null,
    "err": null,
-   "checks": 15
+   "checks": 16
   },
   {
    "id": "nintendo-merch",
@@ -508,10 +598,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725457.8433917,
+   "ok": 1792726358.7246306,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 24
   },
   {
    "id": "casio-gshock",
@@ -523,9 +613,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792725458.031811,
+   "err_t": 1792726358.8447883,
    "err": "gshock.casio.com answered 403; backing off 60s",
-   "checks": 22
+   "checks": 23
   },
   {
    "id": "zoomies",
@@ -536,10 +626,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725458.290165,
+   "ok": 1792726359.4198415,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 24
   },
   {
    "id": "boldr",
@@ -606,10 +696,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792725458.7724073,
+   "ok": 1792726360.506024,
    "err_t": null,
    "err": null,
-   "checks": 11
+   "checks": 12
   },
   {
    "id": "spinnaker",
@@ -620,10 +710,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725459.384327,
+   "ok": 1792726361.2111073,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "hypebeast-collabs",
@@ -634,10 +724,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792725459.5250359,
+   "ok": 1792726361.475769,
    "err_t": null,
    "err": null,
-   "checks": 13
+   "checks": 14
   },
   {
    "id": "highsnobiety-collabs",
@@ -648,10 +738,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792725459.799128,
+   "ok": 1792726361.83129,
    "err_t": null,
    "err": null,
-   "checks": 9
+   "checks": 10
   },
   {
    "id": "ann-collabs",
@@ -662,10 +752,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792725460.0209327,
+   "ok": 1792726362.0597463,
    "err_t": null,
    "err": null,
-   "checks": 10
+   "checks": 11
   },
   {
    "id": "wornandwound",
@@ -676,10 +766,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792725460.2425878,
+   "ok": 1792726362.3148394,
    "err_t": null,
    "err": null,
-   "checks": 9
+   "checks": 10
   },
   {
    "id": "monochrome",
@@ -690,10 +780,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792725460.4014015,
+   "ok": 1792726363.2090719,
    "err_t": null,
    "err": null,
-   "checks": 10
+   "checks": 11
   }
  ]
 }
