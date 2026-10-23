@@ -1,6 +1,132 @@
 {
- "updated": 1792751300.008824,
+ "updated": 1792754908.5580711,
  "events": [
+  {
+   "t": 1792751496.9849308,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Page changed",
+   "url": "https://www.footlocker.com/release-dates",
+   "detail": "",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792751347.6493623,
+   "source": "monochrome",
+   "level": "INFO",
+   "title": "Introducing \u2013 Fresh Versions of the Frederique Constant Classics Heart Beat Moonphase Date",
+   "url": "https://monochrome-watches.com/fresh-versions-of-the-frederique-constant-classics-heart-beat-moonphase-date-introducing-price/",
+   "detail": "New post",
+   "source_name": "Monochrome Watches (collabs)"
+  },
+  {
+   "t": 1792751347.3014433,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "Sh\u014dya Ishige Joins Cast of Wound & Bandage TV Anime",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-23/shoya-ishige-joins-cast-of-wound-and-bandage-tv-anime/.243137",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
+  {
+   "t": 1792751347.2984395,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "New Pok\u00e9mon x Hatsune Miku Music Video Returns to Games' Roots",
+   "url": "https://www.animenewsnetwork.com/interest/2026-10-23/new-pokemon-x-hatsune-miku-music-video-returns-to-games-roots/.243108",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
+  {
+   "t": 1792751347.085748,
+   "source": "highsnobiety-collabs",
+   "level": "INFO",
+   "title": "The Seven Best adidas Sneaker Releases This Week",
+   "url": "https://www.highsnobiety.com/p/adidas-sneaker-releases-october-week-4/",
+   "detail": "New post",
+   "source_name": "Highsnobiety (collabs)"
+  },
+  {
+   "t": 1792751346.8119845,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Final Screen Tests for Next James Bond Reportedly Underway at Amazon MGM Studios",
+   "url": "https://hypebeast.com/2026/10/next-james-bond-casting-final-screen-tests-callum-turner-jack-lowden-underway-at-amazon-mgm-studios-reports",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792751346.808985,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "The First Fully Authorized Fleetwood Mac Documentary \u2018The Chain\u2019 Is Premiering in 2027",
+   "url": "https://hypebeast.com/2026/10/apple-original-films-fleetwood-mac-the-chain-documentary-announcement-premiere-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792751345.8301504,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "Volvo Blames 'A Very Tough Environment' As It Cuts Another 2,500 Jobs",
+   "url": "https://www.motor1.com/news/813031/volvo-cuts-2500-jobs/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
+  {
+   "t": 1792751345.8271506,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "Porsche Builds A Rare 911 GT3 To Celebrate 75 Years In Britain",
+   "url": "https://www.motor1.com/news/813041/porsche-911-gt3-touring-earls/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
+  {
+   "t": 1792751316.9431322,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Expedition Rugged Core Analog 43mm Resin Strap Watch",
+   "url": "https://www.timex.com/products/expedition-rugged-core-analog-43mm-resin-strap-watch-t49831",
+   "detail": "New product, $87.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792751312.9545927,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "TIMEX TIME MACHINES\u00ae 32mm Fabric Strap Watch",
+   "url": "https://www.timex.com/products/timex-time-machines-32mm-fabric-strap-watch-tw7c12200",
+   "detail": "New product, $49.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792751312.3085198,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Easy Reader Day Date 35mm Expansion Band Watch",
+   "url": "https://www.timex.com/products/easy-reader-day-date-35mm-expansion-band-watch-t2n091",
+   "detail": "New product, $83.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792751308.2362752,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Easy Reader 25mm Bracelet Watch",
+   "url": "https://www.timex.com/products/easy-reader-25mm-bracelet-watch-t2h381",
+   "detail": "New product, $87.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792751307.6045313,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Easy Reader\u00ae 35mm Leather Strap Watch\u00a0",
+   "url": "https://www.timex.com/products/easy-reader-35mm-leather-strap-watch-tw2w95400",
+   "detail": "New product, $77.00, IN STOCK",
+   "source_name": "Timex"
+  },
   {
    "t": 1792747735.312386,
    "source": "hypebeast-collabs",
@@ -2574,42 +2700,6 @@
    "url": "https://bearwalker.com",
    "detail": "A queue just appeared on the site: a drop is starting.",
    "source_name": "Bear Walker (waiting-room watch)"
-  },
-  {
-   "t": 1792708287.0426383,
-   "source": "bearwalker",
-   "level": "INFO",
-   "title": "Waiting room closed",
-   "url": "https://bearwalker.com",
-   "detail": "",
-   "source_name": "Bear Walker (waiting-room watch)"
-  },
-  {
-   "t": 1792708166.7381392,
-   "source": "bearwalker",
-   "level": "LIVE",
-   "title": "Waiting room is UP",
-   "url": "https://bearwalker.com",
-   "detail": "A queue just appeared on the site: a drop is starting.",
-   "source_name": "Bear Walker (waiting-room watch)"
-  },
-  {
-   "t": 1792708100.9062593,
-   "source": "bearwalker",
-   "level": "INFO",
-   "title": "Waiting room closed",
-   "url": "https://bearwalker.com",
-   "detail": "",
-   "source_name": "Bear Walker (waiting-room watch)"
-  },
-  {
-   "t": 1792707006.9589634,
-   "source": "bearwalker",
-   "level": "LIVE",
-   "title": "Waiting room is UP",
-   "url": "https://bearwalker.com",
-   "detail": "A queue just appeared on the site: a drop is starting.",
-   "source_name": "Bear Walker (waiting-room watch)"
   }
  ],
  "sources": [
@@ -2622,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792747938.104766,
+   "ok": 1792751550.2292776,
    "err_t": null,
    "err": null,
-   "checks": 188
+   "checks": 191
   },
   {
    "id": "medicom",
@@ -2636,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792747871.5342844,
+   "ok": 1792751485.2293215,
    "err_t": null,
    "err": null,
-   "checks": 135
+   "checks": 137
   },
   {
    "id": "bearwalker",
@@ -2650,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792747954.9204404,
+   "ok": 1792751610.4619453,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 345
+   "checks": 351
   },
   {
    "id": "mattel-creations",
@@ -2664,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792747705.1016996,
+   "ok": 1792751307.0793726,
    "err_t": null,
    "err": null,
-   "checks": 52
+   "checks": 53
   },
   {
    "id": "timex",
@@ -2678,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747705.6210158,
+   "ok": 1792751307.6015334,
    "err_t": null,
    "err": null,
-   "checks": 44
+   "checks": 45
   },
   {
    "id": "pokemon-center-news",
@@ -2693,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792751299.1248813,
+   "err_t": 1792754907.6432803,
    "err": "www.pokemoncenter.com answered 403; backing off 3600s",
-   "checks": 86
+   "checks": 87
   },
   {
    "id": "lorcana-news",
@@ -2706,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747706.5631578,
+   "ok": 1792751319.6186283,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "premium-bandai",
@@ -2720,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747706.8391685,
+   "ok": 1792751320.2228098,
    "err_t": null,
    "err": null,
-   "checks": 53
+   "checks": 54
   },
   {
    "id": "hasbro-pulse",
@@ -2734,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747707.2807643,
+   "ok": 1792751321.2009695,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "santa-cruz",
@@ -2748,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792747707.4072022,
+   "ok": 1792751321.6582391,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 29
+   "checks": 30
   },
   {
    "id": "shopdisney-queue",
@@ -2762,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792747946.1263075,
+   "ok": 1792751554.8821933,
    "err_t": null,
    "err": null,
-   "checks": 189
+   "checks": 192
   },
   {
    "id": "mattel-queue",
@@ -2776,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792747910.8111534,
+   "ok": 1792751501.4123876,
    "err_t": null,
    "err": null,
-   "checks": 131
+   "checks": 133
   },
   {
    "id": "g-central",
@@ -2790,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747710.9681802,
+   "ok": 1792751323.1065867,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "resellcalendar",
@@ -2818,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747711.3775861,
+   "ok": 1792751323.332602,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "tcgdr-sams",
@@ -2832,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747716.6635115,
+   "ok": 1792751328.519869,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "tcgdr-target",
@@ -2846,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747721.9263756,
+   "ok": 1792751333.8436577,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "tcgdr-walmart",
@@ -2860,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747727.2495468,
+   "ok": 1792751339.1801481,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2874,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747732.6770947,
+   "ok": 1792751344.3760412,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "footlocker-releases",
@@ -2888,10 +2978,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792747733.0300543,
+   "ok": 1792751496.9819303,
    "err_t": null,
    "err": null,
-   "checks": 24
+   "checks": 25
   },
   {
    "id": "nintendo-merch",
@@ -2902,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747733.3535368,
+   "ok": 1792751344.5926015,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "casio-gshock",
@@ -2917,9 +3007,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792747733.469295,
+   "err_t": 1792751344.8283496,
    "err": "gshock.casio.com answered 403; backing off 3600s",
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "zoomies",
@@ -2930,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747733.8261173,
+   "ok": 1792751345.4092805,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "boldr",
@@ -3000,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792747734.2882652,
+   "ok": 1792751345.825151,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 24
   },
   {
    "id": "spinnaker",
@@ -3014,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792747973.1394737,
+   "ok": 1792751581.3639374,
    "err_t": null,
    "err": null,
-   "checks": 82
+   "checks": 85
   },
   {
    "id": "hypebeast-collabs",
@@ -3028,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792747735.298378,
+   "ok": 1792751346.805985,
    "err_t": null,
    "err": null,
-   "checks": 29
+   "checks": 30
   },
   {
    "id": "highsnobiety-collabs",
@@ -3042,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792747735.6622863,
+   "ok": 1792751347.0827475,
    "err_t": null,
    "err": null,
-   "checks": 21
+   "checks": 22
   },
   {
    "id": "ann-collabs",
@@ -3056,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792747735.8603914,
+   "ok": 1792751347.2960265,
    "err_t": null,
    "err": null,
-   "checks": 21
+   "checks": 22
   },
   {
    "id": "wornandwound",
@@ -3070,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792747736.1987035,
+   "ok": 1792751347.5116298,
    "err_t": null,
    "err": null,
-   "checks": 21
+   "checks": 22
   },
   {
    "id": "monochrome",
@@ -3084,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792747737.13276,
+   "ok": 1792751347.6457355,
    "err_t": null,
    "err": null,
-   "checks": 22
+   "checks": 23
   }
  ]
 }
