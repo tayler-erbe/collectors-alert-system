@@ -1,6 +1,15 @@
 {
- "updated": 1792798179.2834933,
+ "updated": 1792798419.065848,
  "events": [
+  {
+   "t": 1792798213.5264487,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Page changed",
+   "url": "https://www.footlocker.com/release-dates",
+   "detail": "",
+   "source_name": "Foot Locker release dates"
+  },
   {
    "t": 1792794700.140658,
    "source": "seiko-usa",
@@ -2691,15 +2700,6 @@
    "url": "https://help.champssports.com/hc/en-us/articles/360047275753-Contact-Us",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.349588,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "New Balance On Sale",
-   "url": "https://www.champssports.com/category/sale.html?query=%3Arelevance%3Acollection_id%3Asale%3Abrand%3ANew+Balance",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792794816.9270515,
+   "ok": 1792798384.0956302,
    "err_t": null,
    "err": null,
-   "checks": 228
+   "checks": 232
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792794773.7804275,
+   "ok": 1792798384.29494,
    "err_t": null,
    "err": null,
-   "checks": 162
+   "checks": 165
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792794824.3337708,
+   "ok": 1792798384.8647668,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 413
+   "checks": 418
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792794580.740242,
+   "ok": 1792798386.1624045,
    "err_t": null,
    "err": null,
-   "checks": 67
+   "checks": 70
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794581.2924144,
+   "ok": 1792798386.6687331,
    "err_t": null,
    "err": null,
-   "checks": 58
+   "checks": 61
   },
   {
    "id": "pokemon-center-news",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792798174.0888927,
-   "err": "www.pokemoncenter.com answered 403; backing off 3600s",
-   "checks": 100
+   "err_t": 1792798386.8357997,
+   "err": "www.pokemoncenter.com answered 403; backing off 60s",
+   "checks": 102
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794582.419911,
+   "ok": 1792798387.0281148,
    "err_t": null,
    "err": null,
-   "checks": 55
+   "checks": 58
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794582.729221,
+   "ok": 1792798387.3144176,
    "err_t": null,
    "err": null,
-   "checks": 67
+   "checks": 70
   },
   {
    "id": "hasbro-pulse",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794583.11505,
+   "ok": 1792798387.866852,
    "err_t": null,
    "err": null,
-   "checks": 53
+   "checks": 56
   },
   {
    "id": "santa-cruz",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792794583.317955,
+   "ok": 1792798387.9759266,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 43
+   "checks": 46
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792794843.8303633,
+   "ok": 1792798388.856879,
    "err_t": null,
    "err": null,
-   "checks": 229
+   "checks": 233
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792794778.1711757,
+   "ok": 1792798391.976484,
    "err_t": null,
    "err": null,
-   "checks": 159
+   "checks": 162
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794586.5804608,
+   "ok": 1792798392.1607995,
    "err_t": null,
    "err": null,
-   "checks": 55
+   "checks": 58
   },
   {
    "id": "resellcalendar",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794586.95639,
+   "ok": 1792798392.429709,
    "err_t": null,
    "err": null,
-   "checks": 54
+   "checks": 57
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794592.161027,
+   "ok": 1792798397.64298,
    "err_t": null,
    "err": null,
-   "checks": 53
+   "checks": 56
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794597.3069956,
+   "ok": 1792798402.800828,
    "err_t": null,
    "err": null,
-   "checks": 53
+   "checks": 56
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794602.5895145,
+   "ok": 1792798407.9369457,
    "err_t": null,
    "err": null,
-   "checks": 54
+   "checks": 57
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794607.9371312,
+   "ok": 1792798413.059077,
    "err_t": null,
    "err": null,
-   "checks": 54
+   "checks": 57
   },
   {
    "id": "footlocker-releases",
@@ -2978,10 +2978,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792791141.8027172,
+   "ok": 1792798413.2790382,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 38
   },
   {
    "id": "nintendo-merch",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794608.1027377,
+   "ok": 1792798413.4171956,
    "err_t": null,
    "err": null,
-   "checks": 54
+   "checks": 57
   },
   {
    "id": "casio-gshock",
@@ -3004,12 +3004,12 @@
    "url": "https://gshock.casio.com/us/",
    "group": "watches",
    "interval_s": 900,
-   "paused": false,
-   "note": "",
+   "paused": true,
+   "note": "Paused 23 Oct 2026: gshock.casio.com answered 403 on every check since 22 Oct. G-Central covers G-Shock limited news.",
    "ok": null,
-   "err_t": 1792794619.7251642,
+   "err_t": 1792798228.3678184,
    "err": "gshock.casio.com answered 403; backing off 3600s",
-   "checks": 50
+   "checks": 51
   },
   {
    "id": "zoomies",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794620.4073,
+   "ok": 1792798413.6229985,
    "err_t": null,
    "err": null,
-   "checks": 52
+   "checks": 55
   },
   {
    "id": "boldr",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792794620.8526347,
+   "ok": 1792798414.0863087,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 40
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792794739.1359313,
+   "ok": 1792798414.288395,
    "err_t": null,
    "err": null,
-   "checks": 117
+   "checks": 120
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792794621.700664,
+   "ok": 1792798414.360949,
    "err_t": null,
    "err": null,
-   "checks": 43
+   "checks": 46
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792794622.0164852,
+   "ok": 1792798414.5860255,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 38
   },
   {
    "id": "ann-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792794622.218754,
+   "ok": 1792798414.764142,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 38
   },
   {
    "id": "wornandwound",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792794622.5630848,
+   "ok": 1792798415.046192,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 38
   },
   {
    "id": "monochrome",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792794622.8123276,
+   "ok": 1792798415.1481934,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 39
   }
  ]
 }

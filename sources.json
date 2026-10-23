@@ -48,7 +48,6 @@
       "url": "https://creations.mattel.com",
       "interval_s": 600,
       "keywords": [
-        "hot wheels",
         "red line club",
         "rlc"
       ],
@@ -61,7 +60,7 @@
           "interval_s": 60
         }
       ],
-      "note": "RLC drops ~every 2 weeks at 9am PT; new RLC product pages usually appear before the drop",
+      "note": "RLC drops ~every 2 weeks at 9am PT; new RLC product pages (tag brand_RLC) usually appear days before the drop. Keywords narrowed to RLC 23 Oct 2026 (F1 flash-sale cars were alerting).",
       "_pk_rlc240z": [
         "240z",
         "datsun",
@@ -413,7 +412,10 @@
         "new arrival"
       ],
       "group": "watches",
-      "phone": false
+      "phone": false,
+      "enabled": false,
+      "note": "Paused 23 Oct 2026: gshock.casio.com answered 403 on every check since 22 Oct. G-Central covers G-Shock limited news.",
+      "link": "https://gshock.casio.com/us/"
     },
     {
       "id": "zoomies",
