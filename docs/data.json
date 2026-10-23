@@ -1,6 +1,15 @@
 {
- "updated": 1792731558.5616317,
+ "updated": 1792732163.7280202,
  "events": [
+  {
+   "t": 1792732019.9371183,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Dame Dash's Life Rights Officially Auctioned Off for $550,000 USD",
+   "url": "https://hypebeast.com/2026/10/dame-dash-life-rights-officially-auctioned-for-550k-usd-news",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
   {
    "t": 1792730508.5707934,
    "source": "ann-collabs",
@@ -345,10 +354,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792731496.6336408,
+   "ok": 1792732119.4736118,
    "err_t": null,
    "err": null,
-   "checks": 156
+   "checks": 161
   },
   {
    "id": "medicom",
@@ -359,10 +368,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792731406.7626257,
+   "ok": 1792732143.3090043,
    "err_t": null,
    "err": null,
-   "checks": 112
+   "checks": 116
   },
   {
    "id": "bearwalker",
@@ -373,10 +382,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792731500.4695656,
+   "ok": 1792732127.451257,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 288
+   "checks": 298
   },
   {
    "id": "mattel-creations",
@@ -387,10 +396,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792731078.668091,
+   "ok": 1792731667.1856704,
    "err_t": null,
    "err": null,
-   "checks": 43
+   "checks": 44
   },
   {
    "id": "timex",
@@ -415,10 +424,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792731283.728158,
+   "ok": 1792731889.8625882,
    "err_t": 1792725429.4072082,
    "err": null,
-   "checks": 70
+   "checks": 72
   },
   {
    "id": "lorcana-news",
@@ -443,10 +452,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792731247.59337,
+   "ok": 1792732069.1322272,
    "err_t": null,
    "err": null,
-   "checks": 44
+   "checks": 45
   },
   {
    "id": "hasbro-pulse",
@@ -457,10 +466,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792731194.3302834,
+   "ok": 1792732162.8430495,
    "err_t": null,
    "err": null,
-   "checks": 32
+   "checks": 33
   },
   {
    "id": "santa-cruz",
@@ -471,10 +480,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792730068.0817862,
+   "ok": 1792731839.1721678,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 23
+   "checks": 24
   },
   {
    "id": "shopdisney-queue",
@@ -485,10 +494,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792731545.8608534,
+   "ok": 1792732041.4022014,
    "err_t": null,
    "err": null,
-   "checks": 158
+   "checks": 162
   },
   {
    "id": "mattel-queue",
@@ -499,10 +508,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792731471.0084283,
+   "ok": 1792732036.8154423,
    "err_t": null,
    "err": null,
-   "checks": 108
+   "checks": 111
   },
   {
    "id": "g-central",
@@ -513,10 +522,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792731279.5236192,
+   "ok": 1792732096.102819,
    "err_t": null,
    "err": null,
-   "checks": 33
+   "checks": 34
   },
   {
    "id": "resellcalendar",
@@ -541,10 +550,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792731210.9084468,
+   "ok": 1792732084.3287454,
    "err_t": null,
    "err": null,
-   "checks": 33
+   "checks": 34
   },
   {
    "id": "tcgdr-sams",
@@ -583,10 +592,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792731139.441387,
+   "ok": 1792732019.6550848,
    "err_t": null,
    "err": null,
-   "checks": 33
+   "checks": 34
   },
   {
    "id": "tcgdr-bestbuy",
@@ -597,10 +606,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792731063.8684938,
+   "ok": 1792731929.2877,
    "err_t": null,
    "err": null,
-   "checks": 32
+   "checks": 33
   },
   {
    "id": "footlocker-releases",
@@ -625,10 +634,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792731260.4176216,
+   "ok": 1792732127.6924279,
    "err_t": null,
    "err": null,
-   "checks": 32
+   "checks": 33
   },
   {
    "id": "casio-gshock",
@@ -723,10 +732,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792730190.965117,
+   "ok": 1792732150.6775193,
    "err_t": null,
    "err": null,
-   "checks": 17
+   "checks": 18
   },
   {
    "id": "spinnaker",
@@ -737,10 +746,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792731458.8293676,
+   "ok": 1792732072.96667,
    "err_t": null,
    "err": null,
-   "checks": 51
+   "checks": 56
   },
   {
    "id": "hypebeast-collabs",
@@ -751,10 +760,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792731139.642687,
+   "ok": 1792732019.9341178,
    "err_t": null,
    "err": null,
-   "checks": 22
+   "checks": 23
   },
   {
    "id": "highsnobiety-collabs",
@@ -793,10 +802,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792730140.1717227,
+   "ok": 1792731952.1028361,
    "err_t": null,
    "err": null,
-   "checks": 15
+   "checks": 16
   },
   {
    "id": "monochrome",
@@ -807,10 +816,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792730091.1187713,
+   "ok": 1792731826.368122,
    "err_t": null,
    "err": null,
-   "checks": 16
+   "checks": 17
   }
  ]
 }
