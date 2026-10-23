@@ -1,5 +1,5 @@
 {
- "updated": 1792714574.0375798,
+ "updated": 1792715177.7354622,
  "events": [
   {
    "t": 1792713360.7955267,
@@ -138,10 +138,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792714527.9637687,
+   "ok": 1792715149.6665428,
    "err_t": null,
    "err": null,
-   "checks": 52
+   "checks": 57
   },
   {
    "id": "medicom",
@@ -152,10 +152,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792714385.2372963,
+   "ok": 1792715095.1748714,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 42
   },
   {
    "id": "bearwalker",
@@ -166,10 +166,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792714520.3831246,
+   "ok": 1792715145.4109359,
    "err_t": null,
    "err": null,
-   "checks": 89
+   "checks": 99
   },
   {
    "id": "mattel-creations",
@@ -180,10 +180,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792714500.370486,
+   "ok": 1792715086.4909806,
    "err_t": null,
    "err": null,
-   "checks": 17
+   "checks": 18
   },
   {
    "id": "timex",
@@ -208,10 +208,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792714250.7305605,
+   "ok": 1792714894.2609804,
    "err_t": 1792707919.588466,
    "err": null,
-   "checks": 25
+   "checks": 27
   },
   {
    "id": "lorcana-news",
@@ -222,10 +222,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714244.7420774,
+   "ok": 1792715068.0324082,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "premium-bandai",
@@ -236,10 +236,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714173.6380868,
+   "ok": 1792715099.7883213,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "hasbro-pulse",
@@ -250,10 +250,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714282.9837832,
+   "ok": 1792715116.4892118,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "santa-cruz",
@@ -278,10 +278,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792714447.5335784,
+   "ok": 1792715082.1708364,
    "err_t": null,
    "err": null,
-   "checks": 51
+   "checks": 56
   },
   {
    "id": "mattel-queue",
@@ -292,10 +292,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792714420.0489225,
+   "ok": 1792715168.8403833,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 41
   },
   {
    "id": "g-central",
@@ -306,10 +306,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714165.647455,
+   "ok": 1792715117.1075802,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "resellcalendar",
@@ -320,10 +320,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792713339.198456,
+   "ok": 1792715062.931142,
    "err_t": null,
    "err": null,
-   "checks": 11
+   "checks": 12
   },
   {
    "id": "tcgdr-costco",
@@ -334,10 +334,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714185.1097035,
+   "ok": 1792715158.5682292,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "tcgdr-sams",
@@ -348,10 +348,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714193.0982296,
+   "ok": 1792715068.3512983,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "tcgdr-target",
@@ -362,10 +362,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714198.3366756,
+   "ok": 1792715107.8818166,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "tcgdr-walmart",
@@ -376,10 +376,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714307.994394,
+   "ok": 1792715164.0829363,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "tcgdr-bestbuy",
@@ -390,10 +390,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714215.8293417,
+   "ok": 1792715140.0341468,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "footlocker-releases",
@@ -418,10 +418,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714224.7058294,
+   "ok": 1792715063.448563,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "casio-gshock",
@@ -433,9 +433,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792714215.9581292,
-   "err": "gshock.casio.com answered 403; backing off 120s",
-   "checks": 14
+   "err_t": 1792715149.9499738,
+   "err": "gshock.casio.com answered 403; backing off 240s",
+   "checks": 15
   },
   {
    "id": "zoomies",
@@ -446,10 +446,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714237.304008,
+   "ok": 1792715176.648614,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "boldr",
@@ -516,10 +516,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792713361.7921362,
+   "ok": 1792715033.93864,
    "err_t": null,
    "err": null,
-   "checks": 4
+   "checks": 5
   },
   {
    "id": "spinnaker",
@@ -530,10 +530,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792714216.9460893,
+   "ok": 1792715050.6547163,
    "err_t": null,
    "err": null,
-   "checks": 5
+   "checks": 6
   },
   {
    "id": "hypebeast-collabs",
@@ -572,10 +572,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792713362.686994,
+   "ok": 1792715087.1972306,
    "err_t": null,
    "err": null,
-   "checks": 3
+   "checks": 4
   },
   {
    "id": "wornandwound",
@@ -600,10 +600,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792713363.2090845,
+   "ok": 1792715150.885851,
    "err_t": null,
    "err": null,
-   "checks": 3
+   "checks": 4
   }
  ]
 }
