@@ -1,5 +1,5 @@
 {
- "updated": 1792798419.065848,
+ "updated": 1792799022.6211855,
  "events": [
   {
    "t": 1792798213.5264487,
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792798384.0956302,
+   "ok": 1792798995.0772326,
    "err_t": null,
    "err": null,
-   "checks": 232
+   "checks": 237
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792798384.29494,
+   "ok": 1792798904.5426104,
    "err_t": null,
    "err": null,
-   "checks": 165
+   "checks": 168
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792798384.8647668,
+   "ok": 1792799006.5647793,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 418
+   "checks": 428
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792798386.1624045,
+   "ok": 1792798953.7474005,
    "err_t": null,
    "err": null,
-   "checks": 70
+   "checks": 71
   },
   {
    "id": "timex",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792798386.8357997,
-   "err": "www.pokemoncenter.com answered 403; backing off 60s",
-   "checks": 102
+   "err_t": 1792798972.4262924,
+   "err": "www.pokemoncenter.com answered 403; backing off 240s",
+   "checks": 104
   },
   {
    "id": "lorcana-news",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792798388.856879,
+   "ok": 1792799014.3896208,
    "err_t": null,
    "err": null,
-   "checks": 233
+   "checks": 238
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792798391.976484,
+   "ok": 1792798923.5163765,
    "err_t": null,
    "err": null,
-   "checks": 162
+   "checks": 165
   },
   {
    "id": "g-central",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792798414.288395,
+   "ok": 1792798898.7721639,
    "err_t": null,
    "err": null,
-   "checks": 120
+   "checks": 124
   },
   {
    "id": "hypebeast-collabs",
