@@ -1,6 +1,42 @@
 {
- "updated": 1792723471.1708229,
+ "updated": 1792724076.88941,
  "events": [
+  {
+   "t": 1792723511.2802522,
+   "source": "ann-collabs",
+   "level": "SOON",
+   "title": "Frequent Ghibli Collaborator Joe Hisaishi Named LA Philharmonic's Composer-in-Residence",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-22/frequent-ghibli-collaborator-joe-hisaishi-named-la-philharmonic-composer-in-residence/.243119",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
+  {
+   "t": 1792723510.8713443,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Aim\u00e9 Leon Dore and Olympiacos F.C. Reunite for Second Collaborative Capsule",
+   "url": "https://hypebeast.com/2026/10/aime-leon-dore-olympiacos-fc-second-collaborative-capsule-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792723510.8693347,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "7-Eleven Drops Trademark Lawsuit Against Nike Over Air Max 95",
+   "url": "https://hypebeast.com/2026/10/7-eleven-drops-trademark-lawsuit-against-nike-air-max-95-news",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792723510.8661697,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Shanghai Grand Opera House Opens With Sn\u00f8hetta\u2019s Sweeping Waterfront Design",
+   "url": "https://hypebeast.com/2026/10/snohetta-shanghai-grand-opera-house-opening-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
   {
    "t": 1792717131.2002,
    "source": "footlocker-releases",
@@ -156,10 +192,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792720638.2411482,
+   "ok": 1792723961.4818852,
    "err_t": null,
    "err": null,
-   "checks": 92
+   "checks": 97
   },
   {
    "id": "medicom",
@@ -170,10 +206,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792720588.3635664,
+   "ok": 1792724024.3527565,
    "err_t": null,
    "err": null,
-   "checks": 66
+   "checks": 70
   },
   {
    "id": "bearwalker",
@@ -185,9 +221,9 @@
    "paused": false,
    "note": "",
    "ok": 1792720686.0604637,
-   "err_t": null,
-   "err": null,
-   "checks": 168
+   "err_t": 1792724020.4020462,
+   "err": "HTTPError: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+   "checks": 177
   },
   {
    "id": "mattel-creations",
@@ -198,10 +234,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792720424.7359772,
+   "ok": 1792723481.1617024,
    "err_t": null,
    "err": null,
-   "checks": 26
+   "checks": 27
   },
   {
    "id": "timex",
@@ -212,10 +248,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719876.5212045,
+   "ok": 1792723481.6510417,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "pokemon-center-news",
@@ -227,9 +263,9 @@
    "paused": false,
    "note": "",
    "ok": 1792720489.9672244,
-   "err_t": 1792707919.588466,
-   "err": null,
-   "checks": 42
+   "err_t": 1792723806.5991123,
+   "err": "www.pokemoncenter.com answered 403; backing off 120s",
+   "checks": 44
   },
   {
    "id": "lorcana-news",
@@ -240,10 +276,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719877.5833042,
+   "ok": 1792723482.1155903,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "premium-bandai",
@@ -254,10 +290,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792720638.4996738,
+   "ok": 1792723482.4370089,
    "err_t": null,
    "err": null,
-   "checks": 32
+   "checks": 33
   },
   {
    "id": "hasbro-pulse",
@@ -268,10 +304,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719878.52508,
+   "ok": 1792723483.158602,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "santa-cruz",
@@ -282,10 +318,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792719878.7386837,
+   "ok": 1792723483.3141515,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "shopdisney-queue",
@@ -296,10 +332,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792720650.3278508,
+   "ok": 1792723973.4759839,
    "err_t": null,
    "err": null,
-   "checks": 93
+   "checks": 98
   },
   {
    "id": "mattel-queue",
@@ -310,10 +346,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792720601.3995547,
+   "ok": 1792724076.3018563,
    "err_t": null,
    "err": null,
-   "checks": 65
+   "checks": 69
   },
   {
    "id": "g-central",
@@ -324,10 +360,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719881.939921,
+   "ok": 1792723486.8731387,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "resellcalendar",
@@ -338,10 +374,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792720178.1305907,
+   "ok": 1792723487.259635,
    "err_t": null,
    "err": null,
-   "checks": 15
+   "checks": 16
   },
   {
    "id": "tcgdr-costco",
@@ -352,10 +388,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719882.6432936,
+   "ok": 1792723487.6221263,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "tcgdr-sams",
@@ -366,10 +402,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719887.889568,
+   "ok": 1792723492.978296,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "tcgdr-target",
@@ -380,10 +416,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719896.011861,
+   "ok": 1792723498.2160814,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "tcgdr-walmart",
@@ -394,10 +430,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719901.441529,
+   "ok": 1792723503.528619,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "tcgdr-bestbuy",
@@ -408,10 +444,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719906.8635406,
+   "ok": 1792723508.853273,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "footlocker-releases",
@@ -422,10 +458,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792720510.7198327,
+   "ok": 1792723779.7619255,
    "err_t": null,
    "err": null,
-   "checks": 12
+   "checks": 13
   },
   {
    "id": "nintendo-merch",
@@ -436,10 +472,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719907.1336248,
+   "ok": 1792723509.1929836,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "casio-gshock",
@@ -464,10 +500,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719908.0406969,
+   "ok": 1792723509.7504313,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "boldr",
@@ -534,10 +570,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792720334.706003,
+   "ok": 1792723510.02732,
    "err_t": null,
    "err": null,
-   "checks": 8
+   "checks": 9
   },
   {
    "id": "spinnaker",
@@ -548,10 +584,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719908.8487854,
+   "ok": 1792723510.6308632,
    "err_t": null,
    "err": null,
-   "checks": 10
+   "checks": 11
   },
   {
    "id": "hypebeast-collabs",
@@ -562,10 +598,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792719909.1119604,
+   "ok": 1792723510.863169,
    "err_t": null,
    "err": null,
-   "checks": 10
+   "checks": 11
   },
   {
    "id": "highsnobiety-collabs",
@@ -576,10 +612,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792719909.427458,
+   "ok": 1792723511.0862787,
    "err_t": null,
    "err": null,
-   "checks": 6
+   "checks": 7
   },
   {
    "id": "ann-collabs",
@@ -590,10 +626,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792720485.6109238,
+   "ok": 1792723511.2772522,
    "err_t": null,
    "err": null,
-   "checks": 7
+   "checks": 8
   },
   {
    "id": "wornandwound",
@@ -604,10 +640,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792719909.6737697,
+   "ok": 1792723516.1193902,
    "err_t": null,
    "err": null,
-   "checks": 6
+   "checks": 7
   },
   {
    "id": "monochrome",
@@ -618,10 +654,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792720511.0603805,
+   "ok": 1792723516.4338975,
    "err_t": null,
    "err": null,
-   "checks": 7
+   "checks": 8
   }
  ]
 }
