@@ -1,6 +1,69 @@
 {
- "updated": 1792744083.7958283,
+ "updated": 1792747698.1702495,
  "events": [
+  {
+   "t": 1792744352.2715232,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Page changed",
+   "url": "https://www.footlocker.com/release-dates",
+   "detail": "",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792744119.6558218,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "Made in Abyss: Mezameru Shinpi Anime Film Reveals 4 Cast Members",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-23/made-in-abyss-mezameru-shinpi-anime-film-reveals-4-cast-members/.243122",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
+  {
+   "t": 1792744119.6538222,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "New Votoms Anime Films' Teaser Reveals Theme Song",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-23/new-votoms-anime-films-teaser-reveals-theme-song/.243123",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
+  {
+   "t": 1792744119.4564376,
+   "source": "highsnobiety-collabs",
+   "level": "INFO",
+   "title": "Nike's Sleek. Lifted Sneaker is Shox-ingly Luxe",
+   "url": "https://www.highsnobiety.com/p/nike-shox-z-burgundy/",
+   "detail": "New post",
+   "source_name": "Highsnobiety (collabs)"
+  },
+  {
+   "t": 1792744119.2695975,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "Toyota's Next Mid-Engined Coupe Is Going Racing This Weekend",
+   "url": "https://www.motor1.com/news/813001/toyota-mid-engined-coupe-photos/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
+  {
+   "t": 1792744119.2675962,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "Audi Q9 Debuts World-First Curved OLED Taillights",
+   "url": "https://www.motor1.com/news/813009/audi-q9-curved-oled-taillights/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
+  {
+   "t": 1792744119.2645972,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "Alfa Romeo Has Had It With Huge Screens Inside Cars, Says They'll Inevitably Become Obsolete",
+   "url": "https://www.motor1.com/news/813012/alfa-romeo-wants-ditch-large-screens/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
   {
    "t": 1792744079.5070126,
    "source": "hypebeast-collabs",
@@ -2496,10 +2559,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792741458.1429043,
+   "ok": 1792744348.308422,
    "err_t": null,
    "err": null,
-   "checks": 182
+   "checks": 185
   },
   {
    "id": "medicom",
@@ -2510,10 +2573,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792741458.8626444,
+   "ok": 1792744269.6537843,
    "err_t": null,
    "err": null,
-   "checks": 131
+   "checks": 133
   },
   {
    "id": "bearwalker",
@@ -2524,10 +2587,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792741459.387459,
+   "ok": 1792744356.413862,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 335
+   "checks": 340
   },
   {
    "id": "mattel-creations",
@@ -2538,10 +2601,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792741459.8339307,
+   "ok": 1792744091.4366457,
    "err_t": null,
    "err": null,
-   "checks": 50
+   "checks": 51
   },
   {
    "id": "timex",
@@ -2552,10 +2615,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792741460.318761,
+   "ok": 1792744091.8905566,
    "err_t": null,
    "err": null,
-   "checks": 42
+   "checks": 43
   },
   {
    "id": "pokemon-center-news",
@@ -2567,9 +2630,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792741452.0934503,
-   "err": "www.pokemoncenter.com answered 503; backing off 1920s",
-   "checks": 83
+   "err_t": 1792747697.2456174,
+   "err": "www.pokemoncenter.com answered 403; backing off 3600s",
+   "checks": 85
   },
   {
    "id": "lorcana-news",
@@ -2580,10 +2643,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792741461.0380764,
+   "ok": 1792744093.9075105,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "premium-bandai",
@@ -2594,10 +2657,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792741461.3282638,
+   "ok": 1792744094.2929487,
    "err_t": null,
    "err": null,
-   "checks": 51
+   "checks": 52
   },
   {
    "id": "hasbro-pulse",
@@ -2608,10 +2671,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740488.132929,
+   "ok": 1792744094.6584415,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "santa-cruz",
@@ -2622,10 +2685,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792740488.2589643,
+   "ok": 1792744094.8360782,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 27
+   "checks": 28
   },
   {
    "id": "shopdisney-queue",
@@ -2636,10 +2699,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792741461.8805501,
+   "ok": 1792744317.9443533,
    "err_t": null,
    "err": null,
-   "checks": 183
+   "checks": 186
   },
   {
    "id": "mattel-queue",
@@ -2650,10 +2713,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792741465.5173988,
+   "ok": 1792744275.0363255,
    "err_t": null,
    "err": null,
-   "checks": 127
+   "checks": 129
   },
   {
    "id": "g-central",
@@ -2664,10 +2727,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792741465.9190881,
+   "ok": 1792744097.2157505,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "resellcalendar",
@@ -2692,10 +2755,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792741466.233312,
+   "ok": 1792744097.404296,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "tcgdr-sams",
@@ -2706,10 +2769,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792741471.5629306,
+   "ok": 1792744102.7381208,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "tcgdr-target",
@@ -2720,10 +2783,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792741476.8798652,
+   "ok": 1792744108.0626957,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "tcgdr-walmart",
@@ -2734,10 +2797,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792740507.6197367,
+   "ok": 1792744113.3887348,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2748,10 +2811,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792741482.3067803,
+   "ok": 1792744118.6110113,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "footlocker-releases",
@@ -2762,10 +2825,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792740714.7257934,
+   "ok": 1792744352.2685235,
    "err_t": null,
    "err": null,
-   "checks": 22
+   "checks": 23
   },
   {
    "id": "nintendo-merch",
@@ -2776,10 +2839,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792741482.7288985,
+   "ok": 1792744118.963495,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "casio-gshock",
@@ -2874,10 +2937,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792740514.277152,
+   "ok": 1792744119.261598,
    "err_t": null,
    "err": null,
-   "checks": 21
+   "checks": 22
   },
   {
    "id": "spinnaker",
@@ -2888,10 +2951,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792744079.2079546,
+   "ok": 1792744329.2646704,
    "err_t": null,
    "err": null,
-   "checks": 77
+   "checks": 79
   },
   {
    "id": "hypebeast-collabs",
@@ -2916,10 +2979,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792740515.424033,
+   "ok": 1792744119.4534373,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "ann-collabs",
@@ -2930,10 +2993,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792740515.6147008,
+   "ok": 1792744119.6498227,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "wornandwound",
@@ -2944,10 +3007,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792740515.8834455,
+   "ok": 1792744119.9457335,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "monochrome",
@@ -2958,10 +3021,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792740516.0460935,
+   "ok": 1792744120.0462275,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   }
  ]
 }
