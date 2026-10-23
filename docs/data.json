@@ -1,5 +1,5 @@
 {
- "updated": 1792728539.8807333,
+ "updated": 1792729143.1630194,
  "events": [
   {
    "t": 1792726723.1327577,
@@ -327,10 +327,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792728505.1154885,
+   "ok": 1792729116.9483538,
    "err_t": null,
    "err": null,
-   "checks": 132
+   "checks": 137
   },
   {
    "id": "medicom",
@@ -341,10 +341,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792728514.289394,
+   "ok": 1792729051.09521,
    "err_t": null,
    "err": null,
-   "checks": 96
+   "checks": 99
   },
   {
    "id": "bearwalker",
@@ -355,10 +355,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792728533.7727904,
+   "ok": 1792729109.6975484,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 241
+   "checks": 250
   },
   {
    "id": "mattel-creations",
@@ -369,10 +369,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792728025.2373602,
+   "ok": 1792728561.0499501,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "timex",
@@ -397,10 +397,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792728537.854576,
+   "ok": 1792728846.3912742,
    "err_t": 1792725429.4072082,
    "err": null,
-   "checks": 61
+   "checks": 62
   },
   {
    "id": "lorcana-news",
@@ -411,10 +411,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792728026.6634536,
+   "ok": 1792728603.798225,
    "err_t": null,
    "err": null,
-   "checks": 29
+   "checks": 30
   },
   {
    "id": "premium-bandai",
@@ -467,10 +467,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792728538.4038875,
+   "ok": 1792729129.703655,
    "err_t": null,
    "err": null,
-   "checks": 133
+   "checks": 138
   },
   {
    "id": "mattel-queue",
@@ -481,10 +481,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792728539.0393577,
+   "ok": 1792729090.7451084,
    "err_t": null,
    "err": null,
-   "checks": 92
+   "checks": 95
   },
   {
    "id": "g-central",
@@ -523,10 +523,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792728031.9491172,
+   "ok": 1792728544.9137971,
    "err_t": null,
    "err": null,
-   "checks": 29
+   "checks": 30
   },
   {
    "id": "tcgdr-sams",
@@ -537,10 +537,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792728037.4978502,
+   "ok": 1792728604.2028584,
    "err_t": null,
    "err": null,
-   "checks": 28
+   "checks": 29
   },
   {
    "id": "tcgdr-target",
@@ -565,10 +565,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792728048.046636,
+   "ok": 1792728588.1693451,
    "err_t": null,
    "err": null,
-   "checks": 29
+   "checks": 30
   },
   {
    "id": "tcgdr-bestbuy",
@@ -622,9 +622,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792728054.1626585,
-   "err": "gshock.casio.com answered 403; backing off 60s",
-   "checks": 27
+   "err_t": 1792728595.3941505,
+   "err": "gshock.casio.com answered 403; backing off 240s",
+   "checks": 28
   },
   {
    "id": "zoomies",
@@ -719,10 +719,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792728450.384373,
+   "ok": 1792729046.701998,
    "err_t": null,
    "err": null,
-   "checks": 26
+   "checks": 31
   },
   {
    "id": "hypebeast-collabs",
@@ -761,10 +761,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792728056.1702638,
+   "ok": 1792728549.5213954,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "wornandwound",
