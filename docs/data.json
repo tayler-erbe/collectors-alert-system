@@ -1,6 +1,2112 @@
 {
- "updated": 1792740478.1265273,
+ "updated": 1792741453.0219252,
  "events": [
+  {
+   "t": 1792740715.4315882,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Accessibility Statement",
+   "url": "https://www.champssports.com/accessibility-statement",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.429588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Privacy Statement",
+   "url": "https://help.champssports.com/hc/en-us/articles/360034671454-Privacy-Statement",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.426588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Terms of Use",
+   "url": "https://help.champssports.com/hc/en-us/articles/360035191633-Terms-of-Use",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.424588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Fit Guarantee",
+   "url": "https://www.champssports.com/fit.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.4215882,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Run Club",
+   "url": "https://www.champssports.com/run-club.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.419588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Find A Store",
+   "url": "https://stores.champssports.com/",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.416588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Launch 101",
+   "url": "https://www.champssports.com/launch101",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.4135892,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Klarna",
+   "url": "https://www.champssports.com/klarna.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.4105885,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Coupons",
+   "url": "https://www.champssports.com/coupons",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.4075878,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Text Sign Up",
+   "url": "https://www.champssports.com/text-sign-up/sign-up-page",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.405588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Mobile App",
+   "url": "https://www.champssports.com/app.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.402588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Gift Card Balance",
+   "url": "https://www.champssports.com/giftcards/checkbalance.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.399588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Email Gift Cards",
+   "url": "https://www.champssports.com/product/champs-sports-e-mail-gift-card/ECARD20.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3975883,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Products Sitemap 4",
+   "url": "https://www.champssports.com/products-sitemap-4.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.394588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Products Sitemap 3",
+   "url": "https://www.champssports.com/products-sitemap-3.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3925881,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Products Sitemap 2",
+   "url": "https://www.champssports.com/products-sitemap-2.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.389588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Products Sitemap 1",
+   "url": "https://www.champssports.com/products-sitemap.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3865879,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Sitemap",
+   "url": "https://www.champssports.com/sitemap.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.383588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Affiliates",
+   "url": "https://www.champssports.com/affiliates.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3805892,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Help",
+   "url": "https://help.champssports.com/hc/en-us",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3625903,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Returns-Exchanges",
+   "url": "https://help.champssports.com/hc/en-us/categories/360002217553",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.359588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Store Pickup",
+   "url": "https://www.champssports.com/help/store-pickup",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.357588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shipping Info",
+   "url": "https://help.champssports.com/hc/en-us/categories/360002217513",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3545878,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Order Status",
+   "url": "https://www.champssports.com/order/search",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3525882,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Contact Us",
+   "url": "https://help.champssports.com/hc/en-us/articles/360047275753-Contact-Us",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.349588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "New Balance On Sale",
+   "url": "https://www.champssports.com/category/sale.html?query=%3Arelevance%3Acollection_id%3Asale%3Abrand%3ANew+Balance",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3465884,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "adidas On Sale",
+   "url": "https://www.champssports.com/category/sale.html?query=%3Arelevance%3Acollection_id%3Asale%3Abrand%3Aadidas",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3445878,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jordan On Sale",
+   "url": "https://www.champssports.com/category/sale.html?query=%3Arelevance%3Acollection_id%3Asale%3Abrand%3AJordan",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.341588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Nike On Sale",
+   "url": "https://www.champssports.com/category/sale.html?query=%3Arelevance%3Acollection_id%3Asale%3Abrand%3ANike",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.338588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Backpacks & Bags",
+   "url": "https://www.champssports.com/category/sale/accessories/backpacks-and-bags.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3365877,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Socks",
+   "url": "https://www.champssports.com/category/sale/accessories/socks.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3335881,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Hats",
+   "url": "https://www.champssports.com/category/sale/accessories/hats.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3315907,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shop All",
+   "url": "https://www.champssports.com/category/sale/accessories.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3285882,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Pants",
+   "url": "https://www.champssports.com/category/sale/clothing/pants.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.326588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Hoodies",
+   "url": "https://www.champssports.com/category/sale/clothing/hoodies.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3235881,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shorts",
+   "url": "https://www.champssports.com/category/sale/clothing/shorts.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3205879,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "T-Shirts",
+   "url": "https://www.champssports.com/category/sale/clothing/t-shirts.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.318588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shop All",
+   "url": "https://www.champssports.com/category/sale/clothing.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.315588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Basketball",
+   "url": "https://www.champssports.com/category/sport/basketball/sale/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.31359,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Running",
+   "url": "https://www.champssports.com/category/sport/running/sale/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.310588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Lifestyle",
+   "url": "https://www.champssports.com/category/sale/shoes/casual.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3075879,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shop All",
+   "url": "https://www.champssports.com/category/sale/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.3055882,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Under $100",
+   "url": "https://www.champssports.com/category/sale/under-99.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.303588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Under $50",
+   "url": "https://www.champssports.com/category/sale/under-49.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.300588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Discount Eligible",
+   "url": "https://www.champssports.com/category/greatdeals.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2975895,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Girls'",
+   "url": "https://www.champssports.com/category/sale/girls.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.29559,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Boys'",
+   "url": "https://www.champssports.com/category/sale/boys.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2925882,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "FLX Rewards",
+   "url": "https://www.champssports.com/flx.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.29059,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Fan Shop Sale",
+   "url": "https://www.champssports.com/category/fan-shop/sale.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2875881,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Accessories",
+   "url": "https://www.footlocker.com/category/fan-shop/accessories.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2845883,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Clothing",
+   "url": "https://www.footlocker.com/category/fan-shop/clothing.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2815883,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "New Arrivals",
+   "url": "https://www.footlocker.com/category/fan-shop/new-arrivals.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2795877,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Headwear Shop",
+   "url": "https://www.footlocker.com/category/fan-shop/headwear.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2765877,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jersey Shop",
+   "url": "https://www.footlocker.com/category/fan-shop/jerseys.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.274588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "47 Brand",
+   "url": "https://www.footlocker.com/category/fan-shop/47-brand.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.271588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Pro Standard",
+   "url": "https://www.footlocker.com/category/fan-shop/pro-standard.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2685883,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Mitchell & Ness",
+   "url": "https://www.footlocker.com/category/fan-shop/mitchell-ness.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2408304,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "New Era",
+   "url": "https://www.footlocker.com/category/fan-shop/new-era.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.2378309,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "adidas",
+   "url": "https://www.footlocker.com/category/fan-shop/adidas.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.207828,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jordan",
+   "url": "https://www.footlocker.com/category/fan-shop/jordan.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.20583,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Nike",
+   "url": "https://www.footlocker.com/category/fan-shop/nike.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1663198,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "NCAA",
+   "url": "https://www.footlocker.com/category/fan-shop/ncaa.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.163322,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "\u26bd Soccer",
+   "url": "https://www.footlocker.com/category/fan-shop/all-soccer.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1603198,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "\ud83c\udfd2 NHL",
+   "url": "https://www.footlocker.com/category/fan-shop/nhl.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.15832,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "\u26be MLB",
+   "url": "https://www.footlocker.com/category/fan-shop/mlb.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1553197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "\ud83c\udfc8 NFL",
+   "url": "https://www.footlocker.com/category/fan-shop/nfl.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1533198,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shop All Brands",
+   "url": "https://www.champssports.com/brands",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1503196,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Socks",
+   "url": "https://www.champssports.com/category/accessories/socks.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.14832,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Nike Tech Fleece",
+   "url": "https://www.champssports.com/en/category/brands/nike/clothing/nike-tech.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1453197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jerseys",
+   "url": "https://www.champssports.com/category/fan-shop/jerseys.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1433198,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Sale",
+   "url": "https://www.champssports.com/en/category/sale/clothing.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1403196,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Windwear",
+   "url": "https://www.champssports.com/category/clothing/windwear",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1383197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Activewear",
+   "url": "https://www.champssports.com/category/brands/csg/csg-active.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1353197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Fan Shop Clothing",
+   "url": "https://www.champssports.com/category/fan-shop/clothing.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1333196,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Fleece",
+   "url": "https://www.champssports.com/category/clothing/fleece",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1303198,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "XX-Large",
+   "url": "https://www.champssports.com/en/category/mens/clothing/size/xx-large.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1283195,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "X-Large",
+   "url": "https://www.champssports.com/en/category/mens/clothing/size/x-large.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.12532,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Large",
+   "url": "https://www.champssports.com/en/category/mens/clothing/size/large.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1223197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Medium",
+   "url": "https://www.champssports.com/en/category/mens/clothing/size/medium.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1193202,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Small",
+   "url": "https://www.champssports.com/en/category/mens/clothing/size/small.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1173193,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "X-Small",
+   "url": "https://www.champssports.com/en/category/mens/clothing/size/x-small.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1143215,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Long Sleeve Shirts",
+   "url": "https://www.champssports.com/category/clothing/t-shirts/long-sleeve",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.11232,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Short Sleeve Shirts",
+   "url": "https://www.champssports.com/category/clothing/t-shirts/short-sleeve",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1093197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "All Clothing",
+   "url": "https://www.champssports.com/category/clothing.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1073198,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "New Balance",
+   "url": "https://www.champssports.com/category/kids/shoes/new-balance.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.1043198,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jordan",
+   "url": "https://www.champssports.com/category/kids/jordan.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.10232,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Nike",
+   "url": "https://www.champssports.com/category/kids/shoes/nike.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0993202,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jersey Shop",
+   "url": "https://www.champssports.com/category/fan-shop/jerseys/kids.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0973213,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Slip-On, Elastic & Velcro",
+   "url": "https://www.champssports.com/category/kids/shoes/slip-on.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0953202,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Best Sellers",
+   "url": "https://www.champssports.com/category/kids/best-seller.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.09232,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shoes Under $50",
+   "url": "https://www.champssports.com/category/kids/shoes/under-50.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0893197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jordan Retro",
+   "url": "https://www.champssports.com/category/kids/shoes/jordan/retro.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.08732,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "New Arrivals",
+   "url": "https://www.champssports.com/category/new-arrivals/kids.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.08432,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Kids' Sale",
+   "url": "https://www.champssports.com/en/category/sale/kids.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0823221,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Sandals/Slides",
+   "url": "https://www.champssports.com/category/kids/shoes/sandals.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0793197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Boots",
+   "url": "https://www.champssports.com/category/kids/shoes/boots.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0763197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Basketball",
+   "url": "https://www.champssports.com/category/sport/basketball/kids/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.07332,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Lifestyle",
+   "url": "https://www.champssports.com/category/kids/shoes/casual.htm",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.07132,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "All Kids' Shoes",
+   "url": "https://www.champssports.com/category/kids/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0683198,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Girls'",
+   "url": "https://www.champssports.com/category/girls.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0663197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Boys'",
+   "url": "https://www.champssports.com/category/boys.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0643218,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "10.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-10-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0613196,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "9.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-9-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.059321,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "8.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-8-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.05632,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "7.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-7-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0543206,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "6.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-6-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0513198,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "5.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-5-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0493197,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "4.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-4-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.04632,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "3.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-3-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.043588,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "2.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-2-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0420854,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "1.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-1-infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0390851,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Infant & Toddler Sizes",
+   "url": "https://www.champssports.com/category/kids/shoes/infant-toddler.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0370848,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "3.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-3-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.034085,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "2.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-2-5-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.032085,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "2.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-2-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.029085,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "1.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-1-5-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.027082,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "1.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-1-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0240803,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "13.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-13-5-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0210798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "13.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-13-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0190802,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "12.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-12-5-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0160797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "12.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-12-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0130801,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "11.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-11-5-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.01108,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "11.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-11-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0080798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "10.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-10-5-pre-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0060813,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Pre-School Sizes",
+   "url": "https://www.champssports.com/category/kids/shoes/little-kids.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.00308,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "7.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-7-grade-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740715.0000799,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "6.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-6-5-grade-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9970813,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "6.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-6-grade-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9950798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "5.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-5-5-grade-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.99208,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "5.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-5-grade-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9900796,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "4.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-4-5-grade-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9870796,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "4.0",
+   "url": "https://www.champssports.com/category/kids/shoes/size-4-grade-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9840798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "3.5",
+   "url": "https://www.champssports.com/category/kids/shoes/size-3-5-grade-school.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9820821,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Grade School Sizes",
+   "url": "https://www.champssports.com/category/kids/shoes/big-kids.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9790812,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Women's",
+   "url": "https://www.champssports.com/category/sale/womens.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9770837,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Best Sellers",
+   "url": "https://www.champssports.com/category/collection/best-sellers.html?query=%3Arelevance%3Acollection_id%3Abest-seller%3Agender%3AWomen%27s",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.97408,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "New Arrivals",
+   "url": "https://www.champssports.com/category/new-arrivals.html?query=%3AnewArrivals%3Acollection_id%3Anew-arrivals%3Agender%3AWomen%27s",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9720798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Backpacks & Bags",
+   "url": "https://www.champssports.com/category/accessories/women-s-bags.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.96908,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Socks",
+   "url": "https://www.champssports.com/category/womens/accessories/socks.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.96608,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Hats & Headwear",
+   "url": "https://www.champssports.com/en/category/womens/accessories/hats.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9640815,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "All Women's Clothing",
+   "url": "https://www.champssports.com/category/womens/clothing.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9610803,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "All Women's Accessories",
+   "url": "https://www.champssports.com/category/womens/accessories.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.95808,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "12.0",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-12-0.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.95508,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "11.0",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-11-0.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9530797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "10.5",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-10-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9500797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "10.0",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-10-0..html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9480798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "9.5",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-9-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9450798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "9.0",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-09-0.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9420795,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "8.5",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-08-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9400797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "8.0",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-08-0.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9370801,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "7.5",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-7-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9340806,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "7.0",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-7-0.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9320798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "6.5",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-6-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9290798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "6.0",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-6-0.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.92608,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "5.5",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-5-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.92308,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "5.0",
+   "url": "https://www.champssports.com/category/womens/shoes/women-s-size-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9210799,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "\ud83c\udf42 Trending Fall Styles",
+   "url": "https://www.champssports.com/category/collection/complete-the-look/fall-essentials/womens.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9180799,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Mary Jane & Ballet",
+   "url": "https://www.champssports.com/category/collection/flats.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9150813,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Sandals/Slides",
+   "url": "https://www.champssports.com/category/womens/slides.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.91208,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Boots",
+   "url": "https://www.champssports.com/category/womens/shoes/boots.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9090803,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Basketball",
+   "url": "https://www.champssports.com/category/sport/basketball/womens/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9070797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Running",
+   "url": "https://www.champssports.com/category/sport/running/womens.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9040797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shoes",
+   "url": "https://www.champssports.com/category/womens/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.9020805,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Men's",
+   "url": "https://www.champssports.com/category/sale/mens.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8990796,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Fan Shop",
+   "url": "https://www.champssports.com/category/fan-shop.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.89608,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "CSG Under $25",
+   "url": "https://www.champssports.com/category/mens/csg.html?query=mens+csg%3Arelevance%3Aprice%3A%22-inf%22-%2225%22",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8940797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Cold Weather Essentials",
+   "url": "https://www.champssports.com/category/collection/complete-the-look/winter-essentials.html?query=%3Arelevance%3Acollection_id%3Awinter-essentials%3Agender%3AMen%27s",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8910797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Performance Basketball",
+   "url": "https://www.champssports.com/category/sport/basketball/shoes/performance/mens.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8880796,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jordan Retros",
+   "url": "https://www.champssports.com/category/brands/jordan/retro.html?query=jordan+retro%3Arelevance%3Agender%3AMen%27s",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8850799,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Nike Tech Fleece",
+   "url": "https://www.champssports.com/category/clothing/nike/tech-fleece.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.88208,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Hats",
+   "url": "https://www.champssports.com/category/mens/accessories/hats.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8790796,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "New Arrivals",
+   "url": "https://www.champssports.com/category/new-arrivals/mens.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8770797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Socks",
+   "url": "https://www.champssports.com/category/mens/accessories/socks.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.87408,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shorts",
+   "url": "https://www.champssports.com/category/mens/clothing/shorts.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8710797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Tees & T-Shirts",
+   "url": "https://www.champssports.com/category/mens/clothing/t-shirts.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8680801,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jackets",
+   "url": "https://www.champssports.com/category/mens/clothing/jackets.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.865081,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Pants & Sweatpants",
+   "url": "https://www.champssports.com/category/mens/clothing/pants.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8620799,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Hoodies & Sweatshirts",
+   "url": "https://www.champssports.com/category/mens/clothing/hoodies.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8600798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jerseys",
+   "url": "https://www.champssports.com/category/fan-shop/jerseys.html?query=%3Arelevance%3Acollection_id%3Ajerseys%3Agender%3AMen%27s",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.85708,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "All Men's Accessories",
+   "url": "https://www.champssports.com/en/category/mens/accessories.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8550797,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Clothing",
+   "url": "https://www.champssports.com/category/mens/clothing.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.85208,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Clothing & Accessories",
+   "url": "https://www.champssports.com/category/mens.html?query=%3Arelevance%3Acollection_id%3Aall-men-s%3AproductType%3AClothing%3AproductType%3AAccessories",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.849081,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "18.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-18.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8460798,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "17.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-17.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8423007,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "16.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-16.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8407974,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "15.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-15.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8377979,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "14.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-14.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8347979,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "13.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-13-0.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8317986,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "12.5",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-12-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8287976,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "12.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-12.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8267949,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "11.5",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-11-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8227928,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "11.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-11.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8207927,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "10.5",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-10-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8177931,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "10.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-10-0.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.814794,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "9.5",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-9-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8117926,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "9.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-9-0.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8087928,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "8.5",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-8-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.805793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "8.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-8.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.8027933,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "7.5",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-7-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7997932,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "7.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-7.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.797793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "6.5",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-6-5.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7947927,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "6.0",
+   "url": "https://www.champssports.com/category/mens/shoes/men-s-size-6.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7927935,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Cleats",
+   "url": "https://www.champssports.com/category/shoes/cleats/mens.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.789793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "All Black Shoes",
+   "url": "https://www.champssports.com/category/shoes/triple-black.html?query=%3Arelevance%3Acollection_id%3Atriple-black-shoes%3Agender%3AMen%27s",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.786794,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "All White Shoes",
+   "url": "https://www.champssports.com/category/shoes/triple-white.html?query=%3Arelevance%3Acollection_id%3Awhite-shoes%3Agender%3AMen%27s",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7847927,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Sandals/Slides",
+   "url": "https://www.champssports.com/category/mens/shoes/sandals.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.781793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Boots",
+   "url": "https://www.champssports.com/category/mens/shoes/boots.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7797928,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Basketball",
+   "url": "https://www.champssports.com/category/sport/basketball/mens/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7767925,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Performance Running",
+   "url": "https://www.champssports.com/category/sport/running/shoes/performance/mens.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.773793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Lifestyle",
+   "url": "https://www.champssports.com/category/sport/casual/mens/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.771793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Shoes",
+   "url": "https://www.champssports.com/category/mens/shoes.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7687929,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "\u2744\ufe0f Cold Weather Fan Shop",
+   "url": "https://www.footlocker.com/category/fan-shop/cold-weather.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.766793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Pants",
+   "url": "https://www.footlocker.com/category/clothing/pants.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7637947,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jackets & Outerwear",
+   "url": "https://www.footlocker.com/category/clothing/jackets.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7597928,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Boots",
+   "url": "https://www.footlocker.com/category/shoes/boots.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7577934,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Fleece",
+   "url": "https://www.footlocker.com/category/clothing/fleece.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7537928,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Fall Essentials",
+   "url": "https://www.footlocker.com/category/collection/complete-the-look/fall-essentials.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7507932,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Black & White Footwear",
+   "url": "https://www.footlocker.com/category/shoes/black-white.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.748793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Throwbacks",
+   "url": "https://www.footlocker.com/category/collection/throwback.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7457929,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Low Profile",
+   "url": "https://www.footlocker.com/category/collection/low-profile.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7427948,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "All Fan Shop",
+   "url": "https://www.footlocker.com/category/fan-shop.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.739793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "\ud83d\udc5f On Running",
+   "url": "https://www.champssports.com/category/brands/on.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7367928,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Head-To-Toe Looks",
+   "url": "https://www.footlocker.com/category/collection/head-to-toe-looks.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.733793,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Nike Air Max",
+   "url": "https://www.footlocker.com/category/brands/nike/air-max.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7317946,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Run Club Shop",
+   "url": "https://www.footlocker.com/category/sport/running/shoes/performance.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740714.7287927,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Jordan Retro",
+   "url": "https://www.footlocker.com/category/brands/jordan/retro.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792740516.0490935,
+   "source": "monochrome",
+   "level": "INFO",
+   "title": "Introducing \u2013 Chinese Brand Atelier Mephalie Launches its Minute Repeater Collection, Priced to a Tenth of What Europe Does\u2026",
+   "url": "https://monochrome-watches.com/introducing-chinese-brand-atelier-mephalie-launches-its-minute-repeater-collection-priced-to-a-tenth-of-what-europe-does/",
+   "detail": "New post",
+   "source_name": "Monochrome Watches (collabs)"
+  },
+  {
+   "t": 1792740515.135964,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Doechii Detonates in the Desert for New 'Swamp Sessions' Video \"CATWOMAN\"",
+   "url": "https://hypebeast.com/2026/10/doechii-new-swamp-sessions-video-catwoman-released",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792740515.1339636,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "ThruDark and Musto Unite for the Technical \u201cNautikos\u201d Offshore Collection",
+   "url": "https://hypebeast.com/2026/10/thrudark-musto-collection-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792740515.1309645,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "A-POC ABLE ISSEY MIYAKE x JAXA Turn Satellite Shots of Antarctic Ice Into \u201cTYPE-XVII\u201d Jeans",
+   "url": "https://hypebeast.com/2026/10/a-poc-able-issey-miyake-jaxa-type-xvii-jeans-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792740515.1289635,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Devialet Unveils the Phantom Ultimate 98 dB \"Pulse Blue\" Collector's Edition Speaker",
+   "url": "https://hypebeast.com/2026/10/devialet-phantom-ultimate-98-dbpulse-blue-release",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792740515.1259637,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "JUUN.J Releases Fall/Winter 2026 Campaign",
+   "url": "https://hypebeast.com/2026/10/juun-j-2026-fw-campaign-release",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792740514.2831833,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "Subaru Teases A New Manual WRX, But Only For Japan",
+   "url": "https://www.motor1.com/news/812991/2027-subaru-wrx-manual-teaser/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
+  {
+   "t": 1792740514.2796566,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "Volvo, Mercedes And VW Turn To Nvidia For European Self-Driving Push",
+   "url": "https://www.motor1.com/news/812999/nvidia-hyperion-european-autonomy-programs/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
   {
    "t": 1792737505.0411775,
    "source": "mattel-creations",
@@ -372,10 +2478,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792737788.1773105,
+   "ok": 1792740726.5648007,
    "err_t": null,
    "err": null,
-   "checks": 178
+   "checks": 181
   },
   {
    "id": "medicom",
@@ -386,10 +2492,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792737796.454209,
+   "ok": 1792740676.1121292,
    "err_t": null,
    "err": null,
-   "checks": 128
+   "checks": 130
   },
   {
    "id": "bearwalker",
@@ -400,10 +2506,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792737759.492768,
+   "ok": 1792740750.240992,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 329
+   "checks": 334
   },
   {
    "id": "mattel-creations",
@@ -414,10 +2520,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792737505.0381773,
+   "ok": 1792740485.8143394,
    "err_t": null,
    "err": null,
-   "checks": 48
+   "checks": 49
   },
   {
    "id": "timex",
@@ -428,10 +2534,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792737751.3031092,
+   "ok": 1792740486.3292468,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "pokemon-center-news",
@@ -443,9 +2549,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792737751.60109,
-   "err": "www.pokemoncenter.com answered 403; backing off 480s",
-   "checks": 81
+   "err_t": 1792741452.0934503,
+   "err": "www.pokemoncenter.com answered 503; backing off 1920s",
+   "checks": 83
   },
   {
    "id": "lorcana-news",
@@ -456,10 +2562,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792737715.692606,
+   "ok": 1792740487.492484,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "premium-bandai",
@@ -470,10 +2576,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792737779.6904,
+   "ok": 1792740487.750949,
    "err_t": null,
    "err": null,
-   "checks": 49
+   "checks": 50
   },
   {
    "id": "hasbro-pulse",
@@ -484,10 +2590,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736885.5860155,
+   "ok": 1792740488.132929,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "santa-cruz",
@@ -498,10 +2604,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792736885.7031944,
+   "ok": 1792740488.2589643,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 26
+   "checks": 27
   },
   {
    "id": "shopdisney-queue",
@@ -512,10 +2618,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792737767.6439188,
+   "ok": 1792740741.9564831,
    "err_t": null,
    "err": null,
-   "checks": 179
+   "checks": 182
   },
   {
    "id": "mattel-queue",
@@ -526,10 +2632,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792737789.0901382,
+   "ok": 1792740665.0510128,
    "err_t": null,
    "err": null,
-   "checks": 124
+   "checks": 126
   },
   {
    "id": "g-central",
@@ -540,10 +2646,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792737796.7624438,
+   "ok": 1792740491.5986404,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "resellcalendar",
@@ -568,10 +2674,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736888.5118968,
+   "ok": 1792740491.8426137,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "tcgdr-sams",
@@ -582,10 +2688,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736893.7985892,
+   "ok": 1792740497.1751313,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 36
   },
   {
    "id": "tcgdr-target",
@@ -596,10 +2702,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736899.0867214,
+   "ok": 1792740502.3976438,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 36
   },
   {
    "id": "tcgdr-walmart",
@@ -610,10 +2716,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792737739.4198055,
+   "ok": 1792740507.6197367,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "tcgdr-bestbuy",
@@ -624,10 +2730,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792737797.0720224,
+   "ok": 1792740512.8431854,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "footlocker-releases",
@@ -638,10 +2744,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792736909.8690143,
+   "ok": 1792740714.7257934,
    "err_t": null,
    "err": null,
-   "checks": 21
+   "checks": 22
   },
   {
    "id": "nintendo-merch",
@@ -652,10 +2758,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736909.9802432,
+   "ok": 1792740513.0021033,
    "err_t": null,
    "err": null,
-   "checks": 36
+   "checks": 37
   },
   {
    "id": "casio-gshock",
@@ -680,10 +2786,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736910.2835598,
+   "ok": 1792740513.691053,
    "err_t": null,
    "err": null,
-   "checks": 35
+   "checks": 36
   },
   {
    "id": "boldr",
@@ -750,10 +2856,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792736910.5674713,
+   "ok": 1792740514.277152,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "spinnaker",
@@ -764,10 +2870,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792737780.3950167,
+   "ok": 1792740778.5425365,
    "err_t": null,
    "err": null,
-   "checks": 73
+   "checks": 76
   },
   {
    "id": "hypebeast-collabs",
@@ -778,10 +2884,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792736911.5221176,
+   "ok": 1792740515.1239634,
    "err_t": null,
    "err": null,
-   "checks": 26
+   "checks": 27
   },
   {
    "id": "highsnobiety-collabs",
@@ -792,10 +2898,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792736911.748605,
+   "ok": 1792740515.424033,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "ann-collabs",
@@ -806,10 +2912,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792736911.9544876,
+   "ok": 1792740515.6147008,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "wornandwound",
@@ -820,10 +2926,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792736912.1668754,
+   "ok": 1792740515.8834455,
    "err_t": null,
    "err": null,
-   "checks": 18
+   "checks": 19
   },
   {
    "id": "monochrome",
@@ -834,10 +2940,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792736912.2969885,
+   "ok": 1792740516.0460935,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   }
  ]
 }
