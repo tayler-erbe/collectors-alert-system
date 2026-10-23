@@ -1,6 +1,159 @@
 {
- "updated": 1792754908.5580711,
+ "updated": 1792758518.3623364,
  "events": [
+  {
+   "t": 1792754961.5136752,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "Barely Driven Ferrari 499P Modificata Heads To Auction For Over $8 Million",
+   "url": "https://www.motor1.com/news/813056/ferrari-499p-modificata-christie-auction/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
+  {
+   "t": 1792754938.4431152,
+   "source": "g-central",
+   "level": "INFO",
+   "title": "G-Shock 2500 Series watches listed at Casio U.S. and U.K. with estimated U.S. release date",
+   "url": "https://www.g-central.com/g-shock-2500-series-watches-listed-at-casio-u-s-and-u-k-with-estimated-u-s-release-date/",
+   "detail": "New post",
+   "source_name": "G-Central (G-Shock news)"
+  },
+  {
+   "t": 1792754934.464429,
+   "source": "timex",
+   "level": "SOON",
+   "title": "Cavatina\u00ae Mini 17mm Stainless Steel Expansion Band Watch",
+   "url": "https://www.timex.com/products/cavatina-mini-17mm-stainless-steel-expansion-band-watch-tw2y66900",
+   "detail": "New product, $139.00, not buyable yet",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754933.7267306,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Timex 1976 Lexington Reissue 21mm Leather Strap Watch",
+   "url": "https://www.timex.com/products/timex-1976-lexington-reissue-21mm-leather-strap-watch-tw2y56200",
+   "detail": "New product, $159.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754933.0004961,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Harry Potter x Timex Weekender Gryffindor House 38mm Leather Strap Watch",
+   "url": "https://www.timex.com/products/harry-potter-x-timex-weekender-gryffindor-house-38mm-leather-strap-watch-tw2y76300",
+   "detail": "New product, $139.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754931.5540347,
+   "source": "timex",
+   "level": "SOON",
+   "title": "Timex MK1 for J.Crew 36mm Leather Strap Watch",
+   "url": "https://www.timex.com/products/timex-mk1-for-j-crew-36mm-leather-strap-watch-tw2y78500",
+   "detail": "New product, $198.00, not buyable yet",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754930.9284868,
+   "source": "timex",
+   "level": "SOON",
+   "title": "20mm Quick Release Fabric Strap",
+   "url": "https://www.timex.com/products/20mm-quick-release-fabric-strap-tw7c06800",
+   "detail": "New product, $29.00, not buyable yet",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754929.967351,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Expedition\u00ae Field Post Solar 36mm Recycled Fabric Strap Watch",
+   "url": "https://www.timex.com/products/expedition-field-post-solar-36mm-recycled-fabric-strap-watch-tw2v00400",
+   "detail": "New product, $209.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754929.3024771,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Pan Am\u00ae x Timex Waterbury GMT 39mm Leather Strap Watch",
+   "url": "https://www.timex.com/products/pan-am-x-timex-waterbury-gmt-39mm-leather-strap-watch-tw2w97300",
+   "detail": "New product, $339.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754928.196152,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Expedition Tide-Temp-Compass 43mm Fabric Strap Watch",
+   "url": "https://www.timex.com/products/expedition-tide-temp-compass-43mm-fabric-strap-watch-tw2w91100",
+   "detail": "New product, $339.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754923.9933152,
+   "source": "timex",
+   "level": "SOON",
+   "title": "Timex x Fortnite Essex 45mm Stainless Steel Bracelet Watch",
+   "url": "https://www.timex.com/products/timex-x-fortnite-essex-45mm-stainless-steel-bracelet-watch-tw2y47200",
+   "detail": "New product, $149.00, not buyable yet",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754923.2194374,
+   "source": "timex",
+   "level": "SOON",
+   "title": "Peanuts\u00ae x Timex Marlin\u00ae Automatic Space 40mm Leather Strap Watch",
+   "url": "https://www.timex.com/products/peanuts-x-timex-marlin-automatic-space-40mm-leather-strap-watch-tw2w87200",
+   "detail": "New product, $339.00, not buyable yet",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754919.237988,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Q Timex\u00ae Continental Day and Date 39mm Stainless Steel Bracelet Watch",
+   "url": "https://www.timex.com/products/q-timex-continental-day-and-date-39mm-stainless-steel-bracelet-watch-tw2y35200",
+   "detail": "New product, $179.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754918.483402,
+   "source": "timex",
+   "level": "LIVE",
+   "title": "Waterbury Heritage Chronograph 39mm Stainless Steel Bracelet Watch",
+   "url": "https://www.timex.com/products/waterbury-heritage-chronograph-39mm-stainless-steel-bracelet-watch-tw2y70500",
+   "detail": "New product, $359.00, IN STOCK",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754917.8388765,
+   "source": "timex",
+   "level": "SOON",
+   "title": "Addison 23mm Stainless Steel Bracelet Watch",
+   "url": "https://www.timex.com/products/addison-23mm-stainless-steel-bracelet-watch-tw2y79300",
+   "detail": "New product, $139.00, not buyable yet",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754917.2229204,
+   "source": "timex",
+   "level": "SOON",
+   "title": "20mm Quick Release Leather Strap",
+   "url": "https://www.timex.com/products/20mm-quick-release-leather-strap-tw7c61600-1",
+   "detail": "New product, $30.00, not buyable yet",
+   "source_name": "Timex"
+  },
+  {
+   "t": 1792754916.5650537,
+   "source": "timex",
+   "level": "SOON",
+   "title": "Super Bowl LX Champions Seattle Seahawks-Timex Citation",
+   "url": "https://www.timex.com/products/super-bowl-lx-champions-seattle-seahawks-timex-citation-tw6a17200",
+   "detail": "New product, $135.00, not buyable yet",
+   "source_name": "Timex"
+  },
   {
    "t": 1792751496.9849308,
    "source": "footlocker-releases",
@@ -2547,159 +2700,6 @@
    "url": "https://hypebeast.com/2026/10/angelo-baque-fanatics-100-piece-new-york-knicks-championship-varsity-jacket-closer-look",
    "detail": "New post",
    "source_name": "Hypebeast (collabs)"
-  },
-  {
-   "t": 1792725258.6790192,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Page changed",
-   "url": "https://www.footlocker.com/release-dates",
-   "detail": "",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792723511.2802522,
-   "source": "ann-collabs",
-   "level": "SOON",
-   "title": "Frequent Ghibli Collaborator Joe Hisaishi Named LA Philharmonic's Composer-in-Residence",
-   "url": "https://www.animenewsnetwork.com/news/2026-10-22/frequent-ghibli-collaborator-joe-hisaishi-named-la-philharmonic-composer-in-residence/.243119",
-   "detail": "New post",
-   "source_name": "Anime News Network (collabs/merch)"
-  },
-  {
-   "t": 1792723510.8713443,
-   "source": "hypebeast-collabs",
-   "level": "INFO",
-   "title": "Aim\u00e9 Leon Dore and Olympiacos F.C. Reunite for Second Collaborative Capsule",
-   "url": "https://hypebeast.com/2026/10/aime-leon-dore-olympiacos-fc-second-collaborative-capsule-release-info",
-   "detail": "New post",
-   "source_name": "Hypebeast (collabs)"
-  },
-  {
-   "t": 1792723510.8693347,
-   "source": "hypebeast-collabs",
-   "level": "INFO",
-   "title": "7-Eleven Drops Trademark Lawsuit Against Nike Over Air Max 95",
-   "url": "https://hypebeast.com/2026/10/7-eleven-drops-trademark-lawsuit-against-nike-air-max-95-news",
-   "detail": "New post",
-   "source_name": "Hypebeast (collabs)"
-  },
-  {
-   "t": 1792723510.8661697,
-   "source": "hypebeast-collabs",
-   "level": "INFO",
-   "title": "Shanghai Grand Opera House Opens With Sn\u00f8hetta\u2019s Sweeping Waterfront Design",
-   "url": "https://hypebeast.com/2026/10/snohetta-shanghai-grand-opera-house-opening-info",
-   "detail": "New post",
-   "source_name": "Hypebeast (collabs)"
-  },
-  {
-   "t": 1792717131.2002,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Page changed",
-   "url": "https://www.footlocker.com/release-dates",
-   "detail": "",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792715305.8302479,
-   "source": "hypebeast-collabs",
-   "level": "INFO",
-   "title": "Lamine Yamal and American Eagle Are Bringing a New Generation of Style Beyond the Pitch",
-   "url": "https://hypebeast.com/2026/10/lamine-yamal-american-eagle-football-collaboration-info",
-   "detail": "New post",
-   "source_name": "Hypebeast (collabs)"
-  },
-  {
-   "t": 1792713360.7955267,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Page changed",
-   "url": "https://www.footlocker.com/release-dates",
-   "detail": "",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792710488.296383,
-   "source": "motor1-rlc",
-   "level": "INFO",
-   "title": "The New Lexus LFA Inches Closer To Production With Fresh Spy Photos",
-   "url": "https://www.motor1.com/news/812950/new-lexus-lfa-spy-photos/",
-   "detail": "New post",
-   "source_name": "Motor1 news (Hot Wheels RLC dates)"
-  },
-  {
-   "t": 1792709655.82096,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Page changed",
-   "url": "https://www.footlocker.com/release-dates",
-   "detail": "",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792709384.9325354,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Page changed",
-   "url": "https://www.footlocker.com/release-dates",
-   "detail": "",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792709289.555196,
-   "source": "bearwalker",
-   "level": "LIVE",
-   "title": "Waiting room is UP",
-   "url": "https://bearwalker.com",
-   "detail": "A queue just appeared on the site: a drop is starting.",
-   "source_name": "Bear Walker (waiting-room watch)"
-  },
-  {
-   "t": 1792708913.7348044,
-   "source": "bearwalker",
-   "level": "LIVE",
-   "title": "Waiting room is UP",
-   "url": "https://bearwalker.com",
-   "detail": "A queue just appeared on the site: a drop is starting.",
-   "source_name": "Bear Walker (waiting-room watch)"
-  },
-  {
-   "t": 1792708849.773261,
-   "source": "bearwalker",
-   "level": "INFO",
-   "title": "Waiting room closed",
-   "url": "https://bearwalker.com",
-   "detail": "",
-   "source_name": "Bear Walker (waiting-room watch)"
-  },
-  {
-   "t": 1792708532.9810925,
-   "source": "bearwalker",
-   "level": "LIVE",
-   "title": "Waiting room is UP",
-   "url": "https://bearwalker.com",
-   "detail": "A queue just appeared on the site: a drop is starting.",
-   "source_name": "Bear Walker (waiting-room watch)"
-  },
-  {
-   "t": 1792708464.3905046,
-   "source": "bearwalker",
-   "level": "INFO",
-   "title": "Waiting room closed",
-   "url": "https://bearwalker.com",
-   "detail": "",
-   "source_name": "Bear Walker (waiting-room watch)"
-  },
-  {
-   "t": 1792708343.2068722,
-   "source": "bearwalker",
-   "level": "LIVE",
-   "title": "Waiting room is UP",
-   "url": "https://bearwalker.com",
-   "detail": "A queue just appeared on the site: a drop is starting.",
-   "source_name": "Bear Walker (waiting-room watch)"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792751550.2292776,
+   "ok": 1792755182.755654,
    "err_t": null,
    "err": null,
-   "checks": 191
+   "checks": 194
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792751485.2293215,
+   "ok": 1792755089.889072,
    "err_t": null,
    "err": null,
-   "checks": 137
+   "checks": 139
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792751610.4619453,
+   "ok": 1792755169.6791675,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 351
+   "checks": 356
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792751307.0793726,
+   "ok": 1792754916.0444765,
    "err_t": null,
    "err": null,
-   "checks": 53
+   "checks": 54
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751307.6015334,
+   "ok": 1792754916.5630538,
    "err_t": null,
    "err": null,
-   "checks": 45
+   "checks": 46
   },
   {
    "id": "pokemon-center-news",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792754907.6432803,
+   "err_t": 1792758515.8582335,
    "err": "www.pokemoncenter.com answered 403; backing off 3600s",
-   "checks": 87
+   "checks": 88
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751319.6186283,
+   "ok": 1792754936.1279438,
    "err_t": null,
    "err": null,
-   "checks": 42
+   "checks": 43
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751320.2228098,
+   "ok": 1792754936.4544992,
    "err_t": null,
    "err": null,
-   "checks": 54
+   "checks": 55
   },
   {
    "id": "hasbro-pulse",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751321.2009695,
+   "ok": 1792754936.8506038,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "santa-cruz",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792751321.6582391,
+   "ok": 1792754937.065532,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 30
+   "checks": 31
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792751554.8821933,
+   "ok": 1792755161.3715913,
    "err_t": null,
    "err": null,
-   "checks": 192
+   "checks": 195
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792751501.4123876,
+   "ok": 1792755102.838596,
    "err_t": null,
    "err": null,
-   "checks": 133
+   "checks": 135
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751323.1065867,
+   "ok": 1792754938.4411125,
    "err_t": null,
    "err": null,
-   "checks": 42
+   "checks": 43
   },
   {
    "id": "resellcalendar",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751323.332602,
+   "ok": 1792754938.7593668,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751328.519869,
+   "ok": 1792754944.015697,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751333.8436577,
+   "ok": 1792754949.3262482,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751339.1801481,
+   "ok": 1792754954.6346514,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751344.3760412,
+   "ok": 1792754959.9423256,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "footlocker-releases",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751344.5926015,
+   "ok": 1792754960.3927205,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "casio-gshock",
@@ -3007,9 +3007,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792751344.8283496,
+   "err_t": 1792754960.6711602,
    "err": "gshock.casio.com answered 403; backing off 3600s",
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "zoomies",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751345.4092805,
+   "ok": 1792754961.2021565,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "boldr",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792751345.825151,
+   "ok": 1792754961.5106726,
    "err_t": null,
    "err": null,
-   "checks": 24
+   "checks": 25
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792751581.3639374,
+   "ok": 1792755187.887874,
    "err_t": null,
    "err": null,
-   "checks": 85
+   "checks": 88
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792751346.805985,
+   "ok": 1792754962.5762022,
    "err_t": null,
    "err": null,
-   "checks": 30
+   "checks": 31
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792751347.0827475,
+   "ok": 1792754963.1151798,
    "err_t": null,
    "err": null,
-   "checks": 22
+   "checks": 23
   },
   {
    "id": "ann-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792751347.2960265,
+   "ok": 1792754963.382686,
    "err_t": null,
    "err": null,
-   "checks": 22
+   "checks": 23
   },
   {
    "id": "wornandwound",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792751347.5116298,
+   "ok": 1792754963.653786,
    "err_t": null,
    "err": null,
-   "checks": 22
+   "checks": 23
   },
   {
    "id": "monochrome",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792751347.6457355,
+   "ok": 1792754963.8239474,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 24
   }
  ]
 }
