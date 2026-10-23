@@ -6,12 +6,14 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import http.cookiejar
 
 UA = "Mozilla/5.0 (compatible; collectors-alert-system/1.0; personal drop alerts; +https://github.com/tayler-erbe/collectors-alert-system)"
 _validators = {}      # url -> (etag, last_modified)
 _last_body = {}       # url -> body from the last 200, returned again on 304
 _host_next = {}       # host -> earliest time we may hit it again
 _host_penalty = {}    # host -> current backoff seconds
+_opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))   # accept cookies like a browser
 MIN_GAP_S = 5         # never two requests to the same host closer than this
 
 
@@ -41,7 +43,7 @@ def get(url, timeout=20, accept="*/*"):
         hdr["If-Modified-Since"] = lm
     req = urllib.request.Request(url, headers=hdr)
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as r:
+        with _opener.open(req, timeout=timeout) as r:
             raw = r.read()
             if r.headers.get("Content-Encoding") == "gzip":
                 raw = gzip.decompress(raw)

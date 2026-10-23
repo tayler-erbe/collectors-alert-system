@@ -225,10 +225,10 @@ def run_reminders(c, fixed):
     for r in rem:
         at = dt.datetime.fromisoformat(r["at"])
         if not r["warned"] and now >= at - dt.timedelta(minutes=10):
-            notify.send("SOON", "Reminder", f"In 10 min: {r['text']}", "", f"{at:%I:%M %p} PT")
+            notify.send("SOON", "Reminder", f"In 10 min: {r['text']}", r.get("url", ""), f"{at:%I:%M %p} PT", force=True)
             r["warned"] = True
         if now >= at:
-            notify.send("LIVE", "Reminder", f"NOW: {r['text']}", "", "")
+            notify.send("LIVE", "Reminder", f"NOW: {r['text']}", r.get("url", ""), "", force=True)
             continue
         keep.append(r)
     if keep != rem:

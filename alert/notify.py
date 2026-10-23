@@ -97,11 +97,11 @@ def quiet_now():
     return (m(a) <= t or t < m(b)) if m(a) > m(b) else (m(a) <= t < m(b))
 
 
-def send(level, source_name, title, url, detail=""):
+def send(level, source_name, title, url, detail="", force=False):
     if level == "INFO":
         return
     live = level == "LIVE"
-    if quiet_now():
+    if quiet_now() and not force:   # force: reminders he set himself always ring
         try:
             icon, head = ("🚨", "LIVE NOW: ") if live else ("🔔", "Coming: ")
             telegram("\n".join(x for x in (f"{icon} (quiet hours) {head}{title}", source_name, detail, url) if x), silent=True)
