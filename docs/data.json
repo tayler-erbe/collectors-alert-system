@@ -1,6 +1,69 @@
 {
- "updated": 1792747698.1702495,
+ "updated": 1792751300.008824,
  "events": [
+  {
+   "t": 1792747735.312386,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "The Nike Air Force 1 \u201801 \u201cPhilly\u201d Gives LeBron James a Sixers-Coded Welcome",
+   "url": "https://hypebeast.com/2026/10/nike-air-force-1-01-philly-jw9694-100-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792747735.3098242,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Denzel Washington and Christopher McQuarrie Set to Team up for Untitled Amazon MGM Thriller",
+   "url": "https://hypebeast.com/2026/10/denzel-washington-christopher-mcquarrie-set-new-untitled-amazon-mgm-thriller-2027-release-announcement",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792747735.3063776,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "LISA\u2019s \u2018PRESS PLAY\u2019 EP Plays Out Like a Six-Track Action Movie",
+   "url": "https://hypebeast.com/2026/10/lisa-press-play-ep-tarantino-music-video-stream",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792747735.3034143,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "ARC\u2019TERYX\u2019s Postour Boot Hides a Slipper Inside a GORE-TEX Shell",
+   "url": "https://hypebeast.com/2026/10/arcteryx-postour-boot-mens-x000010507-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792747735.3003778,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Chris Pratt Confirms Star-Lord Will Return to the MCU",
+   "url": "https://hypebeast.com/2026/10/marvel-chris-pratt-confirms-star-lord-will-return-to-mcu",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792747734.290265,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "2027 Subaru Outback Base Trim Returns, Lowering Price",
+   "url": "https://www.motor1.com/news/813019/2027-subaru-outback-base-trim/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
+  {
+   "t": 1792747733.0320542,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Page changed",
+   "url": "https://www.footlocker.com/release-dates",
+   "detail": "",
+   "source_name": "Foot Locker release dates"
+  },
   {
    "t": 1792744352.2715232,
    "source": "footlocker-releases",
@@ -2559,10 +2622,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792744348.308422,
+   "ok": 1792747938.104766,
    "err_t": null,
    "err": null,
-   "checks": 185
+   "checks": 188
   },
   {
    "id": "medicom",
@@ -2573,10 +2636,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792744269.6537843,
+   "ok": 1792747871.5342844,
    "err_t": null,
    "err": null,
-   "checks": 133
+   "checks": 135
   },
   {
    "id": "bearwalker",
@@ -2587,10 +2650,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792744356.413862,
+   "ok": 1792747954.9204404,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 340
+   "checks": 345
   },
   {
    "id": "mattel-creations",
@@ -2601,10 +2664,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792744091.4366457,
+   "ok": 1792747705.1016996,
    "err_t": null,
    "err": null,
-   "checks": 51
+   "checks": 52
   },
   {
    "id": "timex",
@@ -2615,10 +2678,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744091.8905566,
+   "ok": 1792747705.6210158,
    "err_t": null,
    "err": null,
-   "checks": 43
+   "checks": 44
   },
   {
    "id": "pokemon-center-news",
@@ -2630,9 +2693,9 @@
    "paused": false,
    "note": "",
    "ok": 1792734216.4862154,
-   "err_t": 1792747697.2456174,
+   "err_t": 1792751299.1248813,
    "err": "www.pokemoncenter.com answered 403; backing off 3600s",
-   "checks": 85
+   "checks": 86
   },
   {
    "id": "lorcana-news",
@@ -2643,10 +2706,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744093.9075105,
+   "ok": 1792747706.5631578,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "premium-bandai",
@@ -2657,10 +2720,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744094.2929487,
+   "ok": 1792747706.8391685,
    "err_t": null,
    "err": null,
-   "checks": 52
+   "checks": 53
   },
   {
    "id": "hasbro-pulse",
@@ -2671,10 +2734,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744094.6584415,
+   "ok": 1792747707.2807643,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "santa-cruz",
@@ -2685,10 +2748,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792744094.8360782,
+   "ok": 1792747707.4072022,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 28
+   "checks": 29
   },
   {
    "id": "shopdisney-queue",
@@ -2699,10 +2762,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792744317.9443533,
+   "ok": 1792747946.1263075,
    "err_t": null,
    "err": null,
-   "checks": 186
+   "checks": 189
   },
   {
    "id": "mattel-queue",
@@ -2713,10 +2776,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792744275.0363255,
+   "ok": 1792747910.8111534,
    "err_t": null,
    "err": null,
-   "checks": 129
+   "checks": 131
   },
   {
    "id": "g-central",
@@ -2727,10 +2790,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744097.2157505,
+   "ok": 1792747710.9681802,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "resellcalendar",
@@ -2755,10 +2818,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744097.404296,
+   "ok": 1792747711.3775861,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "tcgdr-sams",
@@ -2769,10 +2832,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744102.7381208,
+   "ok": 1792747716.6635115,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "tcgdr-target",
@@ -2783,10 +2846,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744108.0626957,
+   "ok": 1792747721.9263756,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "tcgdr-walmart",
@@ -2797,10 +2860,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744113.3887348,
+   "ok": 1792747727.2495468,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2811,10 +2874,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744118.6110113,
+   "ok": 1792747732.6770947,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "footlocker-releases",
@@ -2825,10 +2888,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792744352.2685235,
+   "ok": 1792747733.0300543,
    "err_t": null,
    "err": null,
-   "checks": 23
+   "checks": 24
   },
   {
    "id": "nintendo-merch",
@@ -2839,10 +2902,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744118.963495,
+   "ok": 1792747733.3535368,
    "err_t": null,
    "err": null,
-   "checks": 39
+   "checks": 40
   },
   {
    "id": "casio-gshock",
@@ -2854,9 +2917,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792744077.8949175,
+   "err_t": 1792747733.469295,
    "err": "gshock.casio.com answered 403; backing off 3600s",
-   "checks": 35
+   "checks": 36
   },
   {
    "id": "zoomies",
@@ -2867,10 +2930,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744078.3957903,
+   "ok": 1792747733.8261173,
    "err_t": null,
    "err": null,
-   "checks": 37
+   "checks": 38
   },
   {
    "id": "boldr",
@@ -2937,10 +3000,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792744119.261598,
+   "ok": 1792747734.2882652,
    "err_t": null,
    "err": null,
-   "checks": 22
+   "checks": 23
   },
   {
    "id": "spinnaker",
@@ -2951,10 +3014,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792744329.2646704,
+   "ok": 1792747973.1394737,
    "err_t": null,
    "err": null,
-   "checks": 79
+   "checks": 82
   },
   {
    "id": "hypebeast-collabs",
@@ -2965,10 +3028,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792744079.502015,
+   "ok": 1792747735.298378,
    "err_t": null,
    "err": null,
-   "checks": 28
+   "checks": 29
   },
   {
    "id": "highsnobiety-collabs",
@@ -2979,10 +3042,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792744119.4534373,
+   "ok": 1792747735.6622863,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "ann-collabs",
@@ -2993,10 +3056,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792744119.6498227,
+   "ok": 1792747735.8603914,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "wornandwound",
@@ -3007,10 +3070,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792744119.9457335,
+   "ok": 1792747736.1987035,
    "err_t": null,
    "err": null,
-   "checks": 20
+   "checks": 21
   },
   {
    "id": "monochrome",
@@ -3021,10 +3084,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792744120.0462275,
+   "ok": 1792747737.13276,
    "err_t": null,
    "err": null,
-   "checks": 21
+   "checks": 22
   }
  ]
 }
