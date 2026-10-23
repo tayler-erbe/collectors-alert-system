@@ -1,6 +1,24 @@
 {
- "updated": 1792730352.2516654,
+ "updated": 1792730955.8278763,
  "events": [
+  {
+   "t": 1792730508.5707934,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "Exclusive: Nakama Press Licenses Uoto's 100 Meters, Buichi Terasawa's Goku Midnight Eye Manga for Release in 2027",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-22/exclusive-nakama-press-licenses-uoto-100-meters-buichi-terasawa-goku-midnight-eye-manga-for-release-/.243056",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
+  {
+   "t": 1792730381.1898484,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Page changed",
+   "url": "https://www.footlocker.com/release-dates",
+   "detail": "",
+   "source_name": "Foot Locker release dates"
+  },
   {
    "t": 1792726723.1327577,
    "source": "spinnaker",
@@ -327,10 +345,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792730267.569074,
+   "ok": 1792730895.0627124,
    "err_t": null,
    "err": null,
-   "checks": 146
+   "checks": 151
   },
   {
    "id": "medicom",
@@ -341,10 +359,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792730314.257821,
+   "ok": 1792730852.7026632,
    "err_t": null,
    "err": null,
-   "checks": 106
+   "checks": 109
   },
   {
    "id": "bearwalker",
@@ -355,10 +373,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792730314.6950133,
+   "ok": 1792730940.998514,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 269
+   "checks": 279
   },
   {
    "id": "mattel-creations",
@@ -369,10 +387,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792729818.8261724,
+   "ok": 1792730451.2742105,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "timex",
@@ -397,10 +415,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792730090.200937,
+   "ok": 1792730696.1300015,
    "err_t": 1792725429.4072082,
    "err": null,
-   "checks": 66
+   "checks": 68
   },
   {
    "id": "lorcana-news",
@@ -411,10 +429,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792729548.9190495,
+   "ok": 1792730508.348998,
    "err_t": null,
    "err": null,
-   "checks": 31
+   "checks": 32
   },
   {
    "id": "premium-bandai",
@@ -467,10 +485,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792730347.2308273,
+   "ok": 1792730841.6045322,
    "err_t": null,
    "err": null,
-   "checks": 148
+   "checks": 152
   },
   {
    "id": "mattel-queue",
@@ -481,10 +499,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792730186.904434,
+   "ok": 1792730932.9159648,
    "err_t": null,
    "err": null,
-   "checks": 101
+   "checks": 105
   },
   {
    "id": "g-central",
@@ -537,10 +555,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792729495.5373845,
+   "ok": 1792730405.6094513,
    "err_t": null,
    "err": null,
-   "checks": 30
+   "checks": 31
   },
   {
    "id": "tcgdr-target",
@@ -593,10 +611,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792728053.56822,
+   "ok": 1792730381.1858442,
    "err_t": null,
    "err": null,
-   "checks": 19
+   "checks": 20
   },
   {
    "id": "nintendo-merch",
@@ -607,10 +625,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792729432.2486305,
+   "ok": 1792730405.8694193,
    "err_t": null,
    "err": null,
-   "checks": 30
+   "checks": 31
   },
   {
    "id": "casio-gshock",
@@ -622,9 +640,9 @@
    "paused": false,
    "note": "",
    "ok": null,
-   "err_t": 1792729456.4952948,
-   "err": "gshock.casio.com answered 403; backing off 480s",
-   "checks": 29
+   "err_t": 1792730381.5228715,
+   "err": "gshock.casio.com answered 403; backing off 960s",
+   "checks": 30
   },
   {
    "id": "zoomies",
@@ -635,10 +653,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792729428.3450248,
+   "ok": 1792730386.2002077,
    "err_t": null,
    "err": null,
-   "checks": 30
+   "checks": 31
   },
   {
    "id": "boldr",
@@ -719,10 +737,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792730237.6691933,
+   "ok": 1792730856.9103873,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 46
   },
   {
    "id": "hypebeast-collabs",
@@ -747,10 +765,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792728450.9082782,
+   "ok": 1792730390.2483366,
    "err_t": null,
    "err": null,
-   "checks": 14
+   "checks": 15
   },
   {
    "id": "ann-collabs",
@@ -761,10 +779,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792728549.5213954,
+   "ok": 1792730508.5687904,
    "err_t": null,
    "err": null,
-   "checks": 15
+   "checks": 16
   },
   {
    "id": "wornandwound",
