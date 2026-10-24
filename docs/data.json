@@ -1,5 +1,5 @@
 {
- "updated": 1792847558.1320124,
+ "updated": 1792848162.526811,
  "events": [
   {
    "t": 1792846867.5452068,
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792847526.3632362,
+   "ok": 1792848138.9064288,
    "err_t": null,
    "err": null,
-   "checks": 639
+   "checks": 644
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792847526.6981702,
+   "ok": 1792848067.9702902,
    "err_t": null,
    "err": null,
-   "checks": 439
+   "checks": 442
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792847527.1370397,
+   "ok": 1792848146.5140445,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 1205
+   "checks": 1215
   },
   {
    "id": "mattel-creations",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792845242.2678113,
-   "err_t": 1792847528.2656627,
-   "err": "www.pokemoncenter.com answered 403; backing off 60s",
-   "checks": 268
+   "err_t": 1792848139.0070097,
+   "err": "www.pokemoncenter.com answered 403; backing off 240s",
+   "checks": 270
   },
   {
    "id": "lorcana-news",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792847529.801274,
+   "ok": 1792848147.1640575,
    "err_t": null,
    "err": null,
-   "checks": 638
+   "checks": 643
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792847533.5267138,
+   "ok": 1792848110.3905997,
    "err_t": null,
    "err": null,
-   "checks": 436
+   "checks": 439
   },
   {
    "id": "g-central",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792847556.54078,
+   "ok": 1792848151.1508024,
    "err_t": null,
    "err": null,
-   "checks": 527
+   "checks": 532
   },
   {
    "id": "hypebeast-collabs",
