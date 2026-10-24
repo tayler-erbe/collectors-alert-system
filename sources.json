@@ -771,11 +771,20 @@
       "url": "https://www.target.com/s?searchTerm=lorcana+beast+gift+box"
     },
     {
+      "id": "op-eb05-1030",
+      "days": "Fri",
+      "time": "06:45",
+      "once_on": "2026-10-30",
+      "text": "One Piece EB-05 'Heroines Edition vol.2' English extra booster releases today ($4.99/pack MSRP; date from the official English product page). No store time announced",
+      "enabled": true,
+      "url": "https://www.target.com/s?searchTerm=one+piece+heroines+edition"
+    },
+    {
       "id": "op18-1120",
       "days": "Fri",
       "time": "06:45",
       "once_on": "2026-11-20",
-      "text": "One Piece OP-18 'The Dominance of God' English release today ($4.99/pack MSRP). No store time announced",
+      "text": "One Piece release day: OP-18 'The Dominance of God' ($4.99/pack MSRP) and Gift Collection 'ONE PIECE Heroines' GC-2026 ($44.99 MSRP). No store time announced",
       "enabled": true,
       "url": "https://www.target.com/s?searchTerm=one+piece+card+game"
     },
