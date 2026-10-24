@@ -1,6 +1,24 @@
 {
- "updated": 1792805670.158987,
+ "updated": 1792806274.0956764,
  "events": [
+  {
+   "t": 1792805819.8990812,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "YOKE Channels Jean Arp for FW26 at BELOWGROUND Pop-up",
+   "url": "https://hypebeast.com/2026/10/yoke-fw26-norio-terada-interview-hbx-gallery-belowground-pop-up-hong-kong-interview-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792805680.30822,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Performance Running",
+   "url": "https://www.champssports.com/en/category/sport/running/shoes/performance/womens.html",
+   "detail": "New link on the page",
+   "source_name": "Foot Locker release dates"
+  },
   {
    "t": 1792802073.68863,
    "source": "hypebeast-collabs",
@@ -2682,24 +2700,6 @@
    "url": "https://help.champssports.com/hc/en-us/categories/360002217553",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.359588,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Store Pickup",
-   "url": "https://www.champssports.com/help/store-pickup",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.357588,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Shipping Info",
-   "url": "https://help.champssports.com/hc/en-us/categories/360002217513",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792805575.376348,
+   "ok": 1792806191.9257782,
    "err_t": null,
    "err": null,
-   "checks": 293
+   "checks": 298
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792805587.040241,
+   "ok": 1792806147.1502144,
    "err_t": null,
    "err": null,
-   "checks": 206
+   "checks": 209
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792805664.687111,
+   "ok": 1792806236.8582125,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 537
+   "checks": 546
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792805469.2340972,
+   "ok": 1792806110.7738957,
    "err_t": null,
    "err": null,
-   "checks": 84
+   "checks": 85
   },
   {
    "id": "timex",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792805607.5351017,
+   "ok": 1792806187.792448,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 128
+   "checks": 130
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792804817.686541,
+   "ok": 1792805771.8244283,
    "err_t": null,
    "err": null,
-   "checks": 67
+   "checks": 68
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792805665.0033617,
+   "ok": 1792806261.7962081,
    "err_t": null,
    "err": null,
-   "checks": 80
+   "checks": 85
   },
   {
    "id": "hasbro-pulse",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792803915.8181498,
+   "ok": 1792805846.3088489,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 51
+   "checks": 52
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792805599.0083904,
+   "ok": 1792806200.580953,
    "err_t": null,
    "err": null,
-   "checks": 294
+   "checks": 299
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792805608.2047603,
+   "ok": 1792806138.3421783,
    "err_t": null,
    "err": null,
-   "checks": 204
+   "checks": 207
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792804741.2841222,
+   "ok": 1792805693.9481459,
    "err_t": null,
    "err": null,
-   "checks": 67
+   "checks": 68
   },
   {
    "id": "resellcalendar",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792805292.4368024,
+   "ok": 1792806188.0991337,
    "err_t": null,
    "err": null,
-   "checks": 66
+   "checks": 67
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792804959.4604673,
+   "ok": 1792805880.12488,
    "err_t": null,
    "err": null,
-   "checks": 66
+   "checks": 67
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792804777.7440836,
+   "ok": 1792805734.5214272,
    "err_t": null,
    "err": null,
-   "checks": 66
+   "checks": 67
   },
   {
    "id": "footlocker-releases",
@@ -2978,10 +2978,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792801951.3583002,
+   "ok": 1792805680.2927027,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "nintendo-merch",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792805599.2362757,
+   "ok": 1792806232.8600287,
    "err_t": null,
    "err": null,
-   "checks": 180
+   "checks": 185
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792804870.3146796,
+   "ok": 1792805819.8955696,
    "err_t": null,
    "err": null,
-   "checks": 55
+   "checks": 56
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792803773.379844,
+   "ok": 1792805710.7448854,
    "err_t": null,
    "err": null,
-   "checks": 43
+   "checks": 44
   },
   {
    "id": "ann-collabs",
