@@ -1,6 +1,15 @@
 {
- "updated": 1792850584.606693,
+ "updated": 1792851190.5206532,
  "events": [
+  {
+   "t": 1792851147.0573976,
+   "source": "wornandwound",
+   "level": "INFO",
+   "title": "Watches, Stories, & Gear: Leica\u2019s Latest Collaboration, Fujifilm\u2019s Future Growth, and an Oura Ring Upgrade",
+   "url": "https://wornandwound.com/watches-stories-gear-leicas-latest-collaboration-fujifilms-future-growth-and-an-oura-ring-upgrade/",
+   "detail": "New post",
+   "source_name": "Worn & Wound (watch collabs)"
+  },
   {
    "t": 1792849421.9657314,
    "source": "highsnobiety-collabs",
@@ -2691,15 +2700,6 @@
    "url": "https://www.footlocker.com/release-dates",
    "detail": "",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792744119.6558218,
-   "source": "ann-collabs",
-   "level": "INFO",
-   "title": "Made in Abyss: Mezameru Shinpi Anime Film Reveals 4 Cast Members",
-   "url": "https://www.animenewsnetwork.com/news/2026-10-23/made-in-abyss-mezameru-shinpi-anime-film-reveals-4-cast-members/.243122",
-   "detail": "New post",
-   "source_name": "Anime News Network (collabs/merch)"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792850550.9596663,
+   "ok": 1792851165.8987803,
    "err_t": null,
    "err": null,
-   "checks": 664
+   "checks": 669
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792850463.6937916,
+   "ok": 1792851189.5181603,
    "err_t": null,
    "err": null,
-   "checks": 455
+   "checks": 459
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792850565.4640326,
+   "ok": 1792851169.8386753,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 1253
+   "checks": 1263
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792850535.6110206,
+   "ok": 1792851087.8053062,
    "err_t": null,
    "err": null,
-   "checks": 161
+   "checks": 162
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850254.665916,
+   "ok": 1792851170.0931804,
    "err_t": null,
    "err": null,
-   "checks": 123
+   "checks": 124
   },
   {
    "id": "pokemon-center-news",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792845242.2678113,
-   "err_t": 1792850527.6377904,
-   "err": "www.pokemoncenter.com still backing off (1608s left)",
-   "checks": 278
+   "err_t": 1792851120.6568372,
+   "err": "www.pokemoncenter.com still backing off (1015s left)",
+   "checks": 280
   },
   {
    "id": "lorcana-news",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850090.8099225,
+   "ok": 1792850907.6210816,
    "err_t": null,
    "err": null,
-   "checks": 118
+   "checks": 119
   },
   {
    "id": "santa-cruz",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792850494.895597,
+   "ok": 1792851112.7935975,
    "err_t": null,
    "err": null,
-   "checks": 662
+   "checks": 667
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792850459.5343266,
+   "ok": 1792851007.2940402,
    "err_t": null,
    "err": null,
-   "checks": 452
+   "checks": 455
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850262.0674236,
+   "ok": 1792851079.42927,
    "err_t": null,
    "err": null,
-   "checks": 120
+   "checks": 121
   },
   {
    "id": "resellcalendar",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850188.2115815,
+   "ok": 1792851135.352274,
    "err_t": null,
    "err": null,
-   "checks": 119
+   "checks": 120
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850236.896652,
+   "ok": 1792851068.3053422,
    "err_t": null,
    "err": null,
-   "checks": 118
+   "checks": 119
   },
   {
    "id": "tcgdr-target",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850125.2771246,
+   "ok": 1792851060.7150733,
    "err_t": null,
    "err": null,
-   "checks": 118
+   "checks": 119
   },
   {
    "id": "tcgdr-bestbuy",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850065.2890103,
+   "ok": 1792850882.1559443,
    "err_t": null,
    "err": null,
-   "checks": 116
+   "checks": 117
   },
   {
    "id": "boldr",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792850495.1490479,
+   "ok": 1792851093.2565963,
    "err_t": null,
    "err": null,
-   "checks": 551
+   "checks": 556
   },
   {
    "id": "hypebeast-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792849264.3452497,
+   "ok": 1792851112.97513,
    "err_t": null,
    "err": null,
-   "checks": 71
+   "checks": 72
   },
   {
    "id": "wornandwound",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792849398.7188175,
+   "ok": 1792851147.0538437,
    "err_t": null,
    "err": null,
-   "checks": 71
+   "checks": 72
   },
   {
    "id": "monochrome",
