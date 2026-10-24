@@ -158,3 +158,38 @@ Owner: Tayler. User: her husband (collector and reseller). Started 22 Oct 2026. 
   - **Discord (17:05):** bot is in 1 server, "Drop Radar" (id 1563334095822659614): 4 channels = 2 categories, 1 text (#general), 1 voice. #general holds 1 message, the bot's own join notice (type 7). No followed channels or webhook posts yet, so Discord still gives no drop signal. Charles was told to Follow an announcement channel into his server.
 
 - 24 Oct 2026 (05:45) daily review, note #19 (check Pokemon drops at his sites + limited stuff today): answered on Telegram. Searched web + tcgdropradar: no confirmed Pokemon or limited drop for Sat 24 Oct; no radar LIVE events overnight. Tracker patterns (unverified): Target restocks overnight ~1-3 am ET, Pokemon Center/Walmart weekday only, Costco random weekdays. Health: only Casio (403, paused), BOLDR (down, paused), Reddit x3 (403, paused) fail, all known; resellcalendar paused. --once clean. No code or sources.json changes.
+
+## Claude deep search (method, started 24 Oct 2026)
+- **What it is:** a Claude web-research pass on top of the scripted sources (Tayler, 24 Oct: "have a secondary Claude go and check ... search the Internet deep ... doesn't need to run as frequently"). It finds dates, MSRPs, early product pages and limited editions the feeds miss, and covers the paused/blocked sources (Casio, BOLDR, Reddit) through search results only.
+- **Method:** (1) watch list from "What he wants", "His routine", sources.json keywords/reminders, data/picks.json and his notes; (2) 30-50 WebSearch queries, 2-4 per item, plus WebFetch on official pages (press.pokemon.com, en.onepiece-cardgame.com/products/, g-central.com, icv2); never fetch sites that block our scripts (gshock.casio.com, pokemoncenter.com, Reddit) by another route; (3) keep only new, actionable, retail/MSRP, online items, and drop anything already in state.db events, alert.log, done.jsonl or this log; (4) one Telegram message, max 6 items, each with date, MSRP, why it matters and a store/official link; reminders with a store url for confirmed dates.
+- **Recurring version:** template job (NOT scheduled) at `C:/dev/skyrule-fresh/.opencode/ops/queue/pending/radar-deepsearch-template.json` (claude lane, sonnet, WebSearch/WebFetch allowed, default twice a week Mon/Thu 05:30 PT, empty `approved_by` until Tayler fills it). Its start_when gate skips the run if Charles tapped Stop.
+- **His cadence choice:** the Telegram buttons (Weekly / Twice a week / Daily / Stop, callback `ds:`, handled in alert/main.py `handle_deepsearch`) save to `data/deepsearch.json`. Tayler then schedules to match.
+- **Cost of a run (24 Oct test):** 54 web searches + 15 page fetches, about 10 min of research wall time and about 20 min end to end including Telegram, code and notes. The hit rate is low (4 usable items out of about 25 topics), so twice a week is plenty; daily would mostly repeat.
+
+### Deep search log
+- **24 Oct 2026 (test, run from Tayler's session):** sent 4 items:
+  1. One Piece EB-05 "Heroines Edition vol.2" English: Fri 30 Oct, $4.99/pack. Date is on the official English product page per Samurai Sword Tokyo (8 Oct). Reminder `op-eb05-1030` added (06:45, Target search url).
+  2. Gift Collection "ONE PIECE Heroines" GC-2026: $44.99, 20 Nov (en.onepiece-cardgame.com/products/), added to the op18-1120 reminder text. Same page: DP-13 $11.99 on 20 Nov; ST-37 on 18 Dec; ST-38 $16.99 on 19 Dec.
+  3. BOLDR x Windup Watch Shop Venture LE V3, sand dial: 100 pcs, $429, pre-order, ships end of Nov 2026; first of three 100-piece editions over six months; the page showed "no longer available".
+  4. Best Buy Delta Reign ETB page (bestbuy.com/site/6689672.p): $49.99, "Coming Soon", 6 Nov, not orderable (thornberrymedia 12 Oct).
+  - **Discarded:**
+    - FB12 English 18 Dec: already in picks.
+    - Lorcana "Into the Inkdark" 12 Feb 2027 (CGMagazine; others say Q1 2027): too far out, no pre-order date.
+    - Delta Reign Build & Battle Boxes on sale 24 Oct (icv2 63514): local game stores only, in-store.
+    - Pokemon Night Out LA merch: online, but not limited.
+    - Spinnaker 50 Phantoms: he already knew.
+    - G-Shock 2500 series (Nov): not limited.
+    - MR-G Blue Rose: already told him 23 Oct.
+    - Seiko anime collabs (Bocchi the Rock 300 pcs, Initial D 1,995, Evangelion, Re:Zero, Fist of the North Star): Japan only.
+    - Citizen Star Wars "Duel" AW0160-09W: no date.
+    - No RLC sale dates (Pink RX-7 sold 13 Oct).
+    - Walmart drawing 28 Oct: no item list yet.
+    - Costco and Sam's: nothing.
+    - Pokemon 30th Espeon/Umbreon Battle Decks 30 Oct: mainstream.
+    - Topps Disney Mint: vague date.
+    - Pokemon Center Delta Reign second wave: unconfirmed.
+  - **Known facts:**
+    - windupwatchshop.com answered 429 to products.json on the second request (24 Oct). Do not add it as a shopify source.
+    - trackalacker.com answered 403 to WebFetch.
+    - The official One Piece topics page is stale (latest Mar 2026); use /products/.
+- 24 Oct 2026 code: alert/main.py gained `send_deepsearch_buttons` and `handle_deepsearch` (`ds:` callbacks). The loop was restarted 06:12 PT and exactly one python process is running (PID 49108). --once ran clean.

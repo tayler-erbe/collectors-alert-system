@@ -242,6 +242,32 @@ def handle_callback(tok, cq):
     notify._post(f"https://api.telegram.org/bot{tok}/answerCallbackQuery", {"callback_query_id": cq["id"]}, as_json=True)
 
 
+DEEPSEARCH = ROOT / "data" / "deepsearch.json"
+DS_LABELS = {"weekly": "Weekly", "twice": "Twice a week", "daily": "Daily", "stop": "Stop"}
+
+
+def send_deepsearch_buttons(chat, text):
+    """One-choice question: how often should the Claude deep search run? His tap is saved to data/deepsearch.json."""
+    tok = notify.os.environ["TELEGRAM_BOT_TOKEN"]
+    rows = [[{"text": DS_LABELS[k], "callback_data": "ds:" + k} for k in ("weekly", "twice")],
+            [{"text": DS_LABELS[k], "callback_data": "ds:" + k} for k in ("daily", "stop")]]
+    notify._post(f"https://api.telegram.org/bot{tok}/sendMessage", {"chat_id": chat, "text": text,
+                 "reply_markup": {"inline_keyboard": rows}}, as_json=True)
+
+
+def handle_deepsearch(tok, cq):
+    k = cq.get("data", "")[3:]
+    if k not in DS_LABELS:
+        return
+    DEEPSEARCH.write_text(json.dumps({"cadence": k, "t": time.strftime("%Y-%m-%d %H:%M:%S")}) + "\n", encoding="utf-8")
+    chat, mid = str(cq["message"]["chat"]["id"]), cq["message"]["message_id"]
+    msg = "Saved: no more deep searches." if k == "stop" else f"Saved: deep search {DS_LABELS[k].lower()}. Tayler switches it on."
+    notify._post(f"https://api.telegram.org/bot{tok}/editMessageReplyMarkup", {"chat_id": chat, "message_id": mid,
+                 "reply_markup": {"inline_keyboard": []}}, as_json=True)
+    notify._post(f"https://api.telegram.org/bot{tok}/answerCallbackQuery", {"callback_query_id": cq["id"], "text": "Saved"}, as_json=True)
+    notify.telegram(msg, chat_id=chat, silent=True)
+
+
 def telegram_poll(c):
     tok = notify.os.environ.get("TELEGRAM_BOT_TOKEN")
     allowed = {x.strip() for x in notify.os.environ.get("TELEGRAM_ALLOWED_CHATS", notify.os.environ.get("TELEGRAM_CHAT_ID", "")).split(",") if x.strip()}
@@ -258,7 +284,12 @@ def telegram_poll(c):
         store.kv_set(c, "tg_offset", u["update_id"] + 1)
         if u.get("callback_query"):
             cq = u["callback_query"]
-            if str(cq.get("message", {}).get("chat", {}).get("id", "")) in allowed and cq.get("data", "").startswith("pk:"):
+            if str(cq.get("message", {}).get("chat", {}).get("id", "")) in allowed and cq.get("data", "").startswith("ds:"):
+                try:
+                    handle_deepsearch(tok, cq)
+                except Exception as e:
+                    print("deepsearch callback failed", e, flush=True)
+            elif str(cq.get("message", {}).get("chat", {}).get("id", "")) in allowed and cq.get("data", "").startswith("pk:"):
                 try:
                     handle_callback(tok, cq)
                 except Exception as e:
