@@ -733,6 +733,13 @@
       "text": "Walmart Wednesday: 6 pm PT drop in 10 minutes"
     },
     {
+      "id": "walmart-draw-wed",
+      "days": "Wed",
+      "time": "13:55",
+      "text": "Walmart Collectibles Drawing: entry has opened 2-3 pm PT on recent Wednesdays (21 Oct: 30th Celebration bundles at MSRP). Free entry; winners are charged automatically",
+      "url": "https://www.walmart.com/"
+    },
+    {
       "id": "pbandai-7",
       "days": "daily",
       "time": "18:50",
@@ -750,24 +757,27 @@
       "days": "Fri",
       "time": "06:45",
       "once_on": "2026-11-06",
-      "text": "Pokémon 30th Celebration Ultra-Premium Collection + Delta Reign ETBs release today (Pokémon Center, Target, Walmart, Best Buy online)",
-      "enabled": true
+      "text": "Pokémon release day: Delta Reign ETBs/displays, 30th Celebration Ultra-Premium Collection Day/Night ($179.99 MSRP), Mew and Mewtwo Figure Collections, Ditto Premium Collection. No store time announced; radar watches Pokémon Center from 7 am",
+      "enabled": true,
+      "url": "https://www.pokemoncenter.com/"
     },
     {
       "id": "lorcana-beast-1113",
       "days": "Fri",
       "time": "06:45",
       "once_on": "2026-11-13",
-      "text": "Lorcana Hyperia City Beast Gift Box ($29.99) releases today",
-      "enabled": true
+      "text": "Lorcana Hyperia City Beast Gift Box ($29.99 MSRP) releases today. No store time announced",
+      "enabled": true,
+      "url": "https://www.target.com/s?searchTerm=lorcana+beast+gift+box"
     },
     {
       "id": "op18-1120",
       "days": "Fri",
       "time": "06:45",
       "once_on": "2026-11-20",
-      "text": "One Piece OP-18 'The Dominance of God' English release today",
-      "enabled": true
+      "text": "One Piece OP-18 'The Dominance of God' English release today ($4.99/pack MSRP). No store time announced",
+      "enabled": true,
+      "url": "https://www.target.com/s?searchTerm=one+piece+card+game"
     },
     {
       "id": "pk-dec-wave-1204",
@@ -775,7 +785,8 @@
       "time": "06:45",
       "once_on": "2026-12-04",
       "text": "Pokémon Dec wave today: Unova Heavy Hitters Premium Collection, 30th Celebration ex Tins and Binder",
-      "enabled": true
+      "enabled": true,
+      "url": "https://www.pokemoncenter.com/"
     }
   ],
   "_app_only": "Nike SNKRS, the Nike app drops, Adidas Confirmed, Best Buy drops and Target drawings are app/login based and bot-guarded: keep their app notifications ON; the radar covers them through TCG Drop Radar and calendars."
