@@ -1,6 +1,15 @@
 {
- "updated": 1792849376.1749556,
+ "updated": 1792849980.3348992,
  "events": [
+  {
+   "t": 1792849421.9657314,
+   "source": "highsnobiety-collabs",
+   "level": "INFO",
+   "title": "Vansza\u2019s Knu Skool Mule\u00a0Cuts Some Dead Weight",
+   "url": "https://www.highsnobiety.com/p/vansza-knu-skool-mule-black/",
+   "detail": "New post",
+   "source_name": "Highsnobiety (collabs)"
+  },
   {
    "t": 1792849375.0466652,
    "source": "hypebeast-collabs",
@@ -2691,15 +2700,6 @@
    "url": "https://www.animenewsnetwork.com/news/2026-10-23/made-in-abyss-mezameru-shinpi-anime-film-reveals-4-cast-members/.243122",
    "detail": "New post",
    "source_name": "Anime News Network (collabs/merch)"
-  },
-  {
-   "t": 1792744119.6538222,
-   "source": "ann-collabs",
-   "level": "INFO",
-   "title": "New Votoms Anime Films' Teaser Reveals Theme Song",
-   "url": "https://www.animenewsnetwork.com/news/2026-10-23/new-votoms-anime-films-teaser-reveals-theme-song/.243123",
-   "detail": "New post",
-   "source_name": "Anime News Network (collabs/merch)"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792849331.4061468,
+   "ok": 1792849932.0234928,
    "err_t": null,
    "err": null,
-   "checks": 654
+   "checks": 659
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792849359.1341312,
+   "ok": 1792849898.4276178,
    "err_t": null,
    "err": null,
-   "checks": 449
+   "checks": 452
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792849347.306424,
+   "ok": 1792849932.3484275,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 1234
+   "checks": 1243
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792848808.5731735,
+   "ok": 1792849430.2000341,
    "err_t": null,
    "err": null,
-   "checks": 158
+   "checks": 159
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848520.887858,
+   "ok": 1792849388.8967144,
    "err_t": null,
    "err": null,
-   "checks": 121
+   "checks": 122
   },
   {
    "id": "pokemon-center-news",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792845242.2678113,
-   "err_t": 1792849305.53723,
-   "err": "www.pokemoncenter.com still backing off (652s left)",
-   "checks": 274
+   "err_t": 1792849916.494021,
+   "err": "www.pokemoncenter.com still backing off (41s left)",
+   "checks": 276
   },
   {
    "id": "lorcana-news",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792847529.3089087,
+   "ok": 1792849381.4940138,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 78
+   "checks": 79
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792849264.0588794,
+   "ok": 1792849891.031595,
    "err_t": null,
    "err": null,
-   "checks": 652
+   "checks": 657
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792849204.2715383,
+   "ok": 1792849924.4600487,
    "err_t": null,
    "err": null,
-   "checks": 445
+   "checks": 449
   },
   {
    "id": "g-central",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848457.1291063,
+   "ok": 1792849402.5787184,
    "err_t": null,
    "err": null,
-   "checks": 116
+   "checks": 117
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848504.5858002,
+   "ok": 1792849493.2196708,
    "err_t": null,
    "err": null,
-   "checks": 116
+   "checks": 117
   },
   {
    "id": "tcgdr-walmart",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848509.7255998,
+   "ok": 1792849421.6045086,
    "err_t": null,
    "err": null,
-   "checks": 117
+   "checks": 118
   },
   {
    "id": "footlocker-releases",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848477.1515644,
+   "ok": 1792849456.4571886,
    "err_t": null,
    "err": null,
-   "checks": 117
+   "checks": 118
   },
   {
    "id": "casio-gshock",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792847555.659943,
+   "ok": 1792849482.436569,
    "err_t": null,
    "err": null,
-   "checks": 72
+   "checks": 73
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792849272.0487196,
+   "ok": 1792849905.999949,
    "err_t": null,
    "err": null,
-   "checks": 541
+   "checks": 546
   },
   {
    "id": "hypebeast-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792847556.856555,
+   "ok": 1792849421.9627314,
    "err_t": null,
    "err": null,
-   "checks": 69
+   "checks": 70
   },
   {
    "id": "ann-collabs",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792847557.2529633,
+   "ok": 1792849398.7188175,
    "err_t": null,
    "err": null,
-   "checks": 70
+   "checks": 71
   },
   {
    "id": "monochrome",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792847557.35189,
+   "ok": 1792849474.9753313,
    "err_t": null,
    "err": null,
-   "checks": 71
+   "checks": 72
   }
  ]
 }
