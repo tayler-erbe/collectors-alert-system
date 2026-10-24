@@ -1,6 +1,15 @@
 {
- "updated": 1792834708.9546332,
+ "updated": 1792835313.449923,
  "events": [
+  {
+   "t": 1792834728.0100868,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "Love Live! x Space Battleship Yamato Crossover Art Unveiled",
+   "url": "https://www.animenewsnetwork.com/interest/2026-10-24/love-live-x-space-battleship-yamato-crossover-art-unveiled/.243154",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
   {
    "t": 1792832592.3608603,
    "source": "monochrome",
@@ -2691,15 +2700,6 @@
    "url": "https://help.champssports.com/hc/en-us/articles/360034671454-Privacy-Statement",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.426588,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Terms of Use",
-   "url": "https://help.champssports.com/hc/en-us/articles/360035191633-Terms-of-Use",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792834609.7335026,
+   "ok": 1792835229.5881438,
    "err_t": null,
    "err": null,
-   "checks": 531
+   "checks": 536
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792834646.595068,
+   "ok": 1792835201.5353565,
    "err_t": null,
    "err": null,
-   "checks": 365
+   "checks": 368
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792834681.3722997,
+   "ok": 1792835304.2569118,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 999
+   "checks": 1009
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792834569.7398336,
+   "ok": 1792835134.4900115,
    "err_t": null,
    "err": null,
-   "checks": 132
+   "checks": 133
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792834084.706098,
+   "ok": 1792835058.076144,
    "err_t": null,
    "err": null,
-   "checks": 103
+   "checks": 104
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792834577.3667252,
+   "ok": 1792835174.4885492,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 223
+   "checks": 225
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792833907.2675114,
+   "ok": 1792834845.941166,
    "err_t": null,
    "err": null,
-   "checks": 99
+   "checks": 100
   },
   {
    "id": "premium-bandai",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792834396.121356,
+   "ok": 1792835264.5561838,
    "err_t": null,
    "err": null,
-   "checks": 98
+   "checks": 99
   },
   {
    "id": "santa-cruz",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792833200.3975232,
+   "ok": 1792834885.987609,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 67
+   "checks": 68
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792834703.4753127,
+   "ok": 1792835202.3115082,
    "err_t": null,
    "err": null,
-   "checks": 532
+   "checks": 536
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792834685.6393118,
+   "ok": 1792835218.2295985,
    "err_t": null,
    "err": null,
-   "checks": 363
+   "checks": 366
   },
   {
    "id": "g-central",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792834474.9569135,
+   "ok": 1792835295.2253113,
    "err_t": null,
    "err": null,
-   "checks": 98
+   "checks": 99
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792834236.6815634,
+   "ok": 1792835142.9491355,
    "err_t": null,
    "err": null,
-   "checks": 98
+   "checks": 99
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792834333.1336806,
+   "ok": 1792835170.5988393,
    "err_t": null,
    "err": null,
-   "checks": 98
+   "checks": 99
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792834380.3410926,
+   "ok": 1792835236.751393,
    "err_t": null,
    "err": null,
-   "checks": 99
+   "checks": 100
   },
   {
    "id": "footlocker-releases",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792834065.0032063,
+   "ok": 1792834940.745531,
    "err_t": null,
    "err": null,
-   "checks": 99
+   "checks": 100
   },
   {
    "id": "casio-gshock",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792833970.061434,
+   "ok": 1792834894.2583883,
    "err_t": null,
    "err": null,
-   "checks": 96
+   "checks": 97
   },
   {
    "id": "boldr",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792834658.1737714,
+   "ok": 1792835272.293788,
    "err_t": null,
    "err": null,
-   "checks": 419
+   "checks": 424
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792834065.4123187,
+   "ok": 1792834940.9391985,
    "err_t": null,
    "err": null,
-   "checks": 87
+   "checks": 88
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792833090.0394654,
+   "ok": 1792834739.893083,
    "err_t": null,
    "err": null,
-   "checks": 59
+   "checks": 60
   },
   {
    "id": "ann-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792832877.1313927,
+   "ok": 1792834728.007089,
    "err_t": null,
    "err": null,
-   "checks": 59
+   "checks": 60
   },
   {
    "id": "wornandwound",
