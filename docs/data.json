@@ -1,6 +1,15 @@
 {
- "updated": 1792800229.4575012,
+ "updated": 1792800831.9962578,
  "events": [
+  {
+   "t": 1792800291.1756842,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "8 Must-See Shows in Paris Right Now",
+   "url": "https://hypebeast.com/2026/10/8-must-see-shows-in-paris-right-now",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
   {
    "t": 1792798213.5264487,
    "source": "footlocker-releases",
@@ -2691,15 +2700,6 @@
    "url": "https://www.champssports.com/order/search",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.3525882,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Contact Us",
-   "url": "https://help.champssports.com/hc/en-us/articles/360047275753-Contact-Us",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792800196.483935,
+   "ok": 1792800807.431218,
    "err_t": null,
    "err": null,
-   "checks": 247
+   "checks": 252
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792800196.7875893,
+   "ok": 1792800785.3923688,
    "err_t": null,
    "err": null,
-   "checks": 175
+   "checks": 178
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792800197.2052038,
+   "ok": 1792800777.7338688,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 447
+   "checks": 456
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792800149.4181488,
+   "ok": 1792800808.1848261,
    "err_t": null,
    "err": null,
-   "checks": 73
+   "checks": 74
   },
   {
    "id": "timex",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792800224.7342508,
+   "ok": 1792800773.628166,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 108
+   "checks": 110
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792799340.693415,
+   "ok": 1792800283.1413662,
    "err_t": null,
    "err": null,
-   "checks": 59
+   "checks": 60
   },
   {
    "id": "premium-bandai",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792799352.614054,
+   "ok": 1792800304.589464,
    "err_t": null,
    "err": null,
-   "checks": 57
+   "checks": 58
   },
   {
    "id": "santa-cruz",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792800141.2934706,
+   "ok": 1792800766.357291,
    "err_t": null,
    "err": null,
-   "checks": 247
+   "checks": 252
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792800158.1171641,
+   "ok": 1792800708.7989702,
    "err_t": null,
    "err": null,
-   "checks": 172
+   "checks": 175
   },
   {
    "id": "g-central",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792799364.4478014,
+   "ok": 1792800243.181324,
    "err_t": null,
    "err": null,
-   "checks": 58
+   "checks": 59
   },
   {
    "id": "footlocker-releases",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792799292.410287,
+   "ok": 1792800271.3029323,
    "err_t": null,
    "err": null,
-   "checks": 58
+   "checks": 59
   },
   {
    "id": "casio-gshock",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792799332.1251981,
+   "ok": 1792800239.195533,
    "err_t": null,
    "err": null,
-   "checks": 56
+   "checks": 57
   },
   {
    "id": "boldr",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792800150.4200313,
+   "ok": 1792800746.9870117,
    "err_t": null,
    "err": null,
-   "checks": 134
+   "checks": 139
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792799336.4588373,
+   "ok": 1792800291.1736841,
    "err_t": null,
    "err": null,
-   "checks": 47
+   "checks": 48
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792798414.5860255,
+   "ok": 1792800384.497975,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "ann-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792798414.764142,
+   "ok": 1792800364.5312188,
    "err_t": null,
    "err": null,
-   "checks": 38
+   "checks": 39
   },
   {
    "id": "wornandwound",
