@@ -1,5 +1,5 @@
 {
- "updated": 1792801436.8808079,
+ "updated": 1792802039.4618497,
  "events": [
   {
    "t": 1792800291.1756842,
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792801391.7208688,
+   "ok": 1792802024.1555882,
    "err_t": null,
    "err": null,
-   "checks": 259
+   "checks": 264
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792801333.8253477,
+   "ok": 1792801873.4503834,
    "err_t": null,
    "err": null,
-   "checks": 183
+   "checks": 186
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792801392.0338244,
+   "ok": 1792802000.247104,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 468
+   "checks": 478
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792801354.342108,
+   "ok": 1792801996.4117413,
    "err_t": null,
    "err": null,
-   "checks": 77
+   "checks": 78
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792800947.860921,
+   "ok": 1792801834.8506644,
    "err_t": null,
    "err": null,
-   "checks": 66
+   "checks": 67
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792801349.1880596,
+   "ok": 1792801987.844842,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 114
+   "checks": 116
   },
   {
    "id": "lorcana-news",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792801165.181289,
+   "ok": 1792802004.5508916,
    "err_t": null,
    "err": null,
-   "checks": 75
+   "checks": 76
   },
   {
    "id": "hasbro-pulse",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792800932.0158994,
+   "ok": 1792802004.7449138,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 49
+   "checks": 50
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792801372.9098117,
+   "ok": 1792801988.5611265,
    "err_t": null,
    "err": null,
-   "checks": 259
+   "checks": 264
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792801270.9772,
+   "ok": 1792802009.0185516,
    "err_t": null,
    "err": null,
-   "checks": 180
+   "checks": 184
   },
   {
    "id": "g-central",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792801028.357867,
+   "ok": 1792801874.039985,
    "err_t": null,
    "err": null,
-   "checks": 62
+   "checks": 63
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792801020.7638834,
+   "ok": 1792802000.4238024,
    "err_t": null,
    "err": null,
-   "checks": 61
+   "checks": 62
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792801104.6799114,
+   "ok": 1792801936.6342146,
    "err_t": null,
    "err": null,
-   "checks": 61
+   "checks": 62
   },
   {
    "id": "tcgdr-walmart",
@@ -2978,10 +2978,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792800957.2364206,
+   "ok": 1792801951.3583002,
    "err_t": null,
    "err": null,
-   "checks": 40
+   "checks": 41
   },
   {
    "id": "nintendo-merch",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792801081.9821665,
+   "ok": 1792802000.7566257,
    "err_t": null,
    "err": null,
-   "checks": 60
+   "checks": 61
   },
   {
    "id": "boldr",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792800957.9907262,
+   "ok": 1792801785.0136318,
    "err_t": null,
    "err": null,
-   "checks": 43
+   "checks": 44
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792801361.2642827,
+   "ok": 1792801980.9003134,
    "err_t": null,
    "err": null,
-   "checks": 146
+   "checks": 151
   },
   {
    "id": "hypebeast-collabs",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792800958.9586647,
+   "ok": 1792801804.1040497,
    "err_t": null,
    "err": null,
-   "checks": 41
+   "checks": 42
   },
   {
    "id": "monochrome",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792800959.060242,
+   "ok": 1792801973.490817,
    "err_t": null,
    "err": null,
-   "checks": 42
+   "checks": 43
   }
  ]
 }
