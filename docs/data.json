@@ -1,6 +1,24 @@
 {
- "updated": 1792827457.3748028,
+ "updated": 1792828059.7219,
  "events": [
+  {
+   "t": 1792827554.9462326,
+   "source": "footlocker-releases",
+   "level": "INFO",
+   "title": "Page changed",
+   "url": "https://www.footlocker.com/release-dates",
+   "detail": "",
+   "source_name": "Foot Locker release dates"
+  },
+  {
+   "t": 1792827510.8379202,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "Kaiju No. 8 Anime's 'Conclusion Arc' Revealed as Film Opening in 2027",
+   "url": "https://www.animenewsnetwork.com/news/2026-10-24/kaiju-no-8-anime-conclusion-arc-revealed-as-film-opening-in-2027/.243156",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
   {
    "t": 1792824013.718752,
    "source": "hypebeast-collabs",
@@ -2682,24 +2700,6 @@
    "url": "https://www.champssports.com/launch101",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.4135892,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Klarna",
-   "url": "https://www.champssports.com/klarna.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.4105885,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Coupons",
-   "url": "https://www.champssports.com/coupons",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792827351.6001666,
+   "ok": 1792827957.6297188,
    "err_t": null,
    "err": null,
-   "checks": 472
+   "checks": 477
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792827302.4360993,
+   "ok": 1792828032.390695,
    "err_t": null,
    "err": null,
-   "checks": 325
+   "checks": 329
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792827423.1961963,
+   "ok": 1792828032.792294,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 883
+   "checks": 893
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792826860.1340477,
+   "ok": 1792828058.200503,
    "err_t": null,
    "err": null,
-   "checks": 119
+   "checks": 121
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792826920.6961958,
+   "ok": 1792827871.4428957,
    "err_t": null,
    "err": null,
-   "checks": 95
+   "checks": 96
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792827410.2424684,
+   "ok": 1792827997.6799803,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 199
+   "checks": 201
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792826721.3683858,
+   "ok": 1792827546.9019496,
    "err_t": null,
    "err": null,
-   "checks": 91
+   "checks": 92
   },
   {
    "id": "premium-bandai",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792825757.6645894,
+   "ok": 1792827653.081184,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 63
+   "checks": 64
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792827419.169597,
+   "ok": 1792828037.1757507,
    "err_t": null,
    "err": null,
-   "checks": 472
+   "checks": 477
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792827371.1573882,
+   "ok": 1792827910.1770475,
    "err_t": null,
    "err": null,
-   "checks": 323
+   "checks": 326
   },
   {
    "id": "g-central",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792827193.1685135,
+   "ok": 1792828058.5951195,
    "err_t": null,
    "err": null,
-   "checks": 91
+   "checks": 92
   },
   {
    "id": "tcgdr-sams",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792827057.9719636,
+   "ok": 1792828040.9838974,
    "err_t": null,
    "err": null,
-   "checks": 90
+   "checks": 91
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792827213.6686752,
+   "ok": 1792828046.3126576,
    "err_t": null,
    "err": null,
-   "checks": 90
+   "checks": 91
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2978,10 +2978,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792824171.383393,
+   "ok": 1792827554.9432328,
    "err_t": null,
    "err": null,
-   "checks": 47
+   "checks": 48
   },
   {
    "id": "nintendo-merch",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792826885.8422658,
+   "ok": 1792827774.537148,
    "err_t": null,
    "err": null,
-   "checks": 91
+   "checks": 92
   },
   {
    "id": "casio-gshock",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792827423.9269235,
+   "ok": 1792828023.487583,
    "err_t": null,
    "err": null,
-   "checks": 359
+   "checks": 364
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792826598.5001738,
+   "ok": 1792827564.658393,
    "err_t": null,
    "err": null,
-   "checks": 79
+   "checks": 80
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792825899.8879669,
+   "ok": 1792827762.335402,
    "err_t": null,
    "err": null,
-   "checks": 55
+   "checks": 56
   },
   {
    "id": "ann-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792825629.9644587,
+   "ok": 1792827510.8349211,
    "err_t": null,
    "err": null,
-   "checks": 55
+   "checks": 56
   },
   {
    "id": "wornandwound",
