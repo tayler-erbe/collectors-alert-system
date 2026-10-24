@@ -1,6 +1,15 @@
 {
- "updated": 1792832295.4872444,
+ "updated": 1792832899.1586382,
  "events": [
+  {
+   "t": 1792832592.3608603,
+   "source": "monochrome",
+   "level": "INFO",
+   "title": "The Petrolhead Corner \u2013 The Return of the BRM P351 Group C Prototype",
+   "url": "https://monochrome-watches.com/the-petrolhead-corner-brm-british-racing-motors-p351-group-c-le-mans-prorotype-weslake-v12/",
+   "detail": "New post",
+   "source_name": "Monochrome Watches (collabs)"
+  },
   {
    "t": 1792831377.1728175,
    "source": "footlocker-releases",
@@ -2691,15 +2700,6 @@
    "url": "https://help.champssports.com/hc/en-us/articles/360035191633-Terms-of-Use",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.424588,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Fit Guarantee",
-   "url": "https://www.champssports.com/fit.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792832262.4140644,
+   "ok": 1792832884.6264827,
    "err_t": null,
    "err": null,
-   "checks": 512
+   "checks": 517
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792832274.0246887,
+   "ok": 1792832840.8883996,
    "err_t": null,
    "err": null,
-   "checks": 352
+   "checks": 355
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792832253.1317089,
+   "ok": 1792832864.6854389,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 960
+   "checks": 970
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792832218.6304493,
+   "ok": 1792832836.5081418,
    "err_t": null,
    "err": null,
-   "checks": 128
+   "checks": 129
   },
   {
    "id": "timex",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792832148.850954,
+   "ok": 1792832765.4196877,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 215
+   "checks": 217
   },
   {
    "id": "lorcana-news",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831950.6349428,
+   "ok": 1792832817.1532722,
    "err_t": null,
    "err": null,
-   "checks": 164
+   "checks": 165
   },
   {
    "id": "hasbro-pulse",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831683.9258132,
+   "ok": 1792832565.0838485,
    "err_t": null,
    "err": null,
-   "checks": 95
+   "checks": 96
   },
   {
    "id": "santa-cruz",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792832290.973106,
+   "ok": 1792832893.9465227,
    "err_t": null,
    "err": null,
-   "checks": 512
+   "checks": 517
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792832167.9890873,
+   "ok": 1792832885.2625396,
    "err_t": null,
    "err": null,
-   "checks": 349
+   "checks": 353
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792832015.6572332,
+   "ok": 1792832885.5387206,
    "err_t": null,
    "err": null,
-   "checks": 97
+   "checks": 98
   },
   {
    "id": "resellcalendar",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831621.7663064,
+   "ok": 1792832574.4465022,
    "err_t": null,
    "err": null,
-   "checks": 96
+   "checks": 97
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831626.989025,
+   "ok": 1792832569.1119716,
    "err_t": null,
    "err": null,
-   "checks": 95
+   "checks": 96
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831634.7720354,
+   "ok": 1792832450.936595,
    "err_t": null,
    "err": null,
-   "checks": 95
+   "checks": 96
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831579.4056716,
+   "ok": 1792832443.5627124,
    "err_t": null,
    "err": null,
-   "checks": 95
+   "checks": 96
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831725.7064416,
+   "ok": 1792832616.404963,
    "err_t": null,
    "err": null,
-   "checks": 96
+   "checks": 97
   },
   {
    "id": "footlocker-releases",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792830978.3538537,
+   "ok": 1792832868.947864,
    "err_t": null,
    "err": null,
-   "checks": 60
+   "checks": 61
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792832249.1043217,
+   "ok": 1792832860.1534839,
    "err_t": null,
    "err": null,
-   "checks": 399
+   "checks": 404
   },
   {
    "id": "hypebeast-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792831091.2140646,
+   "ok": 1792832877.1313927,
    "err_t": null,
    "err": null,
-   "checks": 58
+   "checks": 59
   },
   {
    "id": "wornandwound",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792830950.4844682,
+   "ok": 1792832592.3578594,
    "err_t": null,
    "err": null,
-   "checks": 59
+   "checks": 60
   }
  ]
 }
