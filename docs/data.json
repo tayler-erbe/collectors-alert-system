@@ -1,6 +1,24 @@
 {
- "updated": 1792848768.8606331,
+ "updated": 1792849376.1749556,
  "events": [
+  {
+   "t": 1792849375.0466652,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Better World Fragrance House and OVO Celebrate Drake\u2019s 40th Birthday With \"DoSayDo\" Eau De Parfum",
+   "url": "https://hypebeast.com/2026/10/drake-40th-birthday-exclusive-better-world-fragrance-house-ovo-dosaydo-eau-de-parfum-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
+  {
+   "t": 1792849264.3472476,
+   "source": "ann-collabs",
+   "level": "INFO",
+   "title": "STEEL BALL RUN JoJo's Bizarre Adventure \u2012 Episode 5",
+   "url": "https://www.animenewsnetwork.com/review/steel-ball-run-jojo-bizarre-adventure/episode-5/.243160",
+   "detail": "New post",
+   "source_name": "Anime News Network (collabs/merch)"
+  },
   {
    "t": 1792846867.5452068,
    "source": "motor1-rlc",
@@ -2682,24 +2700,6 @@
    "url": "https://www.animenewsnetwork.com/news/2026-10-23/new-votoms-anime-films-teaser-reveals-theme-song/.243123",
    "detail": "New post",
    "source_name": "Anime News Network (collabs/merch)"
-  },
-  {
-   "t": 1792744119.4564376,
-   "source": "highsnobiety-collabs",
-   "level": "INFO",
-   "title": "Nike's Sleek. Lifted Sneaker is Shox-ingly Luxe",
-   "url": "https://www.highsnobiety.com/p/nike-shox-z-burgundy/",
-   "detail": "New post",
-   "source_name": "Highsnobiety (collabs)"
-  },
-  {
-   "t": 1792744119.2695975,
-   "source": "motor1-rlc",
-   "level": "INFO",
-   "title": "Toyota's Next Mid-Engined Coupe Is Going Racing This Weekend",
-   "url": "https://www.motor1.com/news/813001/toyota-mid-engined-coupe-photos/",
-   "detail": "New post",
-   "source_name": "Motor1 news (Hot Wheels RLC dates)"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792848737.9787354,
+   "ok": 1792849331.4061468,
    "err_t": null,
    "err": null,
-   "checks": 649
+   "checks": 654
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792848633.0780425,
+   "ok": 1792849359.1341312,
    "err_t": null,
    "err": null,
-   "checks": 445
+   "checks": 449
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792848715.395425,
+   "ok": 1792849347.306424,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 1224
+   "checks": 1234
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792848172.0609922,
+   "ok": 1792848808.5731735,
    "err_t": null,
    "err": null,
-   "checks": 157
+   "checks": 158
   },
   {
    "id": "timex",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792845242.2678113,
-   "err_t": 1792848696.3764484,
-   "err": "www.pokemoncenter.com still backing off (215s left)",
-   "checks": 272
+   "err_t": 1792849305.53723,
+   "err": "www.pokemoncenter.com still backing off (652s left)",
+   "checks": 274
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848462.1037529,
+   "ok": 1792849374.7375867,
    "err_t": null,
    "err": null,
-   "checks": 117
+   "checks": 118
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848420.8825612,
+   "ok": 1792849347.7445304,
    "err_t": null,
    "err": null,
-   "checks": 185
+   "checks": 186
   },
   {
    "id": "hasbro-pulse",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848404.9905963,
+   "ok": 1792849243.7164977,
    "err_t": null,
    "err": null,
-   "checks": 116
+   "checks": 117
   },
   {
    "id": "santa-cruz",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792848761.091324,
+   "ok": 1792849264.0588794,
    "err_t": null,
    "err": null,
-   "checks": 648
+   "checks": 652
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792848663.812483,
+   "ok": 1792849204.2715383,
    "err_t": null,
    "err": null,
-   "checks": 442
+   "checks": 445
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848442.9245846,
+   "ok": 1792849309.2957752,
    "err_t": null,
    "err": null,
-   "checks": 118
+   "checks": 119
   },
   {
    "id": "resellcalendar",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848405.1656625,
+   "ok": 1792849258.886407,
    "err_t": null,
    "err": null,
-   "checks": 117
+   "checks": 118
   },
   {
    "id": "tcgdr-sams",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848466.053822,
+   "ok": 1792849290.6511474,
    "err_t": null,
    "err": null,
-   "checks": 116
+   "checks": 117
   },
   {
    "id": "tcgdr-bestbuy",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848366.5019178,
+   "ok": 1792849224.8669376,
    "err_t": null,
    "err": null,
-   "checks": 114
+   "checks": 115
   },
   {
    "id": "boldr",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792848644.3663933,
+   "ok": 1792849272.0487196,
    "err_t": null,
    "err": null,
-   "checks": 536
+   "checks": 541
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792848417.0763366,
+   "ok": 1792849375.044665,
    "err_t": null,
    "err": null,
-   "checks": 105
+   "checks": 106
   },
   {
    "id": "highsnobiety-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792847557.0201116,
+   "ok": 1792849264.3452497,
    "err_t": null,
    "err": null,
-   "checks": 70
+   "checks": 71
   },
   {
    "id": "wornandwound",
