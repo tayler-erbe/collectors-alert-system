@@ -1,6 +1,15 @@
 {
- "updated": 1792809936.124238,
+ "updated": 1792810541.5427816,
  "events": [
+  {
+   "t": 1792810427.1231956,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Marmot x CITY COUNTRY CITY\u2019s \u201cEverywhere\u201d Capsule Layers Up for Winter",
+   "url": "https://hypebeast.com/2026/10/marmot-city-country-city-fall-winter-2026-fw26-everywhere-capsule-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
   {
    "t": 1792809254.8218954,
    "source": "footlocker-releases",
@@ -2691,15 +2700,6 @@
    "url": "https://www.champssports.com/affiliates.html",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.3805892,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Help",
-   "url": "https://help.champssports.com/hc/en-us",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792809935.568495,
+   "ok": 1792810528.286504,
    "err_t": null,
    "err": null,
-   "checks": 329
+   "checks": 334
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792809824.3707812,
+   "ok": 1792810391.2048197,
    "err_t": null,
    "err": null,
-   "checks": 229
+   "checks": 232
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792809900.5490074,
+   "ok": 1792810528.785337,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 604
+   "checks": 614
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792809720.8899975,
+   "ok": 1792810340.1946578,
    "err_t": null,
    "err": null,
-   "checks": 91
+   "checks": 92
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809210.0391104,
+   "ok": 1792810069.819643,
    "err_t": null,
    "err": null,
-   "checks": 75
+   "checks": 76
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792809832.178733,
+   "ok": 1792810441.9969053,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 142
+   "checks": 144
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809291.5724335,
+   "ok": 1792810180.614874,
    "err_t": null,
    "err": null,
-   "checks": 72
+   "checks": 73
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809657.2012498,
+   "ok": 1792810482.3492434,
    "err_t": null,
    "err": null,
-   "checks": 139
+   "checks": 140
   },
   {
    "id": "hasbro-pulse",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809136.9452171,
+   "ok": 1792810054.0173967,
    "err_t": null,
    "err": null,
-   "checks": 70
+   "checks": 71
   },
   {
    "id": "santa-cruz",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792809880.2695558,
+   "ok": 1792810486.73248,
    "err_t": null,
    "err": null,
-   "checks": 329
+   "checks": 334
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792809871.9493184,
+   "ok": 1792810411.793193,
    "err_t": null,
    "err": null,
-   "checks": 227
+   "checks": 230
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809346.0753431,
+   "ok": 1792810324.1251886,
    "err_t": null,
    "err": null,
-   "checks": 72
+   "checks": 73
   },
   {
    "id": "resellcalendar",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809226.7985191,
+   "ok": 1792810077.6647372,
    "err_t": null,
    "err": null,
-   "checks": 71
+   "checks": 72
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809123.9869363,
+   "ok": 1792810030.2081184,
    "err_t": null,
    "err": null,
-   "checks": 70
+   "checks": 71
   },
   {
    "id": "tcgdr-target",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809369.4492471,
+   "ok": 1792810316.0984635,
    "err_t": null,
    "err": null,
-   "checks": 71
+   "checks": 72
   },
   {
    "id": "footlocker-releases",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809243.424168,
+   "ok": 1792810175.5459883,
    "err_t": null,
    "err": null,
-   "checks": 69
+   "checks": 70
   },
   {
    "id": "boldr",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792809916.4087784,
+   "ok": 1792810513.515626,
    "err_t": null,
    "err": null,
-   "checks": 215
+   "checks": 220
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792809472.0540335,
+   "ok": 1792810427.1211946,
    "err_t": null,
    "err": null,
-   "checks": 60
+   "checks": 61
   },
   {
    "id": "highsnobiety-collabs",
