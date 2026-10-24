@@ -1,6 +1,15 @@
 {
- "updated": 1792846792.191925,
+ "updated": 1792847397.4524877,
  "events": [
+  {
+   "t": 1792846867.5452068,
+   "source": "motor1-rlc",
+   "level": "INFO",
+   "title": "Ferrari's CEO Praises The Tesla Roadster: 'We Have To Keep Dreaming'",
+   "url": "https://www.motor1.com/news/812902/ferrari-ceo-praises-redesigned-tesla/",
+   "detail": "New post",
+   "source_name": "Motor1 news (Hot Wheels RLC dates)"
+  },
   {
    "t": 1792845960.4420846,
    "source": "highsnobiety-collabs",
@@ -2691,15 +2700,6 @@
    "url": "https://www.motor1.com/news/813001/toyota-mid-engined-coupe-photos/",
    "detail": "New post",
    "source_name": "Motor1 news (Hot Wheels RLC dates)"
-  },
-  {
-   "t": 1792744119.2675962,
-   "source": "motor1-rlc",
-   "level": "INFO",
-   "title": "Audi Q9 Debuts World-First Curved OLED Taillights",
-   "url": "https://www.motor1.com/news/813009/audi-q9-curved-oled-taillights/",
-   "detail": "New post",
-   "source_name": "Motor1 news (Hot Wheels RLC dates)"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792846791.5869703,
+   "ok": 1792847278.1079245,
    "err_t": null,
    "err": null,
-   "checks": 632
+   "checks": 636
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792846776.324166,
+   "ok": 1792847344.5515456,
    "err_t": null,
    "err": null,
-   "checks": 433
+   "checks": 436
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792846780.157439,
+   "ok": 1792847384.2216809,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 1191
+   "checks": 1201
   },
   {
    "id": "mattel-creations",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792845242.2678113,
-   "err_t": 1792846759.6115644,
-   "err": "www.pokemoncenter.com still backing off (163s left)",
-   "checks": 264
+   "err_t": 1792847081.1367068,
+   "err": "www.pokemoncenter.com answered 403; backing off 960s",
+   "checks": 265
   },
   {
    "id": "lorcana-news",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792846360.720341,
+   "ok": 1792847311.8442976,
    "err_t": null,
    "err": null,
-   "checks": 181
+   "checks": 182
   },
   {
    "id": "hasbro-pulse",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792846175.393052,
+   "ok": 1792847103.355012,
    "err_t": null,
    "err": null,
-   "checks": 112
+   "checks": 113
   },
   {
    "id": "santa-cruz",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792846749.1144009,
+   "ok": 1792847392.2195807,
    "err_t": null,
    "err": null,
-   "checks": 630
+   "checks": 635
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792846684.5472388,
+   "ok": 1792847221.1633232,
    "err_t": null,
    "err": null,
-   "checks": 430
+   "checks": 433
   },
   {
    "id": "g-central",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792846073.3436365,
+   "ok": 1792846990.2034183,
    "err_t": null,
    "err": null,
-   "checks": 112
+   "checks": 113
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792846129.5725274,
+   "ok": 1792847010.2244961,
    "err_t": null,
    "err": null,
-   "checks": 112
+   "checks": 113
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792846068.2132888,
+   "ok": 1792846913.336187,
    "err_t": null,
    "err": null,
-   "checks": 112
+   "checks": 113
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792846035.833855,
+   "ok": 1792846997.6183622,
    "err_t": null,
    "err": null,
-   "checks": 113
+   "checks": 114
   },
   {
    "id": "footlocker-releases",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792845954.8028038,
+   "ok": 1792846898.2617252,
    "err_t": null,
    "err": null,
-   "checks": 110
+   "checks": 111
   },
   {
    "id": "boldr",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792845185.9857495,
+   "ok": 1792846867.5422068,
    "err_t": null,
    "err": null,
-   "checks": 69
+   "checks": 70
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792846688.774013,
+   "ok": 1792847388.1984134,
    "err_t": null,
    "err": null,
-   "checks": 518
+   "checks": 524
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792845990.851221,
+   "ok": 1792846949.1992898,
    "err_t": null,
    "err": null,
-   "checks": 101
+   "checks": 102
   },
   {
    "id": "highsnobiety-collabs",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792845650.5687397,
+   "ok": 1792847340.9095435,
    "err_t": null,
    "err": null,
-   "checks": 68
+   "checks": 69
   }
  ]
 }
