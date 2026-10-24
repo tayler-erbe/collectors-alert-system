@@ -1,6 +1,24 @@
 {
- "updated": 1792814166.5707793,
+ "updated": 1792814770.9647033,
  "events": [
+  {
+   "t": 1792814476.8098273,
+   "source": "mattel-creations",
+   "level": "INFO",
+   "title": "Wicked Glamified Elphaba Thropp Doll",
+   "url": "https://creations.mattel.com/products/wicked-glamified-elphaba-thropp-doll-jpk52",
+   "detail": "New product, $75.00, IN STOCK now",
+   "source_name": "Mattel Creations"
+  },
+  {
+   "t": 1792814476.8080564,
+   "source": "mattel-creations",
+   "level": "INFO",
+   "title": "Wicked Glamified Glinda Upland Doll",
+   "url": "https://creations.mattel.com/products/wicked-glamified-glinda-upland-doll-jpk53",
+   "detail": "New product, $75.00, IN STOCK now",
+   "source_name": "Mattel Creations"
+  },
   {
    "t": 1792810427.1231956,
    "source": "hypebeast-collabs",
@@ -2682,24 +2700,6 @@
    "url": "https://www.champssports.com/products-sitemap.html",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.3865879,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Sitemap",
-   "url": "https://www.champssports.com/sitemap.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.383588,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Affiliates",
-   "url": "https://www.champssports.com/affiliates.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792814149.5784993,
+   "ok": 1792814740.6609366,
    "err_t": null,
    "err": null,
-   "checks": 364
+   "checks": 369
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792814053.8435473,
+   "ok": 1792814612.9020278,
    "err_t": null,
    "err": null,
-   "checks": 252
+   "checks": 255
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792814129.2015414,
+   "ok": 1792814752.3968203,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 671
+   "checks": 681
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792813830.1553628,
+   "ok": 1792814476.805057,
    "err_t": null,
    "err": null,
-   "checks": 98
+   "checks": 99
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792813648.7207546,
+   "ok": 1792814532.601524,
    "err_t": null,
    "err": null,
-   "checks": 80
+   "checks": 81
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792814129.3994849,
+   "ok": 1792814728.793715,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 156
+   "checks": 158
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792813685.7813365,
+   "ok": 1792814607.8656566,
    "err_t": null,
    "err": null,
-   "checks": 77
+   "checks": 78
   },
   {
    "id": "premium-bandai",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792813665.8713462,
+   "ok": 1792814552.6897047,
    "err_t": null,
    "err": null,
-   "checks": 75
+   "checks": 76
   },
   {
    "id": "santa-cruz",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792814150.4138243,
+   "ok": 1792814760.5648553,
    "err_t": null,
    "err": null,
-   "checks": 364
+   "checks": 369
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792814066.6573482,
+   "ok": 1792814629.9819145,
    "err_t": null,
    "err": null,
-   "checks": 250
+   "checks": 253
   },
   {
    "id": "g-central",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792813694.1257954,
+   "ok": 1792814654.533265,
    "err_t": null,
    "err": null,
-   "checks": 76
+   "checks": 77
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792813901.5510123,
+   "ok": 1792814769.942852,
    "err_t": null,
    "err": null,
-   "checks": 75
+   "checks": 76
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792813516.1029756,
+   "ok": 1792814383.7825541,
    "err_t": null,
    "err": null,
-   "checks": 75
+   "checks": 76
   },
   {
    "id": "tcgdr-walmart",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792813794.13768,
+   "ok": 1792814662.4263082,
    "err_t": null,
    "err": null,
-   "checks": 76
+   "checks": 77
   },
   {
    "id": "footlocker-releases",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792813488.3240662,
+   "ok": 1792814367.9619408,
    "err_t": null,
    "err": null,
-   "checks": 76
+   "checks": 77
   },
   {
    "id": "casio-gshock",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792812867.6751451,
+   "ok": 1792814764.9268842,
    "err_t": null,
    "err": null,
-   "checks": 50
+   "checks": 51
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792814086.7147632,
+   "ok": 1792814704.821044,
    "err_t": null,
    "err": null,
-   "checks": 249
+   "checks": 254
   },
   {
    "id": "hypebeast-collabs",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792812604.179478,
+   "ok": 1792814480.9123223,
    "err_t": null,
    "err": null,
-   "checks": 48
+   "checks": 49
   },
   {
    "id": "monochrome",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792812764.8147316,
+   "ok": 1792814443.6776435,
    "err_t": null,
    "err": null,
-   "checks": 49
+   "checks": 50
   }
  ]
 }
