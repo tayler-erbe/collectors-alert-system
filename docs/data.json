@@ -1,6 +1,15 @@
 {
- "updated": 1792823827.0264964,
+ "updated": 1792824432.0362463,
  "events": [
+  {
+   "t": 1792824013.718752,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "Maison Margiela Celebrates 20 Years of Its Ebisu Tokyo Store With New \"Folders\" Chapter",
+   "url": "https://hypebeast.com/2026/10/maison-margiela-celebrates-20-years-ebisu-tokyo-store-new-folders-chapter-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
   {
    "t": 1792823753.4463964,
    "source": "mattel-creations",
@@ -2691,15 +2700,6 @@
    "url": "https://www.champssports.com/coupons",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.4075878,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Text Sign Up",
-   "url": "https://www.champssports.com/text-sign-up/sign-up-page",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792823768.7745106,
+   "ok": 1792824407.571695,
    "err_t": null,
    "err": null,
-   "checks": 443
+   "checks": 448
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792823675.5814342,
+   "ok": 1792824391.4789348,
    "err_t": null,
    "err": null,
-   "checks": 305
+   "checks": 309
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792823775.991897,
+   "ok": 1792824399.2893093,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 825
+   "checks": 835
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792823753.4423926,
+   "ok": 1792824364.3841631,
    "err_t": null,
    "err": null,
-   "checks": 114
+   "checks": 115
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792823336.4278462,
+   "ok": 1792824260.2402825,
    "err_t": null,
    "err": null,
-   "checks": 91
+   "checks": 92
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792823698.3624845,
+   "ok": 1792824304.1304731,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 187
+   "checks": 189
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822857.1851864,
+   "ok": 1792823842.237289,
    "err_t": null,
    "err": null,
-   "checks": 87
+   "checks": 88
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792823033.9632595,
+   "ok": 1792823857.9545367,
    "err_t": null,
    "err": null,
-   "checks": 154
+   "checks": 155
   },
   {
    "id": "hasbro-pulse",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792821995.2740142,
+   "ok": 1792823952.2705653,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 61
+   "checks": 62
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792823825.7542982,
+   "ok": 1792824430.934009,
    "err_t": null,
    "err": null,
-   "checks": 443
+   "checks": 448
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792823730.8043118,
+   "ok": 1792824280.581309,
    "err_t": null,
    "err": null,
-   "checks": 303
+   "checks": 306
   },
   {
    "id": "g-central",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792823466.7394185,
+   "ok": 1792824371.4123666,
    "err_t": null,
    "err": null,
-   "checks": 87
+   "checks": 88
   },
   {
    "id": "tcgdr-sams",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792823405.8507562,
+   "ok": 1792824387.485468,
    "err_t": null,
    "err": null,
-   "checks": 86
+   "checks": 87
   },
   {
    "id": "tcgdr-walmart",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792823432.9843097,
+   "ok": 1792824300.0356505,
    "err_t": null,
    "err": null,
-   "checks": 87
+   "checks": 88
   },
   {
    "id": "footlocker-releases",
@@ -2978,10 +2978,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792820383.6045825,
+   "ok": 1792824171.383393,
    "err_t": null,
    "err": null,
-   "checks": 46
+   "checks": 47
   },
   {
    "id": "nintendo-merch",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792823257.9095213,
+   "ok": 1792824099.498358,
    "err_t": null,
    "err": null,
-   "checks": 87
+   "checks": 88
   },
   {
    "id": "casio-gshock",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792823707.431718,
+   "ok": 1792824407.975638,
    "err_t": null,
    "err": null,
-   "checks": 328
+   "checks": 334
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792823088.8175795,
+   "ok": 1792824013.7157512,
    "err_t": null,
    "err": null,
-   "checks": 75
+   "checks": 76
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792821995.4534607,
+   "ok": 1792823972.4338298,
    "err_t": null,
    "err": null,
-   "checks": 53
+   "checks": 54
   },
   {
    "id": "ann-collabs",
