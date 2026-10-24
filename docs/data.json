@@ -1,6 +1,15 @@
 {
- "updated": 1792838333.2615237,
+ "updated": 1792838937.552187,
  "events": [
+  {
+   "t": 1792838412.8331048,
+   "source": "monochrome",
+   "level": "INFO",
+   "title": "The Petrolhead Corner \u2013 The Return of the BRM P351 Group C Prototype",
+   "url": "https://monochrome-watches.com/the-petrolhead-corner-brm-british-racing-motors-p351-group-c-le-mans-prototype-weslake-v12/",
+   "detail": "New post",
+   "source_name": "Monochrome Watches (collabs)"
+  },
   {
    "t": 1792837685.8429284,
    "source": "hypebeast-collabs",
@@ -2691,15 +2700,6 @@
    "url": "https://www.motor1.com/news/813012/alfa-romeo-wants-ditch-large-screens/",
    "detail": "New post",
    "source_name": "Motor1 news (Hot Wheels RLC dates)"
-  },
-  {
-   "t": 1792744079.5070126,
-   "source": "hypebeast-collabs",
-   "level": "INFO",
-   "title": "First Look at the Supreme x Nike Air Force 1 Low \"Olive Camo\"",
-   "url": "https://hypebeast.com/2026/10/supreme-nike-air-force-1-low-olive-camo-first-look-cu9225-900-release-info",
-   "detail": "New post",
-   "source_name": "Hypebeast (collabs)"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792838255.133634,
+   "ok": 1792838848.5676427,
    "err_t": null,
    "err": null,
-   "checks": 561
+   "checks": 566
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792838266.592019,
+   "ok": 1792838796.8017044,
    "err_t": null,
    "err": null,
-   "checks": 385
+   "checks": 388
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792838283.5124137,
+   "ok": 1792838919.2402835,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 1056
+   "checks": 1066
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792838122.761496,
+   "ok": 1792838726.3488326,
    "err_t": null,
    "err": null,
-   "checks": 138
+   "checks": 139
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792837737.6604164,
+   "ok": 1792838627.0995793,
    "err_t": null,
    "err": null,
-   "checks": 107
+   "checks": 108
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792838204.9489164,
+   "ok": 1792838797.152879,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 235
+   "checks": 237
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792837655.5817578,
+   "ok": 1792838647.590488,
    "err_t": null,
    "err": null,
-   "checks": 103
+   "checks": 104
   },
   {
    "id": "premium-bandai",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792838114.4803116,
+   "ok": 1792838936.4692075,
    "err_t": null,
    "err": null,
-   "checks": 102
+   "checks": 103
   },
   {
    "id": "santa-cruz",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792836766.1058202,
+   "ok": 1792838557.3683965,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 69
+   "checks": 70
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792838310.2934175,
+   "ok": 1792838924.2926028,
    "err_t": null,
    "err": null,
-   "checks": 561
+   "checks": 566
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792838161.4667988,
+   "ok": 1792838892.3981085,
    "err_t": null,
    "err": null,
-   "checks": 382
+   "checks": 386
   },
   {
    "id": "g-central",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792837949.8612726,
+   "ok": 1792838769.0967767,
    "err_t": null,
    "err": null,
-   "checks": 103
+   "checks": 104
   },
   {
    "id": "tcgdr-sams",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792837742.088688,
+   "ok": 1792838655.6321893,
    "err_t": null,
    "err": null,
-   "checks": 102
+   "checks": 103
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792837824.1124516,
+   "ok": 1792838721.273104,
    "err_t": null,
    "err": null,
-   "checks": 102
+   "checks": 103
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792837996.2495773,
+   "ok": 1792838856.7467463,
    "err_t": null,
    "err": null,
-   "checks": 103
+   "checks": 104
   },
   {
    "id": "footlocker-releases",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792837694.1547446,
+   "ok": 1792838522.0509274,
    "err_t": null,
    "err": null,
-   "checks": 103
+   "checks": 104
   },
   {
    "id": "casio-gshock",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792837643.631431,
+   "ok": 1792838598.8326948,
    "err_t": null,
    "err": null,
-   "checks": 100
+   "checks": 101
   },
   {
    "id": "boldr",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792838221.6660182,
+   "ok": 1792838844.5765486,
    "err_t": null,
    "err": null,
-   "checks": 448
+   "checks": 453
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792837685.8399293,
+   "ok": 1792838568.6129293,
    "err_t": null,
    "err": null,
-   "checks": 91
+   "checks": 92
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792836691.2101932,
+   "ok": 1792838506.436513,
    "err_t": null,
    "err": null,
-   "checks": 61
+   "checks": 62
   },
   {
    "id": "ann-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792836707.8421035,
+   "ok": 1792838679.7989068,
    "err_t": null,
    "err": null,
-   "checks": 61
+   "checks": 62
   },
   {
    "id": "wornandwound",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792836998.6197946,
+   "ok": 1792838812.717531,
    "err_t": null,
    "err": null,
-   "checks": 62
+   "checks": 63
   },
   {
    "id": "monochrome",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792836449.5280607,
+   "ok": 1792838412.8301008,
    "err_t": null,
    "err": null,
-   "checks": 62
+   "checks": 63
   }
  ]
 }
