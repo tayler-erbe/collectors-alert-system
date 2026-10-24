@@ -1,6 +1,15 @@
 {
- "updated": 1792851190.5206532,
+ "updated": 1792851794.9663942,
  "events": [
+  {
+   "t": 1792851196.9197483,
+   "source": "monochrome",
+   "level": "INFO",
+   "title": "The ABCs of Time \u2013 A Comprehensive Guide to Chronometer Certifications and In-House Quality Seals",
+   "url": "https://monochrome-watches.com/abcs-of-time-comprehensive-guide-to-chronometer-certifications-and-in-house-quality-seals/",
+   "detail": "New post",
+   "source_name": "Monochrome Watches (collabs)"
+  },
   {
    "t": 1792851147.0573976,
    "source": "wornandwound",
@@ -2691,15 +2700,6 @@
    "url": "https://www.footlocker.com/release-dates",
    "detail": "",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792744352.2715232,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Page changed",
-   "url": "https://www.footlocker.com/release-dates",
-   "detail": "",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792851165.8987803,
+   "ok": 1792851763.5994966,
    "err_t": null,
    "err": null,
-   "checks": 669
+   "checks": 674
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792851189.5181603,
+   "ok": 1792851768.6954584,
    "err_t": null,
    "err": null,
-   "checks": 459
+   "checks": 462
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792851169.8386753,
+   "ok": 1792851783.3861535,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 1263
+   "checks": 1273
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792851087.8053062,
+   "ok": 1792851743.6919725,
    "err_t": null,
    "err": null,
-   "checks": 162
+   "checks": 163
   },
   {
    "id": "timex",
@@ -2783,9 +2783,9 @@
    "paused": false,
    "note": "",
    "ok": 1792845242.2678113,
-   "err_t": 1792851120.6568372,
-   "err": "www.pokemoncenter.com still backing off (1015s left)",
-   "checks": 280
+   "err_t": 1792851720.5089927,
+   "err": "www.pokemoncenter.com still backing off (415s left)",
+   "checks": 282
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850354.7824416,
+   "ok": 1792851331.3235059,
    "err_t": null,
    "err": null,
-   "checks": 119
+   "checks": 120
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850327.8947964,
+   "ok": 1792851311.474015,
    "err_t": null,
    "err": null,
-   "checks": 187
+   "checks": 188
   },
   {
    "id": "hasbro-pulse",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850907.6210816,
+   "ok": 1792851724.4314258,
    "err_t": null,
    "err": null,
-   "checks": 119
+   "checks": 120
   },
   {
    "id": "santa-cruz",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792849381.4940138,
+   "ok": 1792851291.9542165,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 79
+   "checks": 80
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792851112.7935975,
+   "ok": 1792851744.330472,
    "err_t": null,
    "err": null,
-   "checks": 667
+   "checks": 672
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792851007.2940402,
+   "ok": 1792851759.945802,
    "err_t": null,
    "err": null,
-   "checks": 455
+   "checks": 459
   },
   {
    "id": "g-central",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850479.6816905,
+   "ok": 1792851448.2352958,
    "err_t": null,
    "err": null,
-   "checks": 118
+   "checks": 119
   },
   {
    "id": "tcgdr-walmart",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850392.1830451,
+   "ok": 1792851311.7180767,
    "err_t": null,
    "err": null,
-   "checks": 119
+   "checks": 120
   },
   {
    "id": "footlocker-releases",
@@ -2978,10 +2978,10 @@
    "interval_s": 3600,
    "paused": false,
    "note": "",
-   "ok": 1792847554.6453924,
+   "ok": 1792851354.766823,
    "err_t": null,
    "err": null,
-   "checks": 56
+   "checks": 57
   },
   {
    "id": "nintendo-merch",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850323.6730719,
+   "ok": 1792851234.055593,
    "err_t": null,
    "err": null,
-   "checks": 119
+   "checks": 120
   },
   {
    "id": "casio-gshock",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792849482.436569,
+   "ok": 1792851370.4946206,
    "err_t": null,
    "err": null,
-   "checks": 73
+   "checks": 74
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792851093.2565963,
+   "ok": 1792851698.5062654,
    "err_t": null,
    "err": null,
-   "checks": 556
+   "checks": 561
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792850335.447675,
+   "ok": 1792851253.344613,
    "err_t": null,
    "err": null,
-   "checks": 107
+   "checks": 108
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792849421.9627314,
+   "ok": 1792851217.8365622,
    "err_t": null,
    "err": null,
-   "checks": 70
+   "checks": 71
   },
   {
    "id": "ann-collabs",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792849474.9753313,
+   "ok": 1792851196.9167476,
    "err_t": null,
    "err": null,
-   "checks": 72
+   "checks": 73
   }
  ]
 }
