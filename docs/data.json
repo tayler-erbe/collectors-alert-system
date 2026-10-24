@@ -1,6 +1,15 @@
 {
- "updated": 1792836523.3635714,
+ "updated": 1792837125.2584035,
  "events": [
+  {
+   "t": 1792836691.2137022,
+   "source": "highsnobiety-collabs",
+   "level": "INFO",
+   "title": "The Seven Best Nike Sneaker Releases This Week",
+   "url": "https://www.highsnobiety.com/p/nike-sneaker-releases-october-week-4/",
+   "detail": "New post",
+   "source_name": "Highsnobiety (collabs)"
+  },
   {
    "t": 1792836449.5310624,
    "source": "monochrome",
@@ -2691,15 +2700,6 @@
    "url": "https://hypebeast.com/2026/10/todd-snyder-new-balance-t500-cafe-pack-collaboration-release-info",
    "detail": "New post",
    "source_name": "Hypebeast (collabs)"
-  },
-  {
-   "t": 1792740715.4315882,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Accessibility Statement",
-   "url": "https://www.champssports.com/accessibility-statement",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792836440.5252683,
+   "ok": 1792837017.2665215,
    "err_t": null,
    "err": null,
-   "checks": 546
+   "checks": 551
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792836453.7237947,
+   "ok": 1792836986.7465124,
    "err_t": null,
    "err": null,
-   "checks": 375
+   "checks": 378
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792836517.9245963,
+   "ok": 1792837084.3573399,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 1028
+   "checks": 1037
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792836353.186162,
+   "ok": 1792836978.5201592,
    "err_t": null,
    "err": null,
-   "checks": 135
+   "checks": 136
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792835886.6726766,
+   "ok": 1792836776.0341253,
    "err_t": null,
    "err": null,
-   "checks": 105
+   "checks": 106
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792836329.110176,
+   "ok": 1792836939.6906455,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 229
+   "checks": 231
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792835719.6163766,
+   "ok": 1792836671.3601956,
    "err_t": null,
    "err": null,
-   "checks": 101
+   "checks": 102
   },
   {
    "id": "premium-bandai",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836257.4948623,
+   "ok": 1792837124.6894171,
    "err_t": null,
    "err": null,
-   "checks": 100
+   "checks": 101
   },
   {
    "id": "santa-cruz",
@@ -2838,10 +2838,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792834885.987609,
+   "ok": 1792836766.1058202,
    "err_t": 1792708169.2825851,
    "err": null,
-   "checks": 68
+   "checks": 69
   },
   {
    "id": "shopdisney-queue",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792836445.8490467,
+   "ok": 1792837092.4203808,
    "err_t": null,
    "err": null,
-   "checks": 546
+   "checks": 551
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792836494.5916326,
+   "ok": 1792837033.854885,
    "err_t": null,
    "err": null,
-   "checks": 373
+   "checks": 376
   },
   {
    "id": "g-central",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836221.7816546,
+   "ok": 1792837041.3270335,
    "err_t": null,
    "err": null,
-   "checks": 101
+   "checks": 102
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836139.141216,
+   "ok": 1792837097.0464208,
    "err_t": null,
    "err": null,
-   "checks": 100
+   "checks": 101
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836064.181579,
+   "ok": 1792836909.9495156,
    "err_t": null,
    "err": null,
-   "checks": 100
+   "checks": 101
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836016.240916,
+   "ok": 1792836890.5854468,
    "err_t": null,
    "err": null,
-   "checks": 100
+   "checks": 101
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836213.8974562,
+   "ok": 1792837049.1082911,
    "err_t": null,
    "err": null,
-   "checks": 101
+   "checks": 102
   },
   {
    "id": "footlocker-releases",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792835897.924939,
+   "ok": 1792836751.1719353,
    "err_t": null,
    "err": null,
-   "checks": 101
+   "checks": 102
   },
   {
    "id": "casio-gshock",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792835832.837467,
+   "ok": 1792836727.9412704,
    "err_t": null,
    "err": null,
-   "checks": 98
+   "checks": 99
   },
   {
    "id": "boldr",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792836490.3988867,
+   "ok": 1792837112.095182,
    "err_t": null,
    "err": null,
-   "checks": 434
+   "checks": 439
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792835793.2490432,
+   "ok": 1792836707.668087,
    "err_t": null,
    "err": null,
-   "checks": 89
+   "checks": 90
   },
   {
    "id": "highsnobiety-collabs",
@@ -3132,10 +3132,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792834739.893083,
+   "ok": 1792836691.2101932,
    "err_t": null,
    "err": null,
-   "checks": 60
+   "checks": 61
   },
   {
    "id": "ann-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792834728.007089,
+   "ok": 1792836707.8421035,
    "err_t": null,
    "err": null,
-   "checks": 60
+   "checks": 61
   },
   {
    "id": "wornandwound",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792835354.3127718,
+   "ok": 1792836998.6197946,
    "err_t": null,
    "err": null,
-   "checks": 61
+   "checks": 62
   },
   {
    "id": "monochrome",
