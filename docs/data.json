@@ -1,6 +1,15 @@
 {
- "updated": 1792837125.2584035,
+ "updated": 1792837728.1515548,
  "events": [
+  {
+   "t": 1792837685.8429284,
+   "source": "hypebeast-collabs",
+   "level": "INFO",
+   "title": "A. Lange & S\u00f6hne Marks 20 Years of the Datograph Perpetual in Platinum",
+   "url": "https://hypebeast.com/2026/10/a-lange-sohne-datograph-perpetual-ref-410-136e-limited-edition-release-info",
+   "detail": "New post",
+   "source_name": "Hypebeast (collabs)"
+  },
   {
    "t": 1792836691.2137022,
    "source": "highsnobiety-collabs",
@@ -2691,15 +2700,6 @@
    "url": "https://hypebeast.com/2026/10/supreme-nike-air-force-1-low-olive-camo-first-look-cu9225-900-release-info",
    "detail": "New post",
    "source_name": "Hypebeast (collabs)"
-  },
-  {
-   "t": 1792744079.5050128,
-   "source": "hypebeast-collabs",
-   "level": "INFO",
-   "title": "Todd Snyder and New Balance Reunite for the T500 \"Cafe Pack\"",
-   "url": "https://hypebeast.com/2026/10/todd-snyder-new-balance-t500-cafe-pack-collaboration-release-info",
-   "detail": "New post",
-   "source_name": "Hypebeast (collabs)"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792837017.2665215,
+   "ok": 1792837628.0141387,
    "err_t": null,
    "err": null,
-   "checks": 551
+   "checks": 556
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792836986.7465124,
+   "ok": 1792837706.4133613,
    "err_t": null,
    "err": null,
-   "checks": 378
+   "checks": 382
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792837084.3573399,
+   "ok": 1792837714.457866,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 1037
+   "checks": 1047
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792836978.5201592,
+   "ok": 1792837573.6283507,
    "err_t": null,
    "err": null,
-   "checks": 136
+   "checks": 137
   },
   {
    "id": "timex",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792836939.6906455,
+   "ok": 1792837581.4288454,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 231
+   "checks": 233
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836671.3601956,
+   "ok": 1792837655.5817578,
    "err_t": null,
    "err": null,
-   "checks": 102
+   "checks": 103
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836441.1317544,
+   "ok": 1792837287.320814,
    "err_t": null,
    "err": null,
-   "checks": 169
+   "checks": 170
   },
   {
    "id": "hasbro-pulse",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792837092.4203808,
+   "ok": 1792837723.594023,
    "err_t": null,
    "err": null,
-   "checks": 551
+   "checks": 556
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792837033.854885,
+   "ok": 1792837607.9910586,
    "err_t": null,
    "err": null,
-   "checks": 376
+   "checks": 379
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836421.2625766,
+   "ok": 1792837401.888326,
    "err_t": null,
    "err": null,
-   "checks": 102
+   "checks": 103
   },
   {
    "id": "resellcalendar",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836751.1719353,
+   "ok": 1792837694.1547446,
    "err_t": null,
    "err": null,
-   "checks": 102
+   "checks": 103
   },
   {
    "id": "casio-gshock",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836727.9412704,
+   "ok": 1792837643.631431,
    "err_t": null,
    "err": null,
-   "checks": 99
+   "checks": 100
   },
   {
    "id": "boldr",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792837112.095182,
+   "ok": 1792837615.515404,
    "err_t": null,
    "err": null,
-   "checks": 439
+   "checks": 443
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792836707.668087,
+   "ok": 1792837685.8399293,
    "err_t": null,
    "err": null,
-   "checks": 90
+   "checks": 91
   },
   {
    "id": "highsnobiety-collabs",
