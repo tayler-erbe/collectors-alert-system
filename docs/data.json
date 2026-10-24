@@ -1,5 +1,5 @@
 {
- "updated": 1792831689.2475297,
+ "updated": 1792832295.4872444,
  "events": [
   {
    "t": 1792831377.1728175,
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792831651.1619306,
+   "ok": 1792832262.4140644,
    "err_t": null,
    "err": null,
-   "checks": 507
+   "checks": 512
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792831522.636198,
+   "ok": 1792832274.0246887,
    "err_t": null,
    "err": null,
-   "checks": 348
+   "checks": 352
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792831679.1367915,
+   "ok": 1792832253.1317089,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 951
+   "checks": 960
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792831662.7835677,
+   "ok": 1792832218.6304493,
    "err_t": null,
    "err": null,
-   "checks": 127
+   "checks": 128
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831358.0139842,
+   "ok": 1792832286.3468804,
    "err_t": null,
    "err": null,
-   "checks": 100
+   "checks": 101
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792831605.006155,
+   "ok": 1792832148.850954,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 213
+   "checks": 215
   },
   {
    "id": "lorcana-news",
@@ -2796,10 +2796,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831083.0224504,
+   "ok": 1792831971.1098955,
    "err_t": null,
    "err": null,
-   "checks": 96
+   "checks": 97
   },
   {
    "id": "premium-bandai",
@@ -2810,10 +2810,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792830974.1034524,
+   "ok": 1792831950.6349428,
    "err_t": null,
    "err": null,
-   "checks": 163
+   "checks": 164
   },
   {
    "id": "hasbro-pulse",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792831684.530826,
+   "ok": 1792832290.973106,
    "err_t": null,
    "err": null,
-   "checks": 507
+   "checks": 512
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792831609.6752913,
+   "ok": 1792832167.9890873,
    "err_t": null,
    "err": null,
-   "checks": 346
+   "checks": 349
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831084.6620743,
+   "ok": 1792832015.6572332,
    "err_t": null,
    "err": null,
-   "checks": 96
+   "checks": 97
   },
   {
    "id": "resellcalendar",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792830903.2957177,
+   "ok": 1792831725.7064416,
    "err_t": null,
    "err": null,
-   "checks": 95
+   "checks": 96
   },
   {
    "id": "footlocker-releases",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831385.1551824,
+   "ok": 1792832286.4839137,
    "err_t": null,
    "err": null,
-   "checks": 96
+   "checks": 97
   },
   {
    "id": "casio-gshock",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831182.8191147,
+   "ok": 1792832108.8055146,
    "err_t": null,
    "err": null,
-   "checks": 93
+   "checks": 94
   },
   {
    "id": "boldr",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792831639.590711,
+   "ok": 1792832249.1043217,
    "err_t": null,
    "err": null,
-   "checks": 394
+   "checks": 399
   },
   {
    "id": "hypebeast-collabs",
@@ -3118,10 +3118,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792831290.1686914,
+   "ok": 1792832139.9568594,
    "err_t": null,
    "err": null,
-   "checks": 84
+   "checks": 85
   },
   {
    "id": "highsnobiety-collabs",
@@ -3160,10 +3160,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792830332.5903213,
+   "ok": 1792831980.7912974,
    "err_t": null,
    "err": null,
-   "checks": 58
+   "checks": 59
   },
   {
    "id": "monochrome",
