@@ -1,6 +1,15 @@
 {
- "updated": 1792823222.7390847,
+ "updated": 1792823827.0264964,
  "events": [
+  {
+   "t": 1792823753.4463964,
+   "source": "mattel-creations",
+   "level": "INFO",
+   "title": "Little People Collector Gilmore Girls TV Show Special Edition Set",
+   "url": "https://creations.mattel.com/products/little-people-collector-gilmore-girls-tv-show-special-edition-set-jlb18",
+   "detail": "Back in stock / now buyable, $27.00",
+   "source_name": "Mattel Creations"
+  },
   {
    "t": 1792819881.8177192,
    "source": "seiko-usa",
@@ -2691,15 +2700,6 @@
    "url": "https://www.champssports.com/text-sign-up/sign-up-page",
    "detail": "New link on the page",
    "source_name": "Foot Locker release dates"
-  },
-  {
-   "t": 1792740715.405588,
-   "source": "footlocker-releases",
-   "level": "INFO",
-   "title": "Mobile App",
-   "url": "https://www.champssports.com/app.html",
-   "detail": "New link on the page",
-   "source_name": "Foot Locker release dates"
   }
  ],
  "sources": [
@@ -2712,10 +2712,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792823164.0711477,
+   "ok": 1792823768.7745106,
    "err_t": null,
    "err": null,
-   "checks": 438
+   "checks": 443
   },
   {
    "id": "medicom",
@@ -2726,10 +2726,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792823112.2403922,
+   "ok": 1792823675.5814342,
    "err_t": null,
    "err": null,
-   "checks": 302
+   "checks": 305
   },
   {
    "id": "bearwalker",
@@ -2740,10 +2740,10 @@
    "interval_s": 60,
    "paused": false,
    "note": "",
-   "ok": 1792823156.2815855,
+   "ok": 1792823775.991897,
    "err_t": 1792724413.577974,
    "err": null,
-   "checks": 815
+   "checks": 825
   },
   {
    "id": "mattel-creations",
@@ -2754,10 +2754,10 @@
    "interval_s": 600,
    "paused": false,
    "note": "",
-   "ok": 1792823184.0312512,
+   "ok": 1792823753.4423926,
    "err_t": null,
    "err": null,
-   "checks": 113
+   "checks": 114
   },
   {
    "id": "timex",
@@ -2768,10 +2768,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822493.4939764,
+   "ok": 1792823336.4278462,
    "err_t": null,
    "err": null,
-   "checks": 90
+   "checks": 91
   },
   {
    "id": "pokemon-center-news",
@@ -2782,10 +2782,10 @@
    "interval_s": 300,
    "paused": false,
    "note": "",
-   "ok": 1792823096.9846196,
+   "ok": 1792823698.3624845,
    "err_t": 1792798972.4262924,
    "err": null,
-   "checks": 185
+   "checks": 187
   },
   {
    "id": "lorcana-news",
@@ -2824,10 +2824,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822835.684963,
+   "ok": 1792823745.9132214,
    "err_t": null,
    "err": null,
-   "checks": 85
+   "checks": 86
   },
   {
    "id": "santa-cruz",
@@ -2852,10 +2852,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792823207.433352,
+   "ok": 1792823825.7542982,
    "err_t": null,
    "err": null,
-   "checks": 438
+   "checks": 443
   },
   {
    "id": "mattel-queue",
@@ -2866,10 +2866,10 @@
    "interval_s": 180,
    "paused": false,
    "note": "",
-   "ok": 1792823175.6565945,
+   "ok": 1792823730.8043118,
    "err_t": null,
    "err": null,
-   "checks": 300
+   "checks": 303
   },
   {
    "id": "g-central",
@@ -2880,10 +2880,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822819.1746254,
+   "ok": 1792823703.320448,
    "err_t": null,
    "err": null,
-   "checks": 87
+   "checks": 88
   },
   {
    "id": "resellcalendar",
@@ -2908,10 +2908,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822645.3819654,
+   "ok": 1792823466.7394185,
    "err_t": null,
    "err": null,
-   "checks": 86
+   "checks": 87
   },
   {
    "id": "tcgdr-sams",
@@ -2922,10 +2922,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822778.53079,
+   "ok": 1792823608.189707,
    "err_t": null,
    "err": null,
-   "checks": 85
+   "checks": 86
   },
   {
    "id": "tcgdr-target",
@@ -2936,10 +2936,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822446.7170258,
+   "ok": 1792823405.8507562,
    "err_t": null,
    "err": null,
-   "checks": 85
+   "checks": 86
   },
   {
    "id": "tcgdr-walmart",
@@ -2950,10 +2950,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822558.1918633,
+   "ok": 1792823532.6165626,
    "err_t": null,
    "err": null,
-   "checks": 85
+   "checks": 86
   },
   {
    "id": "tcgdr-bestbuy",
@@ -2964,10 +2964,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822569.4457371,
+   "ok": 1792823432.9843097,
    "err_t": null,
    "err": null,
-   "checks": 86
+   "checks": 87
   },
   {
    "id": "footlocker-releases",
@@ -2992,10 +2992,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822431.3679566,
+   "ok": 1792823257.9095213,
    "err_t": null,
    "err": null,
-   "checks": 86
+   "checks": 87
   },
   {
    "id": "casio-gshock",
@@ -3020,10 +3020,10 @@
    "interval_s": 900,
    "paused": false,
    "note": "",
-   "ok": 1792822929.5173833,
+   "ok": 1792823826.2515953,
    "err_t": null,
    "err": null,
-   "checks": 84
+   "checks": 85
   },
   {
    "id": "boldr",
@@ -3090,10 +3090,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792821585.3786411,
+   "ok": 1792823541.1917825,
    "err_t": null,
    "err": null,
-   "checks": 55
+   "checks": 56
   },
   {
    "id": "spinnaker",
@@ -3104,10 +3104,10 @@
    "interval_s": 120,
    "paused": false,
    "note": "",
-   "ok": 1792823112.6597116,
+   "ok": 1792823707.431718,
    "err_t": null,
    "err": null,
-   "checks": 323
+   "checks": 328
   },
   {
    "id": "hypebeast-collabs",
@@ -3146,10 +3146,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792822086.159494,
+   "ok": 1792823826.5293672,
    "err_t": null,
    "err": null,
-   "checks": 53
+   "checks": 54
   },
   {
    "id": "wornandwound",
@@ -3174,10 +3174,10 @@
    "interval_s": 1800,
    "paused": false,
    "note": "",
-   "ok": 1792821685.4183514,
+   "ok": 1792823493.595214,
    "err_t": null,
    "err": null,
-   "checks": 54
+   "checks": 55
   }
  ]
 }
